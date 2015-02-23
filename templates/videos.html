@@ -1,0 +1,246 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+        <!--start: Container -->
+    <div class="container">
+        <!--start: Wrapper-->
+        <div id="wrapper">
+<div class="container">
+<div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Introduction</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home"><iframe  class="embed-responsive-item" width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/GgcGFyDvyFA" frameborder="0"></iframe></div>
+
+    <div role="tabpanel" class="tab-pane" id="profile"><iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/pVNpFP2Wmlc" frameborder="0"></iframe></div>
+    <div role="tabpanel" class="tab-pane" id="messages"><iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/MeTWD8ECeiQ" frameborder="0"></iframe></div>
+    <div role="tabpanel" class="tab-pane" id="settings"><iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/vHx4nqRdpMg" frameborder="0"></iframe></div>
+  </div>
+
+</div>
+</div>
+{##}
+{#                <div class="youtube" id="yR_heZ4n4Gc" style="width: 320px; height: 180px;"></div>#}
+{#    <script src="https://labnol.googlecode.com/files/youtube.js"></script>#}
+<!-- You can embed  multiple Youtube videos on a page -->
+{% comment %}
+  stopit --- http://stackoverflow.com/questions/23725989/how-to-prevent-bootstrap-carousel-from-moving-while-youtube-iframe-is-playing
+ in tabs --- http://stackoverflow.com/questions/8667882/how-to-pause-a-youtube-player-when-hiding-the-iframe/8668741#8668741 , http://stackoverflow.com/questions/8731947/jquery-tab-with-videos-how-do-i-get-videos-to-stop-playing-when-i-switch-be?lq=1
+ fiddle --- http://jsfiddle.net/WwfFE/3/
+<div class="youtube" id="LcIytqkbdlo" style="width:560px; height: 315px;">
+</div>
+
+<div class="youtube" id="_Jmisv1Spck" style="width:560px; height: 315px;">
+</div>
+
+<!-- Include the JavaScript only once -->
+
+<script>
+
+// Find all the YouTube video embedded on a page
+var videos = document.getElementsByClassName("youtube");
+
+for (var i=0; i<videos.length; i++) {
+
+  var youtube = videos[i];
+
+  // Based on the YouTube ID, we can easily find the thumbnail image
+  var img = document.createElement("img");
+  img.setAttribute("src", "http://i.ytimg.com/vi/"
+                          + youtube.id + "/hqdefault.jpg");
+  img.setAttribute("class", "thumb");
+
+
+  // Overlay the Play icon to make it look like a video player
+  var circle = document.createElement("div");
+  circle.setAttribute("class","circle");
+
+  youtube.appendChild(img);
+  youtube.appendChild(circle);
+
+  // Attach an onclick event to the YouTube Thumbnail
+  youtube.onclick = function() {
+
+    // Create an iFrame with autoplay set to true
+    var iframe = document.createElement("iframe");
+    iframe.setAttribute("src",performance
+          "https://www.youtube.com/embed/" + this.id
+        + "?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1");
+
+    // The height and width of the iFrame should be the same as parent
+    iframe.style.width  = this.style.width;
+    iframe.style.height = this.style.height;
+
+    // Replace the YouTube thumbnail with YouTube HTML5 Player
+    this.parentNode.replaceChild(iframe, this);
+
+  };
+}
+
+</script>
+            <iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/GgcGFyDvyFA" frameborder="0"></iframe>
+            <iframe width="560" height="315"allowfullscreen="" src="http://www.youtube.com/embed/yR_heZ4n4Gc" frameborder="0"></iframe>
+            <iframe width="560" height="315"allowfullscreen="" src="http://www.youtube.com/embed/MeTWD8ECeiQ" frameborder="0"></iframe>
+            <iframe width="560" height="315"allowfullscreen="" src="http://www.youtube.com/embed/c-f1H07D_70" frameborder="0"></iframe>
+             <iframe width="560" height="315"allowfullscreen="" src="http://www.youtube.com/embed/vOwdQRBENJQ" frameborder="0"></iframe>
+             <iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/pVNpFP2Wmlc" frameborder="0"></iframe>
+             <iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/vHx4nqRdpMg" frameborder="0"></iframe>
+
+{% endcomment %}
+
+
+
+            <h2 class="blue-heading-h1 hidden-xs">Molecular Methods Video Collection</h2>
+            <h4 class="hidden-xs">The slideshow below shows the complete collection of videos for the Molecular Methods course. Please use the arrows to cycle through the videos.</h4>
+{% comment %}
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="flex-video widescreen">
+                            <iframe allowfullscreen=""  src="https://www.youtube.com/embed/GgcGFyDvyFA" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/yR_heZ4n4Gc"></iframe>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                            <iframe allowfullscreen="" src="http://www.youtube.com/embed/MeTWD8ECeiQ" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                            <iframe allowfullscreen="" src="http://www.youtube.com/embed/c-f1H07D_70" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                            <iframe allowfullscreen="" src="http://www.youtube.com/embed/vOwdQRBENJQ" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                            <iframe allowfullscreen="" src="http://www.youtube.com/embed/pVNpFP2Wmlc" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+                            <iframe allowfullscreen="" src="http://www.youtube.com/embed/vHx4nqRdpMg" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>{% endcomment %}
+
+
+
+
+                <!--/main slider carousel-->
+
+                <!-- main slider carousel -->
+
+            <div id="myCarousel" class="carousel slide">
+                <!-- main slider carousel items -->
+                <div class="carousel-inner">
+                    <div class="active item" data-slide-number="0">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/GgcGFyDvyFA"></iframe>
+                        </div>
+
+                    </div>
+                    <div class="item" data-slide-number="1">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/yR_heZ4n4Gc"></iframe>
+                        </div>
+                    </div>
+                    <div class="item" data-slide-number="2">
+                        < <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/MeTWD8ECeiQ"></iframe>
+                    </div>
+                    </div>
+                    <div class="item" data-slide-number="3">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/c-f1H07D_70"></iframe>
+                        </div>
+                    </div>
+                    <div class="item" data-slide-number="4">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/vOwdQRBENJQ"></iframe>
+                        </div>
+                    </div>
+                    <div class="item" data-slide-number="5">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/pVNpFP2Wmlc"></iframe>
+                        </div>
+                    </div>
+                    <div class="item" data-slide-number="6">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/vHx4nqRdpMg"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- main slider carousel nav controls -->
+                <!--  -->
+                <nav>
+                    <ul class="pager">
+                        <li class="previous"><a href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Prev
+                            <span class="sr-only">Previous</span></a></li>
+                        <li class="next"><a href="#myCarousel"data-slide="next">Next
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+                    </ul>
+                </nav>
+                  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+
+  </ol>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    </div>
+    </div>
+{% endblock %}

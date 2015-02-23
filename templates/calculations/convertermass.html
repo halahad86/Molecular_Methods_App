@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+<!--start: Container -->
+<div class="container">
+
+    <!--start: Wrapper-->
+    <div id="wrapper">
+
+        <hr class="clean">
+
+        <!-- start: Row -->
+        <div class="row-fluid">
+
+            <div id="content" data-role="content">
+
+                <script type="text/javascript" language="JavaScript">
+                    <!--
+                    //    Script Editor:   Howard Chen
+                    //    Browser Compatible for the script: IE 3.0 or Higher
+                    //                                       Netscape 2.0 or Higher
+                    //    This script is free as long as you keep its credits
+                    /*The way this works is the converter converts the number
+                     into the smallest unit in the converter, in this case it will
+                     be gram, and then it converts the unit fram gram to other units.*/
+                    function nofocus() {
+                        document.convert.InUnit.focus()
+                    }
+                    var pgValue = 1
+                    var ngValue = 1000
+                    var ugValue = 1000000
+                    var mgValue = 1000000000
+                    var gValue = 1000000000000
+                    function toCM() {
+                        var i = document.convert.unit.selectedIndex
+                        var thisUnit = document.convert.unit.options[i].value
+                        if (thisUnit == "PG") {
+                            document.convert.pg.value = document.convert.InUnit.value
+                        }
+                        else if (thisUnit == "NG") {
+                            document.convert.pg.value = document.convert.InUnit.value * ngValue
+                        }
+                        else if (thisUnit == "UG") {
+                            document.convert.pg.value = document.convert.InUnit.value * ugValue
+                        }
+                        else if (thisUnit == "MG") {
+                            document.convert.pg.value = document.convert.InUnit.value * mgValue
+                        }
+                        else if (thisUnit == "G") {
+                            document.convert.pg.value = document.convert.InUnit.value * gValue
+                        }
+                        toAll()
+                    }
+                    function toAll() {
+                        var m = document.convert.pg.value
+                        document.convert.ng.value = m / ngValue
+                        document.convert.ug.value = m / ugValue
+                        document.convert.mg.value = m / mgValue
+                        document.convert.g.value = m / gValue
+                    }
+                    //-->
+                </script>
+                <div style="color:white;" align="center"><h1 class="blue-heading-h1">Mass Converter</h1></div>
+
+                <div style="color:white;" align="center">
+                    <form name="convert">
+                        <table style="color:black;" border=1>
+                            <tr>
+                                <th>Unit</th>
+                                <th>Value</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="unit" style="color: #000000">
+                                        <option value="PG">Picogram
+                                        <option value="NG">Nanogram
+                                        <option value="UG">Microgram
+                                        <option value="MG">Milligram
+                                        <option value="G">Gram
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="InUnit" size="20" maxlength="20" value="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Picograms:
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="pg" size="20" maxlength="20" value="0" onFocus="nofocus()">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Nanograms:
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="ng" size="20" maxlength="20" value="0" onFocus="nofocus()">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Micrograms:
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="ug" size="20" maxlength="20" value="0" onFocus="nofocus()">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Milligrams:
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="mg" size="20" maxlength="20" value="0" onFocus="nofocus()">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Grams:
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="g" size="20" maxlength="20" value="0" onFocus="nofocus()">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="Reset" style="color: #000000" value="Reset" width=100>
+                                </td>
+                                <td>
+                                    <input type="button" value="Convert" onClick="toCM()" width=150>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    </font>
+                    </td></tr>
+                    </table></div>
+
+            </div>
+            <!-- end: Row -->
+
+
+        </div>
+        <!--end: Container-->
+
+    </div>
+    {% endblock %}

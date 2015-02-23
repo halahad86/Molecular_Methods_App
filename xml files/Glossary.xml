@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GLOSSARY>
+  <INFO>
+    <NAME>Glossary</NAME>
+    <INTRO>&lt;p&gt;Definitions of key words used in molecular biology.&lt;/p&gt;</INTRO>
+    <INTROFORMAT>1</INTROFORMAT>
+    <ALLOWDUPLICATEDENTRIES>0</ALLOWDUPLICATEDENTRIES>
+    <DISPLAYFORMAT>dictionary</DISPLAYFORMAT>
+    <SHOWSPECIAL>1</SHOWSPECIAL>
+    <SHOWALPHABET>1</SHOWALPHABET>
+    <SHOWALL>1</SHOWALL>
+    <ALLOWCOMMENTS>0</ALLOWCOMMENTS>
+    <USEDYNALINK>1</USEDYNALINK>
+    <DEFAULTAPPROVAL>1</DEFAULTAPPROVAL>
+    <GLOBALGLOSSARY>0</GLOBALGLOSSARY>
+    <ENTBYPAGE>10</ENTBYPAGE>
+    <ENTRIES>
+      <ENTRY>
+        <CONCEPT>3&#039; end/5&#039; end</CONCEPT>
+        <DEFINITION>A nucleic acid strand is inherently directional, and the "5 prime end" has a free hydroxyl (or phosphate) on a 5' carbon and the "3 prime end" has a free hydroxyl (or phosphate) on a 3' carbon (carbon atoms in the sugar ring are numbered from 1' to 5'). That's simple enough for an RNA strand or for single-stranded (ss) DNA. However, for double-stranded (ds) DNA it's not so obvious - each strand has a 5' end and a 3' end, and the 5' end of one strand is paired with the 3' end of the other strand (it is "antiparallel"). One would talk about the 5' end of ds DNA only if there was some reason to emphasize one strand over the other - for example if one strand is the sense strand of a gene. In that case, the orientation of the sense strand establishes the direction</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>3&#039; flanking region</CONCEPT>
+        <DEFINITION>A region of DNA which is NOT copied into the mature mRNA, but which is present adjacent to 3' end of the gene. It was originally thought that the 3' flanking DNA was not transcribed at all, but it was discovered to be transcribed into RNA, but quickly removed during processing of the primary transcript to form the mature mRNA. The 3' flanking region often contains sequences which affect the formation of the 3' end of the message. It may also contain enhancers or other sites to which proteins may bind.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>3&#039; untranslated region</CONCEPT>
+        <DEFINITION>A region of the DNA which IS transcribed into mRNA and becomes the 3' end or the message, but which does not contain protein coding sequence. Everything between the stop codon and the polyA tail is considered to be 3' untranslated. The 3' untranslated region may affect the translation efficiency of the mRNA or the stability of the mRNA. It also has sequences which are required for the addition of the poly(A) tail to the message (including one known as the "hexanucleotide", AAUAAA).</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>5&#039; flanking region</CONCEPT>
+        <DEFINITION>A region of DNA which is NOT transcribed into RNA, but rather is adjacent to 5' end of the gene. The 5'-flanking region contains the promoter, and may also contain enhancers or other protein binding sites.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>5&#039; untranslated region</CONCEPT>
+        <DEFINITION>A region of a gene which IS transcribed into mRNA, becoming the 5' end of the message, but which does not contain protein coding sequence. The 5'-untranslated region is the portion of the DNA starting from the cap site and extending to the base just before the ATG translation initiation codon. While not itself translated, this region may have sequences which alter the translation efficiency of the mRNA, or which affect the stability of the mRNA.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Acrylamide gels</CONCEPT>
+        <DEFINITION>A polymer gel used for electrophoresis of DNA or protein to measure their sizes (in daltons for proteins, or in base pairs for DNA). See Gel "Electrophoresis". Acrylamide gels are especially useful for high resolution separations of DNA in the range of tens to hundreds of nucleotides in length.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Agarose gels</CONCEPT>
+        <DEFINITION>A polysaccharide gel used to measure the size of nucleic acids (in bases or base pairs). See "Gel Electrophoresis". This is the gel of choice for DNA or RNA in the range of thousands of bases in length, or even up to 1 megabase if you are using pulsed field gel electrophoresis.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Antibiotic resistance</CONCEPT>
+        <DEFINITION>Plasmids generally contain genes which confer on the host bacterium the ability to survive a given antibiotic. If the plasmid pBluescript, for example, is present in a host, that host will not be killed by (moderate levels of) ampicillin. By using plasmids containing antibiotic resistance genes, the researcher can kill off all the bacteria which have not taken up his plasmid, thus ensuring that the plasmid will be propagated as the surviving cells divide.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>ATG or AUG</CONCEPT>
+        <DEFINITION>The codon for methionine; the translation initiation codon. Usually, protein translation can only start at a methionine codon (although this codon may be found elsewhere within the protein sequence as well). In eukaryotic DNA, the sequence is ATG; in RNA it is AUG. Usually, the first AUG in the mRNA is the point at which translation starts, and an open reading frame follows - i.e. the nucleotides taken three at a time will code for the amino acids of the protein, and a stop codon will be found only when the protein coding region is complete.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>BAC</CONCEPT>
+        <DEFINITION> Bacterial Artificial Chromosome — a cloning vector capable of carrying between 100 and 300 kilobases of target sequence. They are propagated as a mini-chromosome in a bacterial host. The size of the typical BAC is ideal for use as an intermediate in large-scale genome sequencing projects. Entire genomes can be cloned into BAC libraries, and entire BAC clones can be shotgun-sequenced fairly rapidly.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Bacteriophage lambda</CONCEPT>
+        <DEFINITION>A virus which infects E. coli , and which is often used in molecular genetics experiments as a vector, or cloning vehicle. Recombinant phages can be made in which certain non-essential l DNA is removed and replaced with the DNA of interest. The phage can accommodate a DNA "insert" of about 15-20 kb. Replication of that virus will thus replicate the investigator's DNA. One would use phage l rather than a plasmid if the desired piece of DNA is rather large.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Blotting</CONCEPT>
+        <DEFINITION>A technique for detecting one RNA within a mixture of RNAs (a Northern blot) or one type of DNA within a mixture of DNAs (a Southern blot). A blot can prove whether that one species of RNA or DNA is present, how much is there, and its approximate size. Basically, blotting involves gel electrophoresis, transfer to a blotting membrane (typically nitrocellulose or activated nylon), and incubating with a probe which is often radioactive. Exposing the membrane to X-ray film (using a radioactive probe) produces darkening at a spot correlating with the position of the DNA or RNA of interest. The darker the spot, the more nucleic acid was present there.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>bp</CONCEPT>
+        <DEFINITION>Abbreviation for base pair(s). Double stranded DNA is usually measured in bp rather than nucleotides (nt).</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Cap</CONCEPT>
+        <DEFINITION>All eukaryotes have at the 5' end of their messages a structure called a "cap", consisting of a 7-methylguanosine in 5'-5' triphosphate linkage with the first nucleotide of the mRNA. It is added post-transcriptionally, and is not encoded in the DNA.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>CAT assay</CONCEPT>
+        <DEFINITION>An enzyme assay. CAT stands for chloramphenicol acetyl transferase, a bacterial enzyme which inactivates chloramphenicol by acetylating it. CAT assays are often performed to test the function of a promoter. The gene coding for CAT is linked onto a promoter (transcription control region) from another gene, and the construct is "transfected" into cultured cells. The amount of CAT enzyme produced is taken to indicate the transcriptional activity of the promoter (relative to other promoters which must be tested in parallel). It is easier to perform a CAT assay than it is to do a Northern blot, so CAT assays were a common method for testing the effects of sequence changes on promoter function. Largely supplanted by the reporter gene luciferase.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>CCAAT box: (CAT box, CAAT box, other variants)</CONCEPT>
+        <DEFINITION>A sequence found in the 5' flanking region of certain genes which is necessary for efficient expression. A transcription factor (CCAAT-binding protein, CBP) binds to this site.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>cDNA clone: &quot;complementary DNA&quot;</CONCEPT>
+        <DEFINITION>A piece of DNA copied from an mRNA. The term "clone" indicates that this cDNA has been spliced into a plasmid or other vector in order to propagate it. A cDNA clone may contain DNA copies of such typical mRNA regions as coding sequence, 5'-untranslated region, 3' untranslated region or poly(A) tail. No introns will be present, nor any promoter sequences (or other 5' or 3' flanking regions). A "full-length" cDNA clone is one which contains all of the mRNA sequence from nucleotide #1 through to the poly(A) tail.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Coding sequence</CONCEPT>
+        <DEFINITION>The portion of a gene or an mRNA which actually codes for a protein. Introns are not coding sequences; nor are the 5' or 3' untranslated regions (or the flanking regions, for that matter - they are not even transcribed into mRNA). The coding sequence in a cDNA or mature mRNA includes everything from the AUG (or ATG) initiation codon through to the stop codon, inclusive.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Codon</CONCEPT>
+        <DEFINITION> In an mRNA, a codon is a sequence of three nucleotides which codes for the incorporation of a specific amino acid into the growing protein. The sequence of codons in the mRNA unambiguously defines the primary structure of the final protein. Of course, the codons in the mRNA were also present in the genomic DNA, but the sequence may be interrupted by introns.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Endonuclease</CONCEPT>
+        <DEFINITION>An enzyme which digests nucleic acids starting in the middle of the strand (as opposed to an exonuclease, which must start at an end). Examples include the restriction enzymes, DNase I and RNase A.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Enhancer</CONCEPT>
+        <DEFINITION>An enhancer is a nucleotide sequence to which transcription factor(s) bind, and which increases the transcription of a gene. It is NOT part of a promoter; the basic difference being that an enhancer can be moved around anywhere in the general vicinity of the gene (within several thousand nucleotides on either side or even within an intron), and it will still function. It can even be clipped out and spliced back in backwards, and will still operate. A promoter, on the other hand, is position- and orientation-dependent. Some enhancers are "conditional" - in other words, they enhance transcription only under certain conditions, for example in the presence of a hormone.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Exon</CONCEPT>
+        <DEFINITION>Those portions of a genomic DNA sequence which WILL be represented in the final, mature mRNA. The term "exon" can also be used for the equivalent segments in the final RNA. Exons may include coding sequences, the 5' untranslated region or the 3' untranslated region.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Exonuclease</CONCEPT>
+        <DEFINITION>An enzyme which digests nucleic acids starting at one end. An example is Exonuclease III, which digests only double-stranded DNA starting from the 3' end.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Expression</CONCEPT>
+        <DEFINITION>To "express" a gene is to cause it to function. A gene which encodes a protein will, when expressed, be transcribed and translated to produce that protein. A gene which encodes an RNA rather than a protein (for example, a rRNA gene) will produce that RNA when expressed.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Expression clone</CONCEPT>
+        <DEFINITION>This is a clone (plasmid in a bacteria, or maybe a l phage in bacteria) which is designed to produce a protein from the DNA insert. Mammalian genes do not function in bacteria, so to get bacterial expression from your mammalian cDNA, you would place its coding region (i.e. no introns) immediately adjacent to bacterial transcription/translation control sequences. That artificial construct (the "expression clone") will produce a pseudo-mammalian protein if put back into bacteria. Often, that protein can be recognized by antibodies raised against the authentic mammalian protein, and vice versa.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Gel electrophoresis</CONCEPT>
+        <DEFINITION>A method to analyze the size of DNA (or RNA) fragments. In the presence of an electric field, larger fragments of DNA move through a gel slower than smaller ones. If a sample contains fragments at four different discrete sizes, those four size classes will, when subjected to electrophoresis, all migrate in groups, producing four migrating "bands". Usually, these are visualized by soaking the gel in a dye (ethidium bromide or SyberSafe) which makes the DNA fluoresce under UV light.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Gel shift assay: (aka gel mobility shift assay (GMSA), band shift assay (BSA), electrophoretic mobility shift assay (EMSA))</CONCEPT>
+        <DEFINITION>A method by which one can determine whether a particular protein preparation contains factors which bind to a particular DNA fragment. When a radiolabeled DNA fragment is run on a gel, it shows a characteristic mobility. If it is first incubated with a cellular extract of proteins (or with purified protein), any protein-DNA complexes will migrate slower than the naked DNA - a shifted band.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Gene</CONCEPT>
+        <DEFINITION>A unit of DNA which performs one function. Usually, this is equated with the production of one RNA or one protein. A gene contains coding regions, introns, untranslated regions and control regions.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Genome</CONCEPT>
+        <DEFINITION>The total DNA contained in each cell of an organism. Mammalian genomic DNA (including that of humans) contains thousands of genes, including coding regions, 5' and 3' untranslated regions, introns, 5' and 3' flanking DNA. Also present in the genome are structural segments such as telomeric and centromeric DNAs and replication origins, and intergenic DNA.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Hybridization</CONCEPT>
+        <DEFINITION>The reaction by which the pairing of complementary strands of nucleic acid occurs. DNA is usually double-stranded, and when the strands are separated they will re-hybridize under the appropriate conditions. Hybrids can form between DNA-DNA, DNA-RNA or RNA-RNA. They can form between a short strand and a long strand containing a region complementary to the short one. Imperfect hybrids can also form, but the more imperfect they are, the less stable they will be (and the less likely to form). To "anneal" two strands is the same as to "hybridize" them.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Insert</CONCEPT>
+        <DEFINITION>In a complete plasmid clone, there are two types of DNA - the "vector" sequences and the "insert". The vector sequences are those regions necessary for propagation, antibiotic resistance, and all those mundane functions necessary for useful cloning. In contrast, however, the insert is the piece of DNA in which you are really interested.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Intron</CONCEPT>
+        <DEFINITION>Introns are portions of genomic DNA which ARE transcribed (and thus present in the primary transcript) but which are later spliced out. They thus are not present in the mature mRNA. Note that although the 3&#039; flanking region is often transcribed, it is removed by endonucleolytic cleavage and not by splicing. It is not an intron.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Kb</CONCEPT>
+        <DEFINITION>Abbreviation for kilobase, one thousand bases.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Kinase</CONCEPT>
+        <DEFINITION>A kinase is in general an enzyme that catalyzes the transfer of a phosphate group from ATP to something else. In molecular biology, it has acquired the more specific verbal usage for the transfer onto DNA of a radiolabeled phosphate group. This would be done in order to use the resultant "hot" DNA as a probe.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Knock-out experiment</CONCEPT>
+        <DEFINITION>A technique for deleting, mutating or otherwise inactivating a gene in a mouse. This laborious method involves transfecting a crippled gene into cultured embryonic stem cells, searching through the thousands of resulting clones for one in which the crippled gene exactly replaced the normal one (by homologous recombination), and inserting that cell back into a mouse blastocyst. The resulting mouse will be chimaeric but, if you are lucky (and if you&#039;ve gotten this far, you obviously are), its germ cells will carry the deleted gene. A few rounds of careful breeding can then produce progeny in which both copies of the gene are inactivated.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Library</CONCEPT>
+        <DEFINITION>A library might be either a genomic library, or a cDNA library. In either case, the library is just a tube carrying a mixture of thousands of different clones - bacteria or L phages. Each clone carries an "insert" - the cloned DNA. A cDNA library is usually just a mixture of bacteria, where each bacteria carries a different plasmid. Inserted into the plasmids (one per plasmid) are thousands of different pieces of cDNA (each typ. 500-5000 bp) copied from some source of mRNA, for example, total liver mRNA. The basic idea is that if you have a large enough number of different liver-derived cDNAs carried in those bacteria, there is a 99% probability that a cDNA copy of any given liver mRNA exists somewhere in the tube. The real trick is to find the one you want out of that mess - a process called screening (see "Screening"). A genomic library is similar in concept to a cDNA library, but differs in three major ways - 1) the library carries pieces of genomic DNA (and so contains introns and flanking regions, as well as coding and untranslated); 2) you need bacteriophage L or cosmids, rather than plasmids, because... 3) the inserts are usually 5-15 kb long (in a L library) or 20-40 kb (in a cosmid library). Therefore, a genomic library is most commonly a tube containing a mixture of L phages. Enough different phages must be present in the library so that any given piece of DNA from the source genome has a 99% probability of being present.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Ligase</CONCEPT>
+        <DEFINITION>An enzyme, T4 DNA ligase, which can link pieces of DNA together. The pieces must have compatible ends (both of them blunt, or else mutually compatible sticky ends), and the ligation reaction requires ATP.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Ligation</CONCEPT>
+        <DEFINITION>The process of splicing two pieces of DNA together. In practice, a pool of DNA fragments are treated with ligase (see "Ligase") in the presence of ATP, and all possible splicing products are produced, including circularized forms and end-to-end ligation of 2, 3 or more pieces. Usually, only some of these products are useful, and the investigator must have some way of selecting the desirable ones.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Molecular weight size marker</CONCEPT>
+        <DEFINITION>A piece of DNA of known size, or a mixture of pieces with known size, used on electrophoresis gels to determine the size of unknown DNA’s by comparison.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Open reading frame</CONCEPT>
+        <DEFINITION>Any region of DNA or RNA where a protein could be encoded. In other words, there must be a string of nucleotides (possibly starting with a Met codon) in which one of the three reading frames has no stop codons. See "Reading frame" for a simple example.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Origin of replication</CONCEPT>
+        <DEFINITION>Nucleotide sequences present in a plasmid which are necessary for that plasmid to replicate in the bacterial host. (Abbr. "ori")</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Plasmid</CONCEPT>
+        <DEFINITION>A circular piece of DNA present in bacteria or isolated from bacteria. Escherichia coli, the usual bacteria in molecular genetics experiments, has a large circular genome, but it will also replicate smaller circular DNAs as long as they have an "origin of replication". Plasmids may also have other DNA inserted by the investigator. A bacterium carrying a plasmid and replicating a million-fold will produce a million identical copies of that plasmid. Common plasmids are pBR322, pBluescript, pGEM, pUC18.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Polymerase</CONCEPT>
+        <DEFINITION>An enzyme which links individual nucleotides together into a long strand, using another strand as a template. There are two general types of polymerase — DNA polymerases (which synthesize DNA) and RNA polymerase (which makes RNA). Within these two classes, there are numerous sub-types of polymerase, depending on what type of nucleic acid can function as template and what type of nucleic acid is formed. A DNA-dependant DNA polymerase will copy one DNA strand starting from a primer, and the product will be the complementary DNA strand. A DNA-dependant RNA polymerase will use DNA as a template to synthesize an RNA strand.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Polymerase chain reaction</CONCEPT>
+        <DEFINITION>A technique for replicating a specific piece of DNA in-vitro , even in the presence of excess non-specific DNA. Primers are added (which initiate the copying of each strand) along with nucleotides and Taq polymerase. By cycling the temperature, the target DNA is repetitively denatured and copied. A single copy of the target DNA, even if mixed in with other undesirable DNA, can be amplified to obtain billions of replicates. PCR can be used to amplify RNA sequences if they are first converted to DNA via reverse transcriptase. This two-phase procedure is known as ‘RT-PCR’. Polymerase Chain Reaction (PCR) is the basis for a number of extremely important methods in molecular biology. It can be used to detect and measure vanishingly small amounts of DNA and to create customized pieces of DNA. It has been applied to clinical diagnosis and therapy, to forensics and to vast numbers of research applications.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Primer</CONCEPT>
+        <DEFINITION>A small oligonucleotide (anywhere from 6 to 50 nt long) used to prime DNA synthesis. The DNA polymerases are only able to extend a pre-existing strand along a template; they are not able to take a naked single strand and produce a complementary copy of it de-novo. A primer which sticks to the template is therefore used to initiate the replication. Primers are necessary for DNA sequencing and PCR.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Probe</CONCEPT>
+        <DEFINITION>A fragment of DNA or RNA which is labelled in some way (often incorporating 32P or 35S), and which is used to hybridize with the nucleic acid in which you are interested. A probe can be radiolabelled, or tagged with another functional group such as biotin. A probe can be cloned DNA, or might be a synthetic DNA strand.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Promoter</CONCEPT>
+        <DEFINITION>The first few hundred nucleotides of DNA "upstream" (on the 5' side) of a gene, which control the transcription of that gene. The promoter is part of the 5' flanking DNA, i.e. it is not transcribed into RNA, but without the promoter, the gene is not functional. Note that the definition is a bit hazy as far as the size of the region encompassed, but the "promoter" of a gene starts with the nucleotide immediately upstream from the cap site, and includes binding sites for one or more transcription factors which can not work if moved farther away from the gene.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Reading frame</CONCEPT>
+        <DEFINITION>When mRNA is translated by the cell, the nucleotides are read three at a time. By starting at different positions, the groupings of three that are produced can be entirely different. The following example shows a DNA sequence and the three reading frames in which it could be read. Not only is an entirely different amino acid sequence specified by the different reading frames, but two of the three frames have stop codons, and thus are not open reading frames (asterisks indicate a stop codon).</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Restriction enzyme</CONCEPT>
+        <DEFINITION>A class of enzymes ("restriction endonucleases") generally isolated from bacteria, which are able to recognize and cut specific sequences ("restriction sites") in DNA. For example, the restriction enzyme BamHI locates and cuts any occurrence of: 5'-GGATCC-3' |||||| 3'-CCTAGG-5' Note that both strands contain the sequence GGATCC, but in antiparallel orientation. The recognition site is thus said to be palindromic, which is typical of restriction sites. Every copy of a plasmid is identical in sequence, so if BamHI cuts a particular circular plasmid at three sites producing three "restriction fragments", then a million copies of that plasmid will produce those same restriction fragments a million times over. There are more than six hundred known restriction enzymes. Bacteria produce restriction enzymes for protection against invasion by foreign DNA such as phages. The bacteria's own DNA is modified in such a way as to prevent it from being clipped.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Reverse transcriptase</CONCEPT>
+        <DEFINITION>An enzyme which will make a DNA copy of an RNA template - a DNA-dependant RNA polymerase. RT is used to make cDNA; one begins by isolating polyadenylated mRNA, providing oligo-dT as a primer, and adding nucleotide triphosphates and RT to copy the RNA into cDNA.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Screening</CONCEPT>
+        <DEFINITION>To screen a library (see "Library") is to select and isolate individual clones out of the mixture of clones. For example, if you needed a cDNA clone of the pituitary glycoprotein hormone alpha subunit, you would need to make (or buy) a pituitary cDNA library, then screen that library in order to detect and isolate those few bacteria carrying alpha subunit cDNA. There are two methods of screening which are particularly worth describing: screening by hybridization, and screening by antibody. Screening by hybridization involves spreading the mixture of bacteria out on a dozen or so agar plates to grow several ten thousand isolated colonies. Membranes are laid onto each plate, and some of the bacteria from each colony stick, producing replicas of each colony in their original growth position. The membranes are lifted and the adherent bacteria are lysed, then hybridized to a radioactive piece of alpha DNA (the source of which is a story in itself - see "Probe"). When X-ray film is laid on the filter, only colonies carrying alpha sequences will "light up". Their position on the membranes show where they grew on the original plates, so you now can go back to the original plate (where the remnants of the colonies are still alive), pick the colony off the plate and grow it up. You now have an unlimited source of alpha cDNA. Screening by antibody is an option if the bacteria and plasmid are designed to express proteins from the cDNA inserts. The principle is similar to hybridization, in that you lift replica filters from bacterial plates, but then you use the antibody (perhaps generated after olde tyme protein purification rituals) to show which colony expresses the desired protein.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Southern blot</CONCEPT>
+        <DEFINITION>A technique for analyzing mixtures of DNA, whereby the presence and rough size of one particular fragment of DNA can be ascertained. See "Blotting". Named for its inventor, Dr E. M. Southern.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Sticky ends</CONCEPT>
+        <DEFINITION>After digestion of a DNA with certain restriction enzymes, the ends left have one strand overhanging the other to form a short (typically 4 nt) single-stranded segment. This overhang will easily re-attach to other ends like it, and are thus known as "sticky ends".</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Stringency</CONCEPT>
+        <DEFINITION>A term used to describe the conditions of hybridization. By varying the conditions (especially salt concentration and temperature) a given probe sequence may be allowed to hybridize only with its exact complement (high stringency), or with any somewhat related sequences (relaxed or low stringency). Increasing the temperature or decreasing the salt concentration will tend to increase the selectivity of a hybridization reaction, and thus will raise the stringency.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Sub-cloning</CONCEPT>
+        <DEFINITION>If you have a cloned piece of DNA (say, inserted into a plasmid) and you need unlimited copies of only a part of it, you might "sub-clone" it. This involves starting with several million copies of the original plasmid, cutting with restriction enzymes, and purifying the desired fragment out of the mixture. That fragment can then be inserted into a new plasmid for replication. It has now been subcloned.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Taq polymerase</CONCEPT>
+        <DEFINITION>A DNA polymerase isolated from the bacterium Thermophilis aquaticus and which is very stable to high temperatures. It is used in PCR procedures and high temperature sequencing.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Tm</CONCEPT>
+        <DEFINITION>The melting point for a double-stranded nucleic acid. Technically, this is defined as the temperature at which 50% of the strands are in double-stranded form and 50% are single-stranded, i.e. midway in the melting curve. A primer has a specific Tm because it is assumed that it will find an opposite strand of appropriate character.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Transcription factor</CONCEPT>
+        <DEFINITION>A protein which is involved in the transcription of genes. These usually bind to DNA as part of their function (but not necessarily). A transcription factor may be general (i.e. acting on many or all genes in all tissues), or tissue-specific (i.e. present only in a particular cell type, and activating the genes restricted to that cell type). Its activity may be constitutive, or may depend on the presence of some stimulus; for example, the glucocorticoid receptor is a transcription factor which is active only when glucocorticoids are present.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Transfection</CONCEPT>
+        <DEFINITION>A method by which experimental DNA may be put into a cultured mammalian cell. Such experiments are usually performed using cloned DNA containing coding sequences and control regions (promoters, etc) in order to test whether the DNA will be expressed. Since the cloned DNA may have been extensively modified (for example, protein binding sites on the promoter may have been altered or removed), this procedure is often used to test whether a particular modification affects the function of a gene</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Transformation (with respect to bacteria)</CONCEPT>
+        <DEFINITION> The process by which a bacteria acquires a plasmid and becomes antibiotic resistant. This term most commonly refers to a bench procedure performed by the investigator which introduces experimental plasmids into bacteria.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Vector</CONCEPT>
+        <DEFINITION>The DNA "vehicle" used to carry experimental DNA and to clone it. The vector provides all sequences essential for replicating the test DNA. Typical vectors include plasmids, cosmids, phages and YACs.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Competent</CONCEPT>
+        <DEFINITION>Bacterial cells which are capable of accepting foreign extra-chromosomal DNA. There are a variety of processes by which cells may be made competent.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Degeneracy</CONCEPT>
+        <DEFINITION>Refers to the fact that multiple different codons in mRNA can specify the same amino acid in an encoded protein.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Denaturation</CONCEPT>
+        <DEFINITION>With respect to nucleic acids, refers to the conversion from double-stranded to the single-stranded state, often achieved by heating or alkaline conditions. This is also called "melting" DNA. With respect to proteins, refers to the disruption of tertiary and secondary structure, often achieved by heat, detergents, chaotropes, and sulfhydryl-reducing agents.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Dideoxy Sequencing</CONCEPT>
+        <DEFINITION>Enzymatic determination of DNA or RNA sequence by the method of Sanger and colleagues, based on the incorporation of chain terminating dideoxynucleotides in a growing nucleic acid strand copied by DNA polymerase or reverse transcriptase from a DNA or RNA template. Separate reactions include dideoxynucleotides containing A,C, G, or T bases. The reaction products represent a collection of new. labeled DNA strands of varying lengths, all terminating with a dideoxynucleotide at the 3' end (at the site of a complementary base in the template nucleic acid), and are separated in a polyacrylamide/urea gel to generate a sequence "ladder". This method is more commonly used than "Maxam-Gilbert" (chemical) sequencing.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Genomic Library</CONCEPT>
+        <DEFINITION>A DNA library which contains DNA fragments hopefully representing each region of the genome of an organism, virus, etc, cloned into individual vector molecules for subsequent selection and amplification. The DNA fragments are usually very small in size compared with the genome. Such libraries are cDNA libraries when prepared from RNA viruses.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Multiple Cloning Site</CONCEPT>
+        <DEFINITION>An artificially constructed region within a vector molecule which contains a number of closely spaced recognition sequences for restriction endonucleases. This serves as a convenient site into which foreign DNA may be inserted.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Pseudogene</CONCEPT>
+        <DEFINITION>Inactive but stable components of the genome which derived by duplication and mutation of an ancestral, active gene. Pseudogenes can serve as the donor sequence in gene conversion events.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Supercoiled DNA</CONCEPT>
+        <DEFINITION>Double-stranded circular DNA which is twisted about itself. Commonly observed with plasmids and circular viral DNA genomes (such as that of hepatitis B virus). A nick in one strand of the plasmid may remove the twist, resulting in a relaxed, circular DNA molecule. A complete break in the DNA puts the plasmid in a linear form. Supercoils, relaxed circular DNA, and linear DNA all have different migration properties in agarose gels, even though they contain the same number of base pairs.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Allele</CONCEPT>
+        <DEFINITION>One of alternative forms of a gene at a particular locus.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Autoradiography</CONCEPT>
+        <DEFINITION>Plasmids generally contain genes which confer on the host bacterium the ability to survive a given antibiotic. If the plasmid pBluescript, for example, is present in a host, that host will not be killed by (moderate levels of) ampicillin. By using plasmids containing antibiotic resistance genes, the researcher can kill off all the bacteria which have not taken up his plasmid, thus ensuring that the plasmid will be propagated as the surviving cells divide.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Frameshift mutation</CONCEPT>
+        <DEFINITION>A mutation which, by deletion or addition of a number of basepairs which is not divisible by three, causes an alteration in the reading frame of a gene.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Missense mutation</CONCEPT>
+        <DEFINITION>A mutation which changes the amino acid incorporated into the coded polypeptide chain.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Nonsense mutation</CONCEPT>
+        <DEFINITION>A point mutation which alters a codon so that instead of coding for an amino-acid it codes for a translation stop signal.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Oligonucleotide</CONCEPT>
+        <DEFINITION>A short (2 - 50 nucleotides) sequence of (usually single stranded) DNA which has been chemically synthesised for a specific experimental purpose.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Palindrome</CONCEPT>
+        <DEFINITION>A double stranded DNA sequence in which the sequence of one strand in the 5´ to 3´ direction is the same as the sequence of the (oppositely orientated) complementary strand in the 5´ to 3´ direction.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Point mutation</CONCEPT>
+        <DEFINITION>A mutation affecting a single nucleotide pair. It can be used loosely to mean mutations affecting a very small number of nucleotide pairs or to the deletion of a small number of nucleotide pairs.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Polymorphism</CONCEPT>
+        <DEFINITION>Genetic variation occurring in a population so that at least two alleles are present at a frequency of 1% or greater. The variation may range from alteration of noncoding DNA sequence without any phenotypic effect through many possible intermediates to variation which gives rise to a visible change in the visible phenotype.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Recombinant DNA</CONCEPT>
+        <DEFINITION>DNA containing an artificial combination of pieces which are not found together in nature.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Western blot</CONCEPT>
+        <DEFINITION>Also known as Immunoblot. Proteins blotted onto a membrane post electrophoresis. They can be detected there by appropriate antisera.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Wild type</CONCEPT>
+        <DEFINITION>The normal allele at a locus in a population. It is usually a fully functional allele. Equally, the normal phenotype.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Deoxynucleotide triphosphates ( dNTPs )</CONCEPT>
+        <DEFINITION>dNTPs are the nucleotide bases added to the growing DNA strand by the DNA polymerase. The concentration of each dNTP in the reaction mixture is usually 200µM. It is very important to have equal concentrations of each dNTP (dATP, dCTP, dGTP, dTTP), as inaccuracy in the concentration of even a single dNTP dramatically increases the misincorporation level</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Insertion</CONCEPT>
+        <DEFINITION>A type of mutation in which one or more nucleotides is inserted into a DNA sequence. Small insertions within a gene can alter the reading frame, and thus the amino acid sequence of the encoded protein.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Junk DNA</CONCEPT>
+        <DEFINITION>In molecular biology, "junk" DNA is a collective label for the portions of the DNA sequence of a chromosome or a genome for which no function has yet been identified. About 98.5% of the human genome has been designated as "junk", including most sequences within introns and most intergenic DNA. While much of this sequence is probably an evolutionary artifact that serves no present-day purpose, some may function in ways that are not currently understood.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Substitution</CONCEPT>
+        <DEFINITION>In genetics, a type of mutation due to replacement of one nucleotide in a DNA sequence by another nucleotide or replacement of one amino acid in a protein by another amino acid.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Sequencing</CONCEPT>
+        <DEFINITION>Determination of the order of nucleotides (base sequences) in a DNA or RNA molecule or the order of amino acids in a protein.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>pBluescript</CONCEPT>
+        <DEFINITION>In genetics, pBluescript (pBS) is a commercially available cloning vector containing several useful sequences for use in cloning with bacteriophage. The sequences include a polylinker sequence (MCS), antibiotic resistance sequence to ampicillin and an E. coli and an origin of replication. The polylinker sequence is located within a LacZ controlled gene designed to provide a blue coloration when expressed in bacteria.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>DNA ladder</CONCEPT>
+        <DEFINITION>A DNA ladder is a solution of DNA molecules of different lengths used in agarose gel electrophoresis. It is applied to an agarose gel as a reference to estimate the size of unknown DNA molecules. In addition it can be used to approximate the mass of a band by comparison to a special mass ladder. Different DNA ladders are commercially available depending on expected DNA length. The 1kb ladder with fragment ranging from about 0.5 kbp to 10 or 12 kbp</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Complementary</CONCEPT>
+        <DEFINITION>Describes the specific matching of base pairs. This matching occurs because the structure of one base precisely fits with, and bonds to, another specific base. In DNA adenine and thymine are complementary and form a base pair, as do cytosine and guanine. When pairing occurs between DNA and RNA, adenine and uracil are complementary, and cytosine and guanine are complementary. </DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Supernatant</CONCEPT>
+        <DEFINITION>The soluble liquid fraction of a sample after centrifugation or precipitation of insoluble solids.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>ELISA (enzyme-linked immunosorbent assay)</CONCEPT>
+        <DEFINITION>A sensitive technique for accurately determining specific molecules in a mixed sample. The amount of protein or other antigen in a given sample is determined by means of an enzyme-catalysed colour change, avoiding both the hazards and expense of radioactive techniques.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>BLAST</CONCEPT>
+        <DEFINITION>The Basic Local Alignment Tool (BLAST) is an efficient computer programme for comparing DNA and protein sequences. There are several types of BLAST available: 1. BLASTP compares an amino acid query sequence against a protein sequence database 2. BLASTN compares a nucleotide query sequence against a nucleotide sequence database 3. BLASTX compares a nucleotide query sequence translated in all reading frames against a protein sequence database 4. TBLASTN compares a protein query sequence against a nucleotide sequence database dynamically translated in all reading frames 5. TBLASTX compares the six-frame translations of a nucleotide query sequence against the six-frame translations of a nucleotide sequence database.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Restriction map</CONCEPT>
+        <DEFINITION>A description of restriction endonuclease cleavage sites within a piece of DNA. Generating such a map is usually the first step in characterizing an unknown DNA, and a prerequisite to manipulating it for other purposes. Typically, restriction enzymes that cleave DNA infrequently (e.g. those with 6 bp recognition sites) and are relatively inexpensive are used to produce at a map.</DEFINITION>
+        <FORMAT>1</FORMAT>
+        <USEDYNALINK>0</USEDYNALINK>
+        <CASESENSITIVE>0</CASESENSITIVE>
+        <FULLMATCH>0</FULLMATCH>
+        <TEACHERENTRY>1</TEACHERENTRY>
+      </ENTRY>
+    </ENTRIES>
+  </INFO>
+</GLOSSARY>

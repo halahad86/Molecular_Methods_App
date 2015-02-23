@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/Mol Methods/general</text>
+
+    </category>
+  </question>
+
+<!-- question: 272966  -->
+  <question type="multichoice">
+    <name>
+      <text>1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The template for PCR is:]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[RNA]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[single stranded DNA]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[double stranded DNA]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[mRNA]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[All of the above]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272979  -->
+  <question type="multichoice">
+    <name>
+      <text>10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span>The insertion of a cloning plasmid into competent bacterial cells typically involves one of the following process:</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Transduction]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Polymerase Chain Reaction]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Conjugation]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Transformation]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hybridization]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383504  -->
+  <question type="multichoice">
+    <name>
+      <text>11</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[You design the following reverse primer:
+<p> ACTGATTAGGTCAACGTC</p>
+<p>What is the primers melting temperature (Tm)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>52°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; '>48°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>56°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>50°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>58°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question> 
+
+<!-- question: 383505  -->
+  <question type="multichoice">
+    <name>
+      <text>12</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; '>You
+digest a 5 kb plasmid with EcoRI + XbaI. Below is the restriction map of that
+digest. What bands would expect to see after the digest is run on an agarose
+gel?</span></p><p><span style=' font-family: "Droid Sans","sans-serif";'><img width="320" height="260" class="img-responsive" style="margin: 0px 0.5em; vertical-align: text-bottom;" alt="GMM-Q12-map" src="/static/img/quizzes_imgs/general/GMM-%20Q12%20map.png"></span></p>]]></text>
+<file name="GMM- Q12 map.png" path="/static/img/quizzes_imgs/general/" encoding="base64">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</file>
+<file name="GMM-Q12.png" path="/static/img/quizzes_imgs/general/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>1.5
+kb and 1 kb</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>3
+kb and 1 kb</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>1.5
+kb, 1 kb and 0.5 kb</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>1
+kb and 0.5 kb</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>1
+kb</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383506  -->
+  <question type="multichoice">
+    <name>
+      <text>13</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>You
+use a BLAST search to find similarities between?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>nucleotides</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>mRNA</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>proteins</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>all
+of the above</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383507  -->
+  <question type="multichoice">
+    <name>
+      <text>14</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>Which
+of the following is NOT true regarding degeneracy?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>Degeneracy
+means quite different DNA can be transcribed and translated into similar
+proteins</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>The
+degeneracy of a protein sequence is determined by the number of possible codons
+for the amino acids in a particular sequence</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>There
+is a codon preference which is unique to every species</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>There
+are 5 possible codons for the amino acid Serine</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>There
+is only one codon for the amino acid Methionine</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383508  -->
+  <question type="multichoice">
+    <name>
+      <text>15</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>You
+perform a BLAST search and one of the fields in the results gives an E-value. What
+is an E-value?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>An
+E-value stands for Expectation value. The E-value determines the probability for
+a homologous alignment to have occurred by chance. The smaller the E-value the
+less likely an alignment has occurred by chance.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>An
+E-value stands for Endogenous value. It estimates the likelihood that the
+sequence match comes from within the same species as the query search. The
+smaller the E-value the more related the aligned sequence is.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>An
+E-value stands for Exclusion value. It determines to what degree results should
+be excluded because of inaccuracies, lower Exclusion values are preferred.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>An
+E-value stands for Emergent-value. If the Emergent value is high then it is more
+likely that the aligned sequence is from a new species.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>none
+of the above</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383509  -->
+  <question type="multichoice">
+    <name>
+      <text>16</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>You
+are cloning a 500 bp fragment of your gene of interest in to pBluescript. You
+are using blue/white screening and antibiotic selection. You come to analyse
+your plates after 24 hours at 37°C. All of the colonies are blue. What can you
+deduce?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>The
+transformation worked</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>It
+may be that the ligation reaction did not work</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>Perhaps
+the plasmid you used to clone in your insert was incompletely digested or not
+digested at all prior to insertion of your fragment of interest</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>You
+should use controls in the future. Repeat the restriction digests of your
+insert and plasmid and perform the ligation and transformation once more, this
+time use controls.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>all
+of the above</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383510  -->
+  <question type="multichoice">
+    <name>
+      <text>17</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>You
+plate transformants on L-agar plates with 50 µg/ml Ampicillin, 0.1 mM IPTG, and
+40 µg/ml XGal. What is IPTG?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>IPTG
+is a substrate in the reaction which results in the colonies turning indigo
+blue</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>IPTG
+is an inducer of the <i style="">lac</i> operon. It
+is widely used in molecular biology to regulate gene expression, in this
+experiment it turns on the transcription of the ampicillin resistance gene -
+the product of which is β lactamase</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>IPTG
+is an inducer of the <i style="">lac </i>operon. It
+mimics the natural inducer of the <i style="">lac</i>
+operon allolactose but unlike allolactose, IPTG is not degraded by β
+galactosidase - the protein product of <i style="">lacZ</i>.
+This means that IPTG is not turned over and levels remain constant. In
+blue/white screening IPTG switches on <i style="">lacZ</i>,
+β galactosidase is then produced which converts XGal into a blue coloured
+molecule which makes the colonies blue</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>IPTG
+is a special enhancer of antibiotic resistance which works especially well with
+the lactamase family of antibiotics</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383511  -->
+  <question type="multichoice">
+    <name>
+      <text>18</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="line-height: 115%; ">At which
+cycle in the PCR do you first see the final product?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[3]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[5]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[4]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[10]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383512  -->
+  <question type="multichoice">
+    <name>
+      <text>19</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>Select
+the correct statement below concerning the differences between PCR and the
+Sanger sequencing method.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>3
+primers are used in the Sanger method; only 2 primers are used in PCR</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>PCR
+uses dNTPs. In the Sanger method 1:100 ddNTPs : dNTPs are used</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>The
+Sanger method can be used to copy mRNA as well as DNA. PCR can only copy DNA</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>Because
+of the use of ddNTPs, the extension step in the Sanger method is at least twice
+as long as in PCR</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>All
+of the above</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272967  -->
+  <question type="multichoice">
+    <name>
+      <text>2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[PCR can be used to:]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[diagnose genetic diseases]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[solve crimes]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[study gene function]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[detect viruses or bacteria]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[do all of the above]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383513  -->
+  <question type="multichoice">
+    <name>
+      <text>20</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>Real-time
+quantitative PCR (qPCR) can be used for:</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>gene
+expression analysis</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>determination
+of viral load</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>detection
+of viral genetically modified organisms GMOs</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>SNP
+genotyping</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>all
+of the above</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383514  -->
+  <question type="multichoice">
+    <name>
+      <text>21</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>In
+real-time qPCR, a dye called SYBR makes the DNA fluorescent. How does SYBR
+achieve this?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>SYBR
+forms hydrogen bonds with Gs and Cs</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>SYBR
+bind specifically to As and Ts in the DNA</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>SYBR
+is a large molecule which displaces one strand of DNA forming strong hydrogen
+bonds with the other strand</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>SYBR
+intercalates the DNA helix</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383515  -->
+  <question type="multichoice">
+    <name>
+      <text>22</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>What
+is the threshold cycle (Ct) in real-time qPCR?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>The
+number of PCR cycles required for the fluorescent signal generated by SYBR to
+exceed the level of background fluorescence.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>The
+number of PCR cycles taken for 200 fluorescence units to be recorded</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>The
+number of PCR cycles taken for the product levels to tail off</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>The
+number of PCR cycles taken for 1000 fluorescence units to be recorded</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 383516  -->
+  <question type="multichoice">
+    <name>
+      <text>23</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>In
+the plasmid purification protocol, bacterial cells are lysed, after this you
+are instructed to handle the resulting viscous solution with care. Why is this?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>It
+is possible that the protein will engulf your plasmid DNA, thereby lowering
+yields</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>Plasmid
+DNA is at its most sensitive post cell lysis, if you are not gentle it will
+break and you will not be able to store/use it </span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>Chromosomal
+DNA is sensitive and could 'shear off' to form smaller DNA which may be
+co-purified with plasmid DNA if it is of similar size</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>If
+you are not gentle host cell factors such as endogenous restriction enzymes
+will attack the plasmid DNA </span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style= font-family: "Droid Sans","sans-serif"; "Times New Roman";'>all
+of the above</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272968  -->
+  <question type="multichoice">
+    <name>
+      <text>3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[If the DNA stock solution is 2 mg/ml and you need 1 µg/µl in the reaction how much of the stock solution would you need to add to a 20 µl<span style="letter-spacing: 0px;">?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.1 ml]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.001 ml]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0.01 ml]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[15 µl]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1.5 µl]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272971  -->
+  <question type="multichoice">
+    <name>
+      <text>4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The stock concentration of forward and reverse primers are 0.01 µM. The required concentration of primers for PCR reaction is 0.5 nM. What volume of each primer must be added to the PCR tubes, if 0.05 ml&nbsp;of PCR reaction is set up.&nbsp;]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2 µl]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[5 µl]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[2.5 µl]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.00025 ml]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[10 µl]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272974  -->
+  <question type="multichoice">
+    <name>
+      <text>5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[You have a 20X TBE buffer. To run a gel, you need 0.5 litres of a 2X solution of TBE. What volume will be added from the 20X stock solution  to get the required 2X concentration?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[10 ml]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[20 ml]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[100 ml]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[50 ml]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.001 litres]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272975  -->
+  <question type="multichoice">
+    <name>
+      <text>6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[You are required to carry out a restriction digest using <em>BamH</em>I and <em>Kpn</em>I enzymes. A 30 µl digest is set up and 1&nbsp;µl of both enzymes are added.The concentration of the buffer is 20X and for the digest 1X concentration of buffer is required. The concentration of DNA is 2 mg/ml and 1.5 µg of DNA is required. What volume of DNA and restriction buffer must be added to carry out this restriction digest?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[1.5 µl of buffer and 0.75 µl of DNA]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1.5 µl of buffer and 1 µl of DNA]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2 µl of buffer and 0.75 µl of DNA]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1.5 µl of buffer and 2 µl of DNA]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1.5 µl of buffer and 1.5 µl of DNA]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272965  -->
+  <question type="multichoice">
+    <name>
+      <text>7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Deduce forward and reverse primers using the sequence given below and incorporate&nbsp;<em>BamH</em>I restriction site in the forward and <em>Kpn</em>I in the reverse primers.&nbsp;Remember to include the stiffener region.
+<p><em>BamH</em>I recognition sequence is&nbsp;GGATCC</p>
+<p><em>Kpn</em>I recognition sequence is &nbsp; GGTACC</p>&nbsp;
+<p><span style="text-decoration: underline;">ATGGCATATAGAGCAGTACATG</span>AGTTTATACTAGCTATGAA</p>
+<p>TTACGATAAAAAGAAACTCTTGACCCATCAGGGAGAAAGTAT</p>
+<p>TGAAAATCGTTTCATCAAAGAGGGTAATCAGCTACCCGATG</p>
+<p>AGTTTGTTGTTATCGATCTATATTTCGAGTGTTGCTTATGGG</p>
+<p>CGCCAAGTCTATCTCAAGTTGGAAACCACGAGTAAGAGTGA</p>
+<p>TGA<span style="text-decoration: underline;">CTGTAGATTCTGCGATTGAAGC</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fwd primer 5’GGATCCATGGCATATAGAGCAGTACATG3’
+Rev Primer 5’GGTACCGCTTCAATCGCAGAATCTACAG3’]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fwd Primer 5’GGATCCATGGCATATAGAGCAGTACATG3’
+Rev Primer 5’CCTAGGGCTTCAATCGCAGAATCTACAG3’ 
+ ]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fwd Primer 5’GCAGGATCCATGGCATATAGAGCAGTACATG3’
+Rev Primer 5’GCAGGTACCGCTTCAATCGCAGAATCTACAG3’ 
+ ]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fwd primer 5’GCAGGATCCATGGCATATAGAGCAGTACATG3’
+Rev Primer 5’GCTTCAATCGCAGAATCTACAGGCAGGTACC3’]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fwd Primer 5’GCAGGATCCATGGCATATAGAGCAGTACATG3’
+Rev Primer 5’GACATCTAAGACGTAACTTCGCCATGGACG3’]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272976  -->
+  <question type="multichoice">
+    <name>
+      <text>7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[You want to make a 2% (w/v) agarose gel. How much agarose (in grams) do you need to make up a 25 ml gel solution?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1.5 g]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1.05 g]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2.5 g]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0.5 g]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[5 g]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272977  -->
+  <question type="multichoice">
+    <name>
+      <text>8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The steps of conventional PCR are in the following order]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Denature, anneal, &amp; strand displacement]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Denature, anneal and extension]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Anneal, denature and extension]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Reverse-transcription, anneal and extension]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Strand displacement, anneal and extension]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272978  -->
+  <question type="multichoice">
+    <name>
+      <text>9</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which of the following statements is NOT true regarding annealing temperature?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Annealing temperature depends on the length and the composition of primer.]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[If the annealing temperature is low, primers will bind non specifically.]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span>Non-specific binding that occurs at the 5′ end of the primer does not necessarily adversely impact amplification since polymerases cannot begin elongation until the 3′ end binds to the template.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span>Use of correct annealing temperature</span><span> in the PCR usually results in optimal PCR product yield with minimum false product production.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span>Annealing temperature 15°C above the Tm should produce a PCR product</span><span>, as the likelihood of primer annealing remains unaffected. </span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 272855  -->
+  <question type="truefalse">
+    <name>
+      <text>13</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The length of forward and reverse primers must always be equal for a successful PCR reaction]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

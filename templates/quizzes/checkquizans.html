@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+	<!--start: Container -->
+	<div class="container">
+        {% if data %}
+            {% for question, corr_ans, user_ans in data %}
+                 <!--start: Wrapper-->
+                <div id="wrapper">
+
+                    <hr class="clean">
+
+                    <!-- start: Row -->
+                    <div class="row-fluid">
+
+                        <div align="justified">
+                           <h2 class="blue-heading-h2"><b> {% autoescape off %}{{ forloop.counter }}. {{ question }}{% endautoescape %} </b></h2>
+                           <br>
+                        </div>
+
+                        <div class="span7 portfolio-item" align="left">
+                            <h3>Options:</h3>
+                            <ol>
+                                {% for answer1 in answers %}
+                                     {% if answer1.question == question %}
+                                         <h3><li><font color="black" size="3"> {% autoescape off %}{{ answer1.answer }}{% endautoescape %} </font></li></h3>
+                                         <br>
+                                     {% endif %}
+                                {% endfor %}
+                            </ol>
+
+
+                        </div>
+                       <div class="span4 portfolio-item">
+                            <br>
+                            <h3> <b>You answered : </b>{% autoescape off %}{{ user_ans }}{% endautoescape %} {% if user_ans.correct == True %} <img src="{% static 'img/check_tick.png' %}" alt=""/> {% else %} <img src="{% static 'img/cross.png' %}" alt=""/> {% endif%} </h3>
+                            <br>
+                            <h3> <b>The correct answer is  :</b> {% autoescape off %}{{ corr_ans }}{% endautoescape %} </h3>
+                       </div>
+
+
+
+                    </div>
+                    <!-- end: Row -->
+
+                </div>
+                <br>
+            {% endfor %}
+            <br>
+            <div align="center">
+                            <h3><font color="white" size="5"> Your score is {{ score }} out of {{ outof }} </font></h3>
+            </div>
+        {% else %}
+            <h2 style="color:#ffffff;" align="center">No Questions Answered</h2>
+        {% endif %}
+	</div>
+		<!--end: Container-->
+
+  {% endblock %}

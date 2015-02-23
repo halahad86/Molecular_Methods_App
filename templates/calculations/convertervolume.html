@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+<!--start: Container -->
+<div class="container">
+
+    <!--start: Wrapper-->
+    <div id="wrapper">
+
+        <hr class="clean">
+
+        <!-- start: Row -->
+        <div class="row-fluid">
+
+            <div id="content" data-role="content">
+
+
+                <script language="JavaScript" type="text/javascript">
+                    <!--
+                    //    Script Editor:   Howard Chen
+                    //    Browser Compatible for the script: IE 3.0 or Higher
+                    //                                       Netscape 2.0 or Higher
+                    function nofocus() {
+                        document.convert.InUnit.focus()
+                    }
+                    var ulValue = 1
+                    var mlValue = 1000
+                    var lValue = 1000000
+                    function toCM() {
+                        var i = document.convert.unit.selectedIndex
+                        var thisUnit = document.convert.unit.options[i].value
+                        if (thisUnit == "UL") {
+                            document.convert.ul.value = document.convert.InUnit.value
+                        }
+                        else if (thisUnit == "ML") {
+                            document.convert.ul.value = document.convert.InUnit.value * mlValue
+                        }
+                        else if (thisUnit == "L") {
+                            document.convert.ul.value = document.convert.InUnit.value * lValue
+                        }
+                        toAll()
+                    }
+                    function toAll() {
+                        var m = document.convert.ul.value
+                        document.convert.ml.value = m / mlValue
+                        document.convert.l.value = m / lValue
+                    }
+                    //-->
+                </script>
+
+               <div style="color:white;" align="center"><h1 class="blue-heading-h1">Volume Converter</h1></div>
+
+                <div align="center">
+                    <form name="convert">
+                        <table style="color:black;" border=1>
+                            <tr>
+                                <th>Unit</th>
+                                <th>Value</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="unit" style="color: #000000">
+                                        <option value="UL">Microlitre
+                                        <option value="ML">Millilitre
+                                        <option value="L">Litre
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="InUnit" size="20" maxlength="20" value="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Microlitre:
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="ul" size="20" maxlength="20" value="0" onFocus="nofocus()">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Millilitre:
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="ml" size="20" maxlength="20" value="0" onFocus="nofocus()">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Litre:
+                                </td>
+                                <td>
+                                    <input type="text" style="color: #000000" name="l" size="20" maxlength="20" value="0" onFocus="nofocus()">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <input type="Reset" value="Start Over">
+                                </td>
+                                <td align="center">
+                                    <input type="button" value="Convert" onClick="toCM()">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+
+            </div>
+            <!-- end: Row -->
+
+
+        </div>
+        <!--end: Container-->
+
+    </div>
+    {% endblock %}

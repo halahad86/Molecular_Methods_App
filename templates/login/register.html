@@ -1,0 +1,92 @@
+<!doctype html>
+<html><head></head><body>{% load staticfiles %}
+
+
+    <title>Desktop</title>
+        <!-- Is anyone getting tired of repeatedly entering the header over and over?? -->
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'css/parallax-slider.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+
+
+
+{% comment %}        <style type="text/css">
+          body {
+            padding-top: 170px;
+            padding-left: 400px;
+            padding-bottom: 20px;
+            background-color: rgba(0, 51, 105, 0.88);
+
+          }
+
+        </style>{% endcomment %}
+<div class="container">
+<div class="modal-dialog">
+
+    <div class="jumbotron">
+        <h1 style="color:#00008b">
+
+
+            {% if registered %}
+                <strong><font size="6" color="#00008b">Thank you for registering!</font></strong>
+                <br>
+                <br>
+                <a href="/desktop"><font size="4" color="#00008b">Return to the login page.</font></a><br>
+            {% else %}
+                </h1><h1 style="color: #00008b">Register here</h1>
+                <br>
+                <h2 style="color: #00008b">Fill in the form to register</h2>
+                <form id="user_form" method="post" action="{% url 'desktop:register' %}" enctype="multipart/form-data">
+
+                    {% csrf_token %}
+
+                    <!-- Display each form. The as_p method wraps each element in a paragraph
+                         (<p>) element. This ensures each element appears on a new line,
+                         making everything look neater. -->
+                    <br>
+                    <p>
+                        <input class="input-large form-control" type="text" style="color: #00008b" name="username" value="" id="username" placeholder="Username">
+
+                    </p>
+                    <p>
+                        <input class="input-large form-control" type="email" style="color: #00008b" name="email" value="" id="email" placeholder="Email">
+
+                    </p>
+                    <p>
+                    <input class="input-large form-control" type="password" style="color: #00008b" name="password" value="" id="password" placeholder="Password">
+
+                    </p>
+                    <!-- Provide a button to click to submit the form. -->
+                    <input type="submit" name="submit" value="Register" class="form-control">
+                </form>
+            {% endif %}
+    </div>
+</div>
+</div>
+
+<!-- start: Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{% static 'js/jquery-1.8.2.js' %}"></script>
+<script src="{% static 'js/isotope.js' %}"></script>
+<script src="{% static 'js/jquery.imagesloaded.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/flexslider.js' %}"></script>
+<script src="{% static 'js/carousel.js' %}"></script>
+<script src="{% static 'js/jquery.cslider.js' %}"></script>
+<script src="{% static 'js/slider.js' %}"></script>
+<script src="{% static 'js/fancybox.js' %}"></script>
+<script src="{% static 'js/twitter.js' %}"></script>
+<script src="{% static 'js/jquery.placeholder.min.js' %}"></script>
+<script src="{% static 'js/excanvas.js' %}"></script>
+<script src="{% static 'js/jquery.flot.min.js' %}"></script>
+<script src="{% static 'js/jquery.flot.pie.min.js' %}"></script>
+<script src="{% static 'js/jquery.flot.stack.js' %}"></script>
+<script src="{% static 'js/jquery.flot.resize.min.jss' %}"></script>
+
+
+<script defer="defer" src="{% static 'js/custom.js' %}"></script>
+<!-- end: Java Script --></body></html>

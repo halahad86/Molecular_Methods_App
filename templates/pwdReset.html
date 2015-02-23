@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!-- Is anyone getting tired of repeatedly entering the header over and over?? -->
+    <title>Desktop</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" >
+ <link rel="stylesheet" href="{% static 'css/style.css' %}" >
+<link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
+</head>
+
+<body>
+
+    <div class="modal-dialog">
+        <div class="jumbotron">
+       <form method="post">
+            {% csrf_token %}
+                <input class="input-large" type="text" style="color: #00008b" name="email" value="" id="email" placeholder="Email">
+           <br>
+        <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+<!-- start: Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+  <script src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+
+
+
+<script defer="defer" src="{% static 'js/custom.js' %}"></script>
+<!-- end: Java Script -->
+

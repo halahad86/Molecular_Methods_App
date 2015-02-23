@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+
+    <!--start: Container -->
+    <div class="container">
+
+        <!--start: Wrapper-->
+        <div id="wrapper">
+
+            <div class="container">
+                <!-- start: Row -->
+                <div class="row">
+
+                    <div class="col-md-6 col-lg-6 ">
+                        <div class="container-fluid">
+                            <a href="{% url 'desktop:labs' %}" title="Labs"><img
+                                    src="{% static 'img/logoLabs.png' %}" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12"/>
+                                <div class="image-overlay-link"></div>
+                            </a>
+
+                            <a href="{% url 'desktop:labs' %}"><h1 class="blue-heading-h1  ">Labs</h1></a>
+                            <div class="container-fluid col-lg-5 col-md-5 col-sm-5  hidden-xs">
+
+                                <h5></h5>
+                                <br>
+                                <p class="blue-heading-h4 hidden-xs " >
+                                    Click here to discover more about the techniques used and the intended learning outcomes for each day in the lab.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6   ">
+                        <div class="container-fluid">
+                            <a href="{% url 'desktop:rev_constr' %}" title="Revision"><img
+                                    src="{% static 'img/logoRevision.png' %}" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12"/>
+                                <div class="image-overlay-link"></div>
+                            </a>
+                            <a href="{%  url 'desktop:rev_constr' %}"><h1 class="blue-heading-h1  ">Revision</h1></a>
+                            <div class="container-fluid col-lg-5 col-md-5 col-sm-5  ">
+
+                                <h5></h5>
+                                <br>
+                                <p class="blue-heading-h4 hidden-xs " >
+                                    Click here for a number of resources that should enhance your understanding of the Molecular Methods course.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end: Row -->
+            </div>
+            <!--end: Wrapper-->
+        </div>
+        <!--end: Container-->
+    </div>
+{% endblock %}

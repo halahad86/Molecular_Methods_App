@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+    <!--start: Container -->
+    <div class="container">
+        <!--start: Wrapper-->
+        {% include "navigation.html" %}
+
+            <div id="wrapper">
+                <div class="span6 portfolio-item">
+                    <div>
+                        <h1 class="blue-heading-h1"><span>Blue/White Screening</span></h1>
+                        <br>
+                        <h3 class="blue-heading-h3"><span style="color:darkblue;font-weight:bold">Intended Learning Outcomes</span></h3>
+                        <ul class="square_list"><li><span style="color:black">Explain the principles and purpose of antibiotic selection and blue/white screening </span></li></ul>
+                        <ul class="square_list"><li><span style="color:black">Understand your agar plates and class controls</span></li></ul>
+                    </div>
+                    <br>
+                    <div >
+                        <h3 class="blue-heading-h3"><span style="color:darkblue;font-weight:bold">Task List</span></h3>
+                        <ul class="square_list"><li><span style="color:black">Analyse agar plates, including all controls</span></li></ul>
+                        <ul class="square_list"><li><span style="color:black">Grow blue and white E.coli colonies in liquid culture overnight</span></li></ul>
+                    </div>
+                    <br>
+                    </div>
+                    <div class="span4 portfolio-item"  style="padding-left:130px">
+                    <div class="picture" style="max-width: 50%"><a href="{% url 'desktop:bwslabpdf' %}"><img src="{% static  'img/lab3-BWS.png' %}" alt=""/>
+                        <div class="image-overlay-link"></div></a> </div>
+                        <br>
+                         <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:bwslabpdf' %}">Blue-White Screening Lab Instructions</a></span> </i></h3>
+                    </div>
+
+
+            </div>
+        </div><!-- end: Wrapper -->
+    </div><!-- end: Container -->
+{% endblock %}

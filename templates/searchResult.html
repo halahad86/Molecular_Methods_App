@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+ <!--start: Container -->
+	<div class="container">
+
+        <!--start: Wrapper-->
+        <div id="wrapper">
+
+
+
+               <h2><b> You searched for "{{ query_string }}" and the results are listed below. </b></h2>
+                <br>
+                    {% for entry in found_entries %}
+                            <h2><li><u><font color="darkblue" size ="4.5">{{ entry.title }}:</font></u></li></h2><h3>{{ entry.description }}</h3>
+                            <hr>
+                    {% endfor %}
+
+
+       </div><!-- end: Wrapper -->
+    </div><!-- end: Container -->
+{% endblock %}

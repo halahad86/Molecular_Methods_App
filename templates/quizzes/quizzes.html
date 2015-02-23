@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+<!--start: Container -->
+    <div class="container">
+
+    {% if questions %}
+
+        <div id="wrapper">
+
+            <hr class="clean">
+
+            <!-- start: Row -->
+            <div align = "center" class="row-fluid">
+                <h1 CLASS="blue-heading-h1">{{ title }} Quiz</h1> <br>
+                <h3 CLASS="blue-heading-h3">Below you will find 15 random questions form a larger question bank.</h3>
+            </div>
+            <!-- end: Row -->
+
+        </div>
+        <br>
+
+          <form name = "quiz" action="{% url 'desktop:checkans' %}" data-ajax=false  method="post">
+
+              {% csrf_token %}
+        {% for question1 in questions %}
+        <!--start: Wrapper-->
+        <div id="wrapper">
+        
+            <hr class="clean">
+            
+            <!-- start: Row -->
+            <div class="row-fluid">
+
+                <div align="justified">
+                   <h2><font color = #002a80>&nbsp &nbsp  &nbsp <b>{% autoescape off %}{{ forloop.counter }}. {{ question1.question }} {% endautoescape %}</b></h2>
+                    <!-- hidden input to capture questions -->
+                   <input type="hidden" name="ques[]" id="ques-{{forloop.counter}}" value="{{question1.number}}" data-theme="a"  />
+
+                   <br>
+                </div>
+
+                <div align="left">
+                    <h3> Select one: </h3>
+
+                         {% for answer1 in answers %}
+                             {% if answer1.question == question1 %}
+                                 <input type="radio" name="ans{{ forloop.parentloop.counter }}" id="ans-{{forloop.counter}}" value="{{answer1.number}}" data-theme="a"  /><font color="black" size="3"> {% autoescape off %}{{ answer1.answer }} {% endautoescape %}</font>
+                                 <br><br>
+                             {% endif %}
+                         {% endfor %}
+
+
+                </div>
+
+                <div> </div>
+
+                
+            </div>
+            <!-- end: Row -->
+
+        </div>
+            <br>
+        <!--end: Container-->
+        {% endfor %}
+
+          <input id="checkButton" type="submit" data-role="button" data-icon="check" data-inline="true" data-theme="g" value="Check answer">
+          </form>
+        {% else %}
+            <h2 style="color:#ffffff;" align="center">No Questions for This Section</h2>
+        {% endif %}
+
+    </div>
+  {% endblock %}

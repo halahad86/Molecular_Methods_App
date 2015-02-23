@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+    <!--start: Container -->
+    <div class="container">
+        <!--start: Wrapper-->
+        {% include "navigation.html" %}
+
+            <div id="wrapper">
+                <div class="span6 portfolio-item">
+                    <h1 class="blue-heading-h1"><span>Plasmid Miniprep</span></h1>
+                    <br>
+                    <h3 class="blue-heading-h3"><span style="font-weight:bold">Intended Learning Outcomes</span></h3>
+                    <ul class="square_list"><li><span style="color:black">Describe and perform a small-scale plasmid purification from an overnight culture</span></li></ul>
+                    <ul class="square_list"><li><span style="color:black">Understand the concept of, and be able to deduce, a restriction map for a plasmid</span></li></ul>
+
+                    <h3 class="blue-heading-h3"><span style="font-weight:bold">Task List</span></h3>
+                    <ul class="square_list"><li><span style="color:black">Harvest and mini-prep E. coli cultures in order to purify plasmids</span></li></ul>
+                    <ul class="square_list"><li><span style="color:black">Check the success of the cloning procedure by restriction digest and gel electrophoresis</span></li></ul>
+                    <ul class="square_list"><li><span style="color:black">Undertake Exercise ‘Restriction Mapping’</span></li></ul>
+                </div>
+                <div class="span4 portfolio-item"  style="padding-left:130px">
+                    <div class="picture" style="max-width: 50%"><a href="{% url 'desktop:plasmidlabpdf' %}"><img src="{% static  'img/lab4-PM.png' %}" alt=""/>
+                        <div class="image-overlay-link"></div></a> </div>
+                        <br>
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:plasmidlabpdf' %}">Plasmid Miniprep Lab Instructions</a></span> </i></h3>
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Restriction_Mapping_Exercise' %}">Restriction Mapping Lab Exercise</a></span> </i></h3>
+                </div>
+            </div><!-- end: Wrapper -->
+    </div><!-- end: Container -->
+{% endblock %}

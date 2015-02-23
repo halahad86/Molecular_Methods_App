@@ -1,0 +1,2794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/Mol Methods/Lab calculations</text>
+
+    </category>
+  </question>
+
+<!-- question: 378017  -->
+  <question type="multichoice">
+    <name>
+      <text>1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">Set up a PCR with a total reaction volume of 25 µl.
+The stock concentration of the reverse primer is 10 nM. If 1.5 µl of reverse
+primer is added to the reaction, what is the final concentration of the reverse
+primer?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="">0.6 nM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">0.3 nM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">0.5 nM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">1 nM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">0.75 nM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378026  -->
+  <question type="multichoice">
+    <name>
+      <text>10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">How many times are you likely to find a specific 12
+base pair sequence within the 2,800 Mb mouse genome?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">135030.864</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">166.893</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">1350.309</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">1668.93</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">16.689</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378173  -->
+  <question type="multichoice">
+    <name>
+      <text>11</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">You have just performed a DNA cleanup of a PCR fragment.
+You make a 2</span><span style=""> µl</span><span style=""> dilution of your DNA sample in to a final volume of
+20 </span><span style="">µl. Using a
+NanoDrop spectrophotometer you measure A<sub>260</sub> to be 0.872. Calculate
+the concentration of your DNA sample (in µg/µl).</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.436 µg/µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.872 µg/µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1.744 µg/µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.218 µg/µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.654 µg/µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378027  -->
+  <question type="multichoice">
+    <name>
+      <text>11</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">How many times are you likely to find a specific 18
+base pair sequence within the 2,800 Mb mouse genome?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">4.075
+x 10<sup>-3</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">2667.28</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">26672.76</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">4.075
+x 10<sup>-2</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">0.407</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378028  -->
+  <question type="multichoice">
+    <name>
+      <text>12</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">18/20 amino acids have more than one codon, looking at
+the genetic code in your lab manual you will see that some amino acids have as
+many as 6 codons. Thus a single amino acid sequence can be formed by many
+different DNA sequences, this is known as degeneracy. Degenerate primers can be
+used to clone a gene homologue from an unstudied species so long as the amino
+acid sequence is known for its gene homologue in the well studied species.
+Degenerate primers are designed at areas of amino acid conservation to increase
+the chance of getting a PCR product from the unsequenced species. As well as
+requiring a conserved region, an area of low degeneracy is preferred. From the conserved
+sequence below give the consecutive 8 amino acids which have the lowest
+degeneracy and will be used to form one of your degenerate primers. [Tip - use
+a pencil and paper.]</span>
+
+<span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">YHQMASRWKMTDECRFIWFGMQHYEILNCTWFQTVGSHRE</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">WKMTDECR</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">FIWFGMQH</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">WFGMQHYE</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">WKMTDECR</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">QMASRWKM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378175  -->
+  <question type="multichoice">
+    <name>
+      <text>13</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">You
+have just performed a restriction digest of your PCR product followed by a DNA
+cleanup. You quantify your DNA prior to a ligation reaction. Your DNA has a
+concentration of 38 ng/µl. In a 20</span><span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;"> µl ligation reaction you wish to add 50 ng of
+cleaned up and digested PCR product, how many µl of product do you add to the
+reaction?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.76 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1.42 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1.32 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.38 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">2.63 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378176  -->
+  <question type="multichoice">
+    <name>
+      <text>14</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">You are setting up a ligation reaction. You are
+cloning a 1 Kb insert into a 2 Kb plasmid. In the ligation you are using 250 ng
+of plasmid DNA, how much insert do you need to add to ensure there is a 2:1
+ratio of insert : plasmid?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">200 ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">250 ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">125 ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">500 ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">100 ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378177  -->
+  <question type="multichoice">
+    <name>
+      <text>15</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">You are setting up a 20 µl ligation reaction. You are
+cloning an insert of 600 bp into a 2.4 Kb plasmid. The concentration of your
+insert is 50 ng/µl. The plasmid concentration is 200 ng/µl. You add to your
+reaction 1 µl of plasmid. What volume of insert do you add in order to achieve
+a 2:1 ratio of insert : plasmid?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">2 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.5 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">4 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.25 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378178  -->
+  <question type="multichoice">
+    <name>
+      <text>16</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">As a control you transform an intact pBluescript,
+along with your ligation product. In the control transformation you use 1 µl of
+25 pg/ µl in a final volume of 250 µl of L-Broth (after the expression step).
+You spread 50 µl of your transformation on an L-agar plate which has on it the
+appropriate antibiotic. After 24 hours at 37°C, the plate has 75 colonies. Use
+this information on the control to determine the transformation efficiency,
+express in transformants per µg of plasmid. You will need your lab manual to
+help you.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">3 x 10<sup>6</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1.5 x 10<sup>8</sup>&nbsp;</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">4.5 x 10<sup>7</sup>&nbsp;</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">3 x 10<sup>7</sup>&nbsp;</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1.5 x 10<sup>7</sup>&nbsp;</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378179  -->
+  <question type="multichoice">
+    <name>
+      <text>17</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">In a transformation
+control, 2 µl of pBluescript plasmid at a concentration of 3.5 pg/µl is added
+to chemically competent cells. The total volume of the transformation was 250
+µl, only 75 µl was spread on a AMP + X-GAL plate. &nbsp;After 24 hrs there were 128 ampicillin
+resistant, blue colonies on the plate. Calculate the transformation efficiency
+in transformants/µg.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">3.047 x 10<sup>7</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1.219 x 10<sup>8</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">6.095 x 10<sup>7</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">9.143 x 10<sup>7</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1.524 x 10<sup>7</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378180  -->
+  <question type="multichoice">
+    <name>
+      <text>18</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">You are picking positive
+colonies from your transformation plates to set up overnight cultures in 10 ml
+of L-broth plus the appropriate antibiotic. Your antibiotic stock concentration
+is 20 mg/ml, you require a final concentration of 50 µg/ml. How much stock do
+you add to the L-broth?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">2.5 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">250 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">50 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">25 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">5 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378181  -->
+  <question type="multichoice">
+    <name>
+      <text>19</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">After
+carrying out a miniprep extraction of a 4.2 Kb plasmid, you quantify the DNA.
+The concentration is 85 ng/</span><span style="line-height:
+115%;font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">µl. You then digest with BamHI and EcoRI, each
+enzyme "cuts" the plasmid once resulting in two fragments of 1.6 Kb
+and 2.6 Kb. You run 5 µl of the digest on a gel. Approximately how much DNA is
+in the lower band?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">261.5 ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">425 ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">161.9 ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">32.4
+ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">52.3
+ng</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378018  -->
+  <question type="multichoice">
+    <name>
+      <text>2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">You are setting up a PCR reaction in a final volume of
+50 µl. The stock concentration of your forward primer is 15 nM. How much forward
+primer must be added to get a final concentration of 0.3 nM?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.5 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">0.75 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">1.5 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;">2 µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378182  -->
+  <question type="multichoice">
+    <name>
+      <text>20</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">Tris-EDTA (TE) buffer is commonly used in molecular
+biology, particularly when preparing DNA samples for storage, as this buffer
+protects DNA from degradation. Using a stock solution of 0.5 M Tris-HCl and a
+stock solution of 100 mM EDTA, prepare 100 ml of TE buffer which has 10 mM Tris and
+1 mM EDTA.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+1 ml of Tris-HCl stock to 1 ml of EDTA stock and top up to 100 ml with
+distilled H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+2 ml of Tris-HCl stock to 1 ml of EDTA stock and top up to 100 ml with
+distilled H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+1 ml of Tris-HCl stock to 1 ml of EDTA stock and add 100 ml with distilled H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+2 ml of Tris-HCl stock to 0.5 ml of EDTA stock and top up to 100 ml with
+distilled H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+2 ml of Tris-HCl stock to 1 ml of EDTA stock and add 100 ml with distilled H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378183  -->
+  <question type="multichoice">
+    <name>
+      <text>21</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">MgSO<sub>4</sub>
+is an important compound in PCR as it stabilizes primer-template complexes. You
+are about to run a PCR but realise that you have no MgSO<sub>4</sub>&nbsp;left. To resolve this you decide to make your own. The molecular weight of MgSO<sub>4</sub>
+is 120.366 g/mol. Prepare 50 ml of a 25 mM stock solution.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+0.15 g of MgSO<sub>4</sub> to 45 ml of sterile H<sub>2</sub>O, dissolve fully
+and make up to 50 ml with more water</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+1.5 g of MgSO<sub>4</sub> to 50 ml of sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+1.5 g of MgSO<sub>4</sub> to 45 ml of sterile H<sub>2</sub>O, dissolve fully
+and make up to 50 ml with more water</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+0.15 g of MgSO<sub>4</sub> to 50 ml of sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">Add 0.3 g of MgSO<sub>4</sub> to 45 ml of sterile H<sub>2</sub>O,
+dissolve fully and make up to 50 ml with more water</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378184  -->
+  <question type="multichoice">
+    <name>
+      <text>22</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">Prepare a 75 ml 1% agarose gel using 25x TAE buffer.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+6 ml of TAE to 69 ml of sterile H<sub>2</sub>O and mix. Pour 1x TAE into a
+bottle containing 0.75 g of agarose, melt your gel and pour</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+3 ml of TAE to 72 ml of sterile H<sub>2</sub>O and mix. Pour 1x TAE into a
+bottle containing 0.75 g of agarose, melt your gel and pour</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+3 ml of TAE to 72 ml of sterile H<sub>2</sub>O and mix. Pour 1x TAE into a
+bottle containing 1.5 g of agarose, melt your gel and pour once the gel cools
+to 50°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+3 ml of TAE to 72 ml of sterile H<sub>2</sub>O and mix. Pour 1x TAE into a
+bottle containing 1.125 g of agarose, melt your gel and pour once the gel cools
+to 50°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+3 ml of TAE to 72 ml of sterile H<sub>2</sub>O and mix. Pour 1x TAE into a
+bottle containing 0.75 g of agarose, melt your gel and pour once the gel cools
+to 50°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378185  -->
+  <question type="multichoice">
+    <name>
+      <text>23</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">A plasmid can also be extracted from an overnight
+culture using the alkaline lysis method. This follows much of the same
+principles as modern day kits. In this method a lysis buffer is used to burst
+open the cells. The lysis buffer composition is 1% sodium dodecyl sulphate
+(SDS) and 0.2 M NaOH. Using a stock concentration of 10% SDS and 1 M NaOH make
+100 ml of lysis buffer.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">add
+10 ml of SDS stock to 20 ml of NaOH stock, add 100 ml of sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">add
+5 ml of SDS stock to 20 ml of NaOH stock, top up to 100 ml with sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">add
+10 ml of SDS stock to 40 ml of NaOH stock, top up to 100 ml with sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">add
+10 ml of SDS stock to 20 ml of NaOH stock, top up to 100 ml with sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">add
+20 ml of SDS stock to 20 ml of NaOH stock, add 100 ml of sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378186  -->
+  <question type="multichoice">
+    <name>
+      <text>24</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">The
+alkaline lysis method also involves an isotonic resuspension buffer, the
+composition of which is:- 50 mM glucose, 25 mM Tris-HCl and 10 mM EDTA. In order
+make this buffer, stock solutions for each of the three components are
+required. What weight of each compound is required to make 500 ml stocks at
+concentrations of 0.5 M for (i) glucose, 0.5 M for (ii) Tris-HCl and 0.1 M for (iii)
+EDTA, given the molecular weights of these compounds are 180.16 g/mol, 121.14
+g/mol, and 292.24 g/mol, respectively.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">(i)
+45.04 g (ii) 29.648 g (iii) 14.612</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">(i)
+90.08 g (ii) 60.57 g (iii) 29.224 g</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">(i)
+45.04 g; (ii) 30.285 g; (iii) 14.612 g</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">(i)
+42.06 g; (ii) 30.285 g; (iii) 14.612 g</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">(i)
+45.04 g; (ii) 30.285 g; (iii) 16.412 g</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378187  -->
+  <question type="multichoice">
+    <name>
+      <text>25</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Quite
+often in the lab we store overnight cultures in the -80°C freezer. This means
+we don't need to constantly re-clone things and is one of the joys of working
+with bacteria. A common method for preparing cultures to go into the freezer is to add
+glycerol to your sample. In a final volume of 1 ml prepare a 2:1 ratio of culture to glycerol. Give the correct volumes of culture and glycerol used.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">0.6
+ml of culture + 0.4 ml of glycerol in a micro-centrifuge tube</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">0.67
+ml of culture + 0.33 ml of glycerol in a micro-centrifuge tube</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">0.33
+ml of culture + 0.67 ml of glycerol in a micro-centrifuge tube</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">0.4
+ml of culture + 0.6 ml of glycerol in a micro-centrifuge tube</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">0.5
+ml of culture + 0.5 ml of glycerol in a micro-centrifuge tube</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378188  -->
+  <question type="multichoice">
+    <name>
+      <text>26</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">1/2 Murashige and Skoog (MS) medium is commonly used
+to culture plants. It contains the macro and micro nutrients required for
+growth, as well as the food and energy source courtesy of sucrose. In 500 ml of
+medium there is 5 g of sucrose. What is the molarity of sucrose in this case
+given it has a molecular weight of 342.3 g/mol?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">29.2
+mM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">14.6
+mM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">28.4
+mM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">1.5
+mM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">16.4
+mM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378189  -->
+  <question type="multichoice">
+    <name>
+      <text>27</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Prepare
+a 25 ml stock solution of 50 mg/ml carbenicillin in 40% ethanol.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+10 ml of sterile H<sub>2</sub>O to 15 ml of ethanol. Add the 40% ethanol to a
+tube containing 0.625 g of carbenicillin. Separate into aliquots and store at
+-20°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+15 ml of sterile H<sub>2</sub>O to 10 ml of ethanol. Add the 40% ethanol to a
+tube containing 0.625 g of carbenicillin. Separate into aliquots and store at
+-20°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+15 ml of sterile H<sub>2</sub>O to 10 ml of ethanol. Add the 40% ethanol to a
+tube containing 1.25 g of carbenicillin. Separate into aliquots and store at
+-20°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+20 ml of sterile H<sub>2</sub>O to 5 ml of ethanol. Add the 40% ethanol to a
+tube containing 0.625 g of carbenicillin. Separate into aliquots and store at
+-20°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+12.5 ml of sterile H<sub>2</sub>O to 12.5 ml of ethanol. Add the 40% ethanol to
+a tube containing 1.25 g of carbenicillin. Separate into aliquots and store at
+-20°C</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378190  -->
+  <question type="multichoice">
+    <name>
+      <text>28</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">You
+have been asked to prepare a 75 mg/ml stock concentration of ampicillin. Out of
+curiosity you want to determine the molarilty of this stock, given the
+molecular weight of ampicillin is 349.406 g/mol.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">342
+mM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">0.107
+M</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">430
+mM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">1.246
+M</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">215
+mM</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378191  -->
+  <question type="multichoice">
+    <name>
+      <text>29</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">You have a stock concentration of chloramphenicol with
+a concentration of 34 mg/ml. You require a final concentration on your plates
+of 20 µg/ml. What volume of stock antibiotic do you add to 250 ml of molten
+L-agar?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">136.7
+µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">250
+µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">147.1
+µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">294.2
+µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">273.4
+µl</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378019  -->
+  <question type="multichoice">
+    <name>
+      <text>3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">Set up a PCR with a total
+reaction volume of 25 µl. Use:- 2X PCR master mix (includes MgSO<sub>4</sub>,
+dNTPs, buffer, dye, Taq Polymerase); forward and reverse primers both at stock
+concentrations of 7.5 nM; 1 µl of template DNA; and sterile H<sub>2</sub>O. The
+final concentration of both the forward and reverse primers must be 0.6 mM.
+What volume of each of the above ingredients are added to set up this PCR?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" width="425" style="width: 318.9pt; margin-left: 26.7pt; border: none;">
+ <tbody><tr>
+  <td width="94" valign="top" style="width: 70.85pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <p  style="margin-top:0cm;margin-right:0cm;margin-bottom:4.0pt;
+  margin-left:1.65pt;><span style="font-size:10.0pt">PCR
+  Master Mix</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">F Primer</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">R Primer</span>
+  </td>
+  <td width="85" valign="top" style="width: 63.8pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">10 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="85" valign="top" style="width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="94" valign="top" style="width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">10 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" width="425" style="width: 318.9pt; margin-left: 26.7pt; border: none;">
+ <tbody><tr>
+  <td width="94" valign="top" style="width: 70.85pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <p  style="margin-top:0cm;margin-right:0cm;margin-bottom:4.0pt;
+  margin-left:1.65pt;><span style="font-size:10.0pt">PCR
+  Master Mix</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">F Primer</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">R Primer</span>
+  </td>
+  <td width="85" valign="top" style="width: 63.8pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">12.5 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1.5 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1.5 µl</span>
+  </td>
+  <td width="85" valign="top" style="width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="94" valign="top" style="width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">8.5 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" width="425" style="width: 318.9pt; margin-left: 26.7pt; border: none;">
+ <tbody><tr>
+  <td width="94" valign="top" style="width: 70.85pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <p  style="margin-top:0cm;margin-right:0cm;margin-bottom:4.0pt;
+  margin-left:1.65pt;><span style="font-size:10.0pt">PCR
+  Master Mix</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">F Primer</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">R Primer</span>
+  </td>
+  <td width="85" valign="top" style="width: 63.8pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">12.5 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="85" valign="top" style="width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="94" valign="top" style="width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">9.5 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" width="425" style="width: 318.9pt; margin-left: 26.7pt; border: none;">
+ <tbody><tr>
+  <td width="94" valign="top" style="width: 70.85pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <p  style="margin-top:0cm;margin-right:0cm;margin-bottom:4.0pt;
+  margin-left:1.65pt;><span style="font-size:10.0pt">PCR
+  Master Mix</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">F Primer</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">R Primer</span>
+  </td>
+  <td width="85" valign="top" style="width: 63.8pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">12.5 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">3 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">3 µl</span>
+  </td>
+  <td width="85" valign="top" style="width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="94" valign="top" style="width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5.5 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" width="425" style="width: 318.9pt; margin-left: 26.7pt; border: none;">
+ <tbody><tr>
+  <td width="94" valign="top" style="width: 70.85pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <p  style="margin-top:0cm;margin-right:0cm;margin-bottom:4.0pt;
+  margin-left:1.65pt;><span style="font-size:10.0pt">PCR
+  Master Mix</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">F Primer</span>
+  </td>
+  <td width="76" valign="top" style="width: 2cm; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">R Primer</span>
+  </td>
+  <td width="85" valign="top" style="width: 63.8pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="94" valign="top" style="width: 70.85pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">12.5 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="76" valign="top" style="width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="85" valign="top" style="width:63.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="94" valign="top" style="width:70.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">7.5 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378192  -->
+  <question type="multichoice">
+    <name>
+      <text>30</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">You have a stock concentration of plasmid DNA at 2.2
+mg/ml. Prepare 12 ml of plasmid DNA at a concentration of 150 ng/ µl. The
+plasmid DNA will be separated into aliquots and used in a number of experiments
+including as a transformation control.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+81.82 µl of stock DNA to 11.91818 ml of sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+818.2 µl of stock DNA to 11.1818 ml of sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+776.4 µl of stock DNA to 11.2236 ml of sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+77.64 µl of stock DNA to 11.92236 ml of sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Add
+776.4 µl of stock DNA to 11.2436 ml of sterile H<sub>2</sub>O</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378020  -->
+  <question type="multichoice">
+    <name>
+      <text>4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">You
+are setting up a PCR reaction however the kit you are using here is NOT pre-made.
+Use the following essential ingredients to set up your reaction (in brackets
+are the final concentrations):- the forward and reverse primers at a stock
+concentration of 10 nM (0.4 nM); MgSO<sub>4</sub> at a stock concentration of
+25 mM (1 mM); 10X PCR buffer stock (1X); mix of dNTPs at a stock concentration
+of 2 mM each - all in one tube - (0.2 mM); DNA polymerase at a stock
+concentration of 1 U/µl (0.02 U/µl). Add to this 1 µl of template DNA and make
+up to 50 µl with sterile H<sub>2</sub>O. What volume of each of the above
+ingredients do you add to achieve the desired final concentrations?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" style="margin-left: 19.6pt; border: none;">
+ <tbody><tr>
+  <td width="51" valign="top" style="width: 38.2pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">For Primer</span>
+  </td>
+  <td width="53" valign="top" style="width: 39.75pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Rev Primer</span>
+  </td>
+  <td width="51" valign="top" style="width: 38.6pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">MgSO<sub>4</sub></span>
+  </td>
+  <td width="48" valign="top" style="width: 35.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">buffer</span>
+  </td>
+  <td width="52" valign="top" style="width: 38.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">dNTPs</span>
+  </td>
+  <td width="78" valign="top" style="width: 58.3pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">polymerase</span>
+  </td>
+  <td width="66" valign="top" style="width: 49.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="74" valign="top" style="width: 55.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="51" valign="top" style="width: 38.2pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="53" valign="top" style="width:39.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="51" valign="top" style="width:38.6pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="48" valign="top" style="width:35.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5 µl</span>
+  </td>
+  <td width="52" valign="top" style="width:38.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5 µl</span>
+  </td>
+  <td width="78" valign="top" style="width:58.3pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="66" valign="top" style="width:49.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="74" valign="top" style="width:55.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">34 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" style="margin-left: 19.6pt; border: none;">
+ <tbody><tr>
+  <td width="51" valign="top" style="width: 38.2pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">For Primer</span>
+  </td>
+  <td width="53" valign="top" style="width: 39.75pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Rev Primer</span>
+  </td>
+  <td width="51" valign="top" style="width: 38.6pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">MgSO<sub>4</sub></span>
+  </td>
+  <td width="48" valign="top" style="width: 35.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">buffer</span>
+  </td>
+  <td width="52" valign="top" style="width: 38.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">dNTPs</span>
+  </td>
+  <td width="78" valign="top" style="width: 58.3pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">polymerase</span>
+  </td>
+  <td width="66" valign="top" style="width: 49.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="74" valign="top" style="width: 55.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="51" valign="top" style="width: 38.2pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="53" valign="top" style="width:39.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="51" valign="top" style="width:38.6pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="48" valign="top" style="width:35.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5 µl</span>
+  </td>
+  <td width="52" valign="top" style="width:38.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5 µl</span>
+  </td>
+  <td width="78" valign="top" style="width:58.3pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="66" valign="top" style="width:49.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="74" valign="top" style="width:55.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">32 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" style="margin-left: 19.6pt; border: none;">
+ <tbody><tr>
+  <td width="51" valign="top" style="width: 38.2pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">For Primer</span>
+  </td>
+  <td width="53" valign="top" style="width: 39.75pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Rev Primer</span>
+  </td>
+  <td width="51" valign="top" style="width: 38.6pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">MgSO<sub>4</sub></span>
+  </td>
+  <td width="48" valign="top" style="width: 35.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">buffer</span>
+  </td>
+  <td width="52" valign="top" style="width: 38.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">dNTPs</span>
+  </td>
+  <td width="78" valign="top" style="width: 58.3pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">polymerase</span>
+  </td>
+  <td width="66" valign="top" style="width: 49.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="74" valign="top" style="width: 55.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="51" valign="top" style="width: 38.2pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1.5 µl</span>
+  </td>
+  <td width="53" valign="top" style="width:39.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1.5 µl</span>
+  </td>
+  <td width="51" valign="top" style="width:38.6pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="48" valign="top" style="width:35.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5 µl</span>
+  </td>
+  <td width="52" valign="top" style="width:38.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5 µl</span>
+  </td>
+  <td width="78" valign="top" style="width:58.3pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="66" valign="top" style="width:49.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="74" valign="top" style="width:55.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">33 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" style="margin-left: 19.6pt; border: none;">
+ <tbody><tr>
+  <td width="51" valign="top" style="width: 38.2pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">For Primer</span>
+  </td>
+  <td width="53" valign="top" style="width: 39.75pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Rev Primer</span>
+  </td>
+  <td width="51" valign="top" style="width: 38.6pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">MgSO<sub>4</sub></span>
+  </td>
+  <td width="48" valign="top" style="width: 35.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">buffer</span>
+  </td>
+  <td width="52" valign="top" style="width: 38.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">dNTPs</span>
+  </td>
+  <td width="78" valign="top" style="width: 58.3pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">polymerase</span>
+  </td>
+  <td width="66" valign="top" style="width: 49.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="74" valign="top" style="width: 55.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="51" valign="top" style="width: 38.2pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="53" valign="top" style="width:39.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="51" valign="top" style="width:38.6pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="48" valign="top" style="width:35.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5 µl</span>
+  </td>
+  <td width="52" valign="top" style="width:38.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2.5 µl</span>
+  </td>
+  <td width="78" valign="top" style="width:58.3pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="66" valign="top" style="width:49.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="74" valign="top" style="width:55.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">34.5 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<table  border="1" cellspacing="0" cellpadding="0" style="margin-left: 19.6pt; border: none;">
+ <tbody><tr>
+  <td width="51" valign="top" style="width: 38.2pt; border: 1pt solid windowtext; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">For Primer</span>
+  </td>
+  <td width="53" valign="top" style="width: 39.75pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Rev Primer</span>
+  </td>
+  <td width="51" valign="top" style="width: 38.6pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">MgSO<sub>4</sub></span>
+  </td>
+  <td width="48" valign="top" style="width: 35.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">buffer</span>
+  </td>
+  <td width="52" valign="top" style="width: 38.9pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">dNTPs</span>
+  </td>
+  <td width="78" valign="top" style="width: 58.3pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">polymerase</span>
+  </td>
+  <td width="66" valign="top" style="width: 49.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Template</span>
+  </td>
+  <td width="74" valign="top" style="width: 55.35pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;">
+  <span style="font-size:10.0pt">Sterile H<sub>2</sub>O</span>
+  </td>
+ </tr>
+ <tr>
+  <td width="51" valign="top" style="width: 38.2pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="53" valign="top" style="width:39.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">2 µl</span>
+  </td>
+  <td width="51" valign="top" style="width:38.6pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="48" valign="top" style="width:35.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5 µl</span>
+  </td>
+  <td width="52" valign="top" style="width:38.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">5 µl</span>
+  </td>
+  <td width="78" valign="top" style="width:58.3pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="66" valign="top" style="width:49.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">1 µl</span>
+  </td>
+  <td width="74" valign="top" style="width:55.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p  align="center"text-align:center;
+  ><span style="font-size:10.0pt">33 µl</span>
+  </td>
+ </tr>
+</tbody></table>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378021  -->
+  <question type="multichoice">
+    <name>
+      <text>5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">You are performing a PCR reaction using <i>Drosophila melanogaster</i> genomic DNA as
+template. At the start of the reaction there are 12,000 copies of ds template
+DNA. How many copies of your target DNA are there after 25 reaction cycles?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">4.0265
+x 10<sup>10</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">4.0265<sup>11</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">1.2583<sup>10</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">4.0265
+x 10<sup>11</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">1.2583
+x 10<sup>10</sup></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378022  -->
+  <question type="multichoice">
+    <name>
+      <text>6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">In cloning we often use restriction enzymes like KpnI
+which recognise 6 bp target sites. Assume that a double stranded plasmid - 25
+Kb in size - has a completely randomised DNA sequence. How many times will an
+enzyme like KpnI cut this plasmid? Include 1 decimal place in your answer.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">12.2&nbsp;</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">4166.7</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">6.1</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">19.3</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">390.6</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378023  -->
+  <question type="multichoice">
+    <name>
+      <text>7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">In cloning we often use restriction enzymes like KpnI
+which recognise 6 bp target sites. Assume that a double stranded plasmid - 25
+Kb in size - has a completely randomised DNA sequence. How many times will an
+enzyme like KpnI cut this plasmid?&nbsp;</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">12.2</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">4166.7</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="">6.1</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>19.3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">390.6</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378024  -->
+  <question type="multichoice">
+    <name>
+      <text>8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">You are designing primers. An absolute necessity in
+primer design is that your sequence is long enough to be unique in the genomic
+DNA used as template. How many times are you likely to find a specific 12 base
+pair sequence within the 4.6 million bp (Mb) genome of <i>Escherichia coli</i>?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">2.218</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">22.18</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">2.742</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">221.8</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">0.274</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378025  -->
+  <question type="multichoice">
+    <name>
+      <text>9</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="">How many times are you likely to find a specific 18
+base pair sequence within the 4.6 million bp (Mb) genome of <i>Escherichia coli</i>?</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[&nbsp;6.7 x 10<sup>-5</sup>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">&nbsp;4.382</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<span style="">&nbsp;43.82</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[&nbsp;6.7<sup>-4</sup>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[6.7 x 10<sup>-4</sup>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 378174  -->
+  <question type="truefalse">
+    <name>
+      <text>12</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<span style="
+font-family:&quot;Droid Sans&quot;,&quot;sans-serif&quot;;Times New Roman&quot;;">Following
+a DNA cleanup of a PCR fragment you use a NanoDrop to measure A<sub>260</sub>
+and A<sub>280</sub>. You get the following readings:- A<sub>260</sub>&nbsp;= 0.745,
+and, A<sub>280</sub>&nbsp;= 0.486. Answer the following statement True or False:-
+Your DNA sample is pure and free from protein contamination therefore you can
+reliably use it for cloning purposes.</span>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[<span style="">Try again, remember for a pure DNA preparation we are
+looking for a A<sub>260</sub> / A<sub>280</sub> of between 1.8 - 2.0</span>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

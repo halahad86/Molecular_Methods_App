@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+<!--start: Container -->
+<div class="container">
+
+    <!--start: Wrapper-->
+    <div id="wrapper">
+
+        <hr class="clean">
+
+        <!-- start: Row -->
+        <div class="row-fluid">
+
+            <div id="content" data-role="content">
+
+                <script src="/static/js/calculation.js"></script>
+                <ul data-theme="b" data-role="collapsible-set">
+                    <div data-role="collapsible" data-theme="a" data-corners="false">
+                        <h3><font color="black">g = Volume &#215; Moles &#215; MW </font></h3>
+                        <table border="0" cellpadding="0" cellspacing="0" margin="0">
+                            <tr>
+                                <td><font color="black">Volume (litres)</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="Volume(litres)" id="vol"
+                                           class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">Moles</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="M(Moles)" id="M" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">MW (grams)</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="MW(Grams)" id="MW" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">g =</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="Result1" id="res1" readonly="readonly"
+                                           class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="Calculate" data-theme="a" name="CalculateResult1"
+                                           id="cal1" onclick="calculateForm1()" class="rsform-button"/></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div data-role="collapsible" data-theme="a" data-corners="false">
+                        <h3><font color="black">Volume = g / (Moles &#215; MW) </font></h3>
+                        <table border="0" cellpadding="0" cellspacing="0" margin="0">
+                            <tr>
+                                <td><font color="black">g</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="op1" id="op1" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">Moles</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="op2" id="op2" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">MW (grams)</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="op3" id="op3" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">Volume (litres) =</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="Result2" id="res2" readonly="readonly"
+                                           class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black"><input type="button" value="Calculate" data-theme="a" name="CalculateResult1"
+                                           id="cal1" onclick="calculateForm2()" class="rsform-button"/></font></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div data-role="collapsible" data-theme="a" data-corners="false">
+                        <h3><font color="black">Moles = g / (Volume &#215; MW)</font></h3>
+                        <table border="0" cellpadding="0" cellspacing="0" margin="0">
+                            <tr>
+                                <td><font color="black">g</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="op4" id="op4" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">Volume (litres)</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="op5" id="op5" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">MW (grams)</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="op6" id="op6" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">Moles =</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="Result2" id="res3" readonly="readonly"
+                                           class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="Calculate" data-theme="a" name="CalculateResult1"
+                                           id="cal1" onclick="calculateForm3()" class="rsform-button"/></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div data-role="collapsible" data-theme="a" data-corners="false">
+                        <h3><font color="black">MW = g / (Volume &#215; Moles)</font></h3>
+                        <table border="0" cellpadding="0" cellspacing="0" margin="0">
+                            <tr>
+                                <td><font color="black">g</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="op7" id="op7" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">Volume (litres)</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="op8" id="op8" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">Moles</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="op9" id="op9" class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="black">MW (grams) =</font></td>
+                                <td><font color="black"><input type="text" style="color: #000000" value="" name="Result2" id="res4" readonly="readonly"
+                                           class="rsform-input-box"/></font></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="Calculate" data-theme="a" name="CalculateResult1"
+                                           id="cal1" onclick="calculateForm4()" class="rsform-button"/></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </ul>
+
+
+            </div>
+
+        </div>
+        <!-- end: Row -->
+
+
+    </div>
+    <!--end: Container-->
+
+</div>
+{% endblock %}

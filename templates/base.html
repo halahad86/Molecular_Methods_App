@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en"><head></head><body>{% load staticfiles %}
+
+
+
+<!-- start: Meta -->
+<meta charset="utf-8">
+<title>Molecular Methods WebApp</title>
+<!-- end: Meta -->
+
+<!-- start: Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- end: Mobile Specific -->
+
+<!-- start: CSS -->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+<link rel="stylesheet" href="{% static 'css/logo-nav.css' %}">
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
+
+
+
+
+<!--start: Header -->
+<header>
+
+    <!--start: Container -->
+    <div class="container">
+        <!--start: Logos -->
+        <nav class="navbar navbar-upper-logos hidden-xs" role="navigation">
+            <a class="navbar-brand navbar-left" href="{% url 'desktop:index' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/logo8.png' %}" alt="logo"></a>
+            <a class="navbar-brand navbar-right" href="http://www.gla.ac.uk/"><img style="height: 50px; margin-top: -5px;" src="{% static 'img/glalogo1.png' %}" alt="glasgowlogo"></a>
+
+        </nav>
+        <div><br></div>
+        <!--end: Logos -->
+
+        <!-- Sound -->
+        <div>
+            <audio id="timerSound">
+                <source src="{% static 'sound/timer_bell.mp3' %}" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <!--start: Navigation -->
+        <nav class="navbar navbar-inverse navbar-default" role="navigation">
+            <div class="container"></div>
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li class=""><a href="{% url 'desktop:labs' %}">Labs</a></li>
+                    <li><a href="{% url 'desktop:rev_constr' %}">Revision</a></li>
+                    <li><a href="{% url 'desktop:videos' %}">Videos</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quizzes<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{% url 'desktop:generalquizzes' %}">General Molecular Methods</a></li>
+                            <li><a href="{% url 'desktop:primersquizzes' %}">PCR and Primers</a></li>
+                            <li><a href="{% url 'desktop:restrictionquizzes' %}">Restriction Mapping</a></li>
+                            <li><a href="{% url 'desktop:dataquizzes' %}">Laboratory Calculations</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exercises<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{% url 'desktop:mapping' 1 %}">Restriction Mapping</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Converters<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{% url 'desktop:convertermass' %}">Mass Converter</a></li>
+                            <li><a href="{% url 'desktop:convertervolume' %}">Volume Converter</a></li>
+                            <li><a href="{% url 'desktop:convertermolarity' %}">Concentration(Molarity)</a></li>
+                            <li><a href="{% url 'desktop:converterconcentration' %}">Concentration(%)</a></li>
+                            <li><a href="{% url 'desktop:converterdilutions' %}">Dilution from Stocks</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="{% url 'desktop:glossary' %}">Glossary</a></li>
+
+                    <li><a href="#" data-toggle="collapse" data-target="#demo">Timer</a></li>
+                    <div class="container">
+                        <div class="search ui-widget col-sm-1 col-md-1 hidden-sm hidden-md" >
+                            <form method="get" action="{% url 'desktop:searchResult' %}">
+                                <input type="text" name="q" id="id_q" placeholder="Search glossary ..." class="form-control">
+                            </form>
+                            <div id="dialogTitle" title="">
+                                <div id="dialogContent" align="justify">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-offset-1 col-sm-2 col-md-2 hidden-sm hidden-md hidden-xs" style="position: relative; left: 20px;">
+
+                            {% if user.is_authenticated %}
+
+                                <h3 style="color:#ffffff">Hello, {{ user.username }}!</h3>
+                                <a href="{% url 'desktop:logout' %}"><font color="white">Logout</font></a><br>
+
+                            {% else %}
+                                <a href="{% url 'desktop:register' %}">Register Here</a><br>
+                                <a href="{% url 'desktop:login' %}">Login</a><br>
+                            {% endif %}
+
+                        </div>
+
+                    </div>
+
+
+                </ul>
+            <div id="demo" class="collapse" style="width: 500px;height: 10px;">
+                            <div id="dialogTimer" title="Timer">
+                                <div id="dialogTimeUp"></div>
+                            </div>
+                            <script>
+                                window.onload = function() {
+                                    var curCount = 0
+                                            , timeBox = document.getElementById('time')
+                                            , loopCheck = document.getElementById('loop')
+                                            , counterDiv = document.getElementById('counter')
+                                            , resetBtn = document.getElementById('reset')
+                                            , startBtn = document.getElementById('start')
+                                            , counterInt
+
+                                    function updateCounter() {
+                                        counterDiv.innerHTML = curCount
+                                    }
+                                    function reset() {
+                                        startBtn.disabled = false
+                                        document.getElementById("timerSound").load()
+                                        curCount = parseInt(timeBox.value) || 0
+                                        clearInterval(counterInt)
+                                        updateCounter()
+                                        counterDiv.style.color = '#fff'
+                                    }
+                                    function start() {
+                                        reset()
+                                        document.getElementById("timerSound").load()
+                                        startBtn.disabled = true
+                                        counterDiv.style.color = '#FAFBFB'
+                                        counterInt = setInterval(function() {
+                                            curCount--
+                                            if(curCount == 0) {
+                                                document.getElementById("timerSound").play()
+                                                //window.alert("Time is up!")
+                                                $( "#dialogTimer" ).dialog(
+                                                        {   width:300,
+                                                            closeOnEscape:false,
+                                                            draggable:true,
+                                                            open: function () {
+                                                                $('.ui-dialog-titlebar-close').removeClass("ui-dialog-titlebar-close").html('<span>X</span>');
+                                                            }
+                                                        }
+                                                );
+                                                $("#dialogTimeUp").text("Time is up !");
+
+
+                                            }
+                                            if (curCount < 0) {
+                                                if (!loopCheck.checked) {
+                                                    clearInterval(counterInt)
+                                                    reset()
+                                                } else {
+                                                    curCount = parseInt(timeBox.value) || 0
+
+                                                }
+                                            }
+                                            updateCounter()
+                                        }, 1000)
+                                    }
+
+                                    resetBtn.onclick = reset
+                                    startBtn.onclick = start
+                                    reset()
+                                }
+                            </script>
+                            <style>
+                                #counter {
+                                    font-size:40px;
+                                    margin: 0px 10px 0px 10px;
+                                    position: relative;
+                                    top: 7px;
+                                    text-align:left;
+                                    font-weight:bold;
+                                    color:#fff;
+                                }
+                            </style>
+
+                            <br>
+                                  <span style="color:#fff"><font size="5">Time: </font> <input type="text" style="color:#000000; height: 25px; width: 155px" placeholder="number of seconds" name="time" id="time" size="5" class="form-control">
+                                  <!--Loop: <input type="checkbox" name="loop" id="loop"><br>-->
+
+
+                                  <span id="counter">0</span>
+                                  <button type="button" class="btn-danger btn-sm" style="width:80px;height:25px;" id="reset">Reset</button>
+                                  <button type="button" class="btn-success btn-sm" style="width:80px;height:25px;" id="start">Start</button>
+
+                                  </span>
+
+                            <br>
+                        </div>
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </nav>
+    <!--end: Navigation -->
+
+    </div>
+    <!--end: Row -->
+
+    </div>
+    <!--end: Container-->
+
+</header>
+<!--end: Header-->
+
+<div>
+    {% block body_block %}{% endblock %}
+</div>
+
+<!-- start: Under Footer -->
+
+<div id="under-footer">
+
+    <!-- start: Row -->
+
+    <div class="row">
+
+        <!-- start: Under Footer Logo -->
+        <div class="col-sm-3 col-md-3">
+            <div id="under-footer-logo">
+                <a href="">Molecular Methods</a>
+            </div>
+        </div>
+        <!-- end: Under Footer Logo -->
+
+        <!-- start: Under Footer Copyright -->
+        <div class="col-sm-8 col-md-8">
+
+            <div id="under-footer-copyright">
+                © 2014, Designed by <a href="">Team Q</a>
+            </div>
+
+        </div>
+
+        <!-- end: Under Footer Copyright -->
+
+        <!-- start: Under Footer Back To Top -->
+        <div class="col-sm-1 col-md-1">
+
+            <div class="col-lg-offset-4 col-sm-10 col-md-10">
+                <a href="#"><img src="{% static 'img/scroll-top-top.png' %}" alt="top"></a>
+            </div>
+
+        </div>
+        <!-- end: Under Footer Back To Top -->
+
+
+        <!-- end: Row -->
+
+    </div>
+
+    <!-- end: Under Footer -->
+
+
+    <!-- end: Container  -->
+
+    <!-- start: Java Script -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+{# <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>#}
+    <script src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
+
+{#    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>#}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+{#    <script src="{% static 'js/custom.js' %}"></script>#}
+    <script src="{% static 'js/jquery.placeholder.min.js' %}"></script>
+    <script src="{% static 'js/excanvas.js' %}"></script>
+    <script src="{% static 'js/jquery.flot.min.js' %}"></script>
+    <script src="{% static 'js/jquery.flot.pie.min.js' %}"></script>
+    <script src="{% static 'js/jquery.flot.stack.js' %}"></script>
+    <script src="{% static 'js/jquery.flot.resize.min.jss' %}"></script>
+    <script src="{% static 'js/jquery-ui.js' %}"></script>
+    <script src="{% static 'js/isotope.js' %}"></script>
+    <script src="{% static 'js/jquery.imagesloaded.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+
+    {% comment %}
+<script src="{% static 'js/jquery-1.8.2.js' %}"></script>
+
+<script src="{% static 'js/flexslider.js' %}"></script>
+<script src="{% static 'js/carousel.js' %}"></script>
+<script src="{% static 'js/jquery.cslider.js' %}"></script>
+<script src="{% static 'js/slider.js' %}"></script>
+<script src="{% static 'js/fancybox.js' %}"></script>
+<script src="{% static 'js/twitter.js' %}"></script>
+
+
+{% endcomment %}
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.1/bootstrap.js"></script> <!-- from http://cdnjs.com/libraries/twitter-bootstrap -->
+    <script defer="defer" src="{% static 'js/custom.js' %}"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).keydown(function(event){
+                if(event.keyCode == 13) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+        });
+
+    </script>
+
+
+    <script type="text/javascript">
+        $(function() {
+
+            $( "#id_q" ).autocomplete({
+                source: '/desktop/searchResult/',
+                minLength: 2,
+                select: function(event, ui) {
+
+                    event.preventDefault();
+                    $('#id_q').val(ui.item.label);
+
+
+                    // Title: ui.item.label
+                    // Description: ui.item.value
+
+                    // alert(ui.item.value);
+
+
+                    $("#dialogTitle").dialog({
+                        autoOpen: true,
+                        width: 400,
+                        closeOnEscape:false,
+                        draggable:true,
+                        open: function () {
+                            $("#dialogTitle").dialog("option", "title", ui.item.label)
+                            $('.ui-dialog-titlebar-close').removeClass("ui-dialog-titlebar-close").html('<span>X</span>');
+                        }
+                    });
+                    $("#dialogContent").text(ui.item.value);
+                }
+            });
+        });
+    </script>
+
+
+    <!-- end: Java Script -->
+
+
+</body></html>

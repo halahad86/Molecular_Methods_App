@@ -1,0 +1,304 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+
+	<!--start: Container -->
+	<div class="container">
+				
+		<!--start: Wrapper-->
+		<div id="wrapper">
+		
+			<hr class="clean">
+			
+			<!-- start: Row -->
+      		<div class="row-fluid">
+
+
+        		<div id="top" style="text-align: center">
+
+					 <a href="##"><font size="5">#</font></a> | <a href="#a"><font size="5">A</font></a> | <a href="#b"><font size="5">B</font></a> | <a href="#c"><font size="5">C</font></a> | <a href="#d"><font size="5">D</font></a> | <a href="#e"><font size="5">E</font></a> |
+                     <a href="#f"><font size="5">F</font></a> | <a href="#g"><font size="5">G</font></a> | <a href="#h"><font size="5">H</font></a> | <a href="#i"><font size="5">I</font></a> | <a href="#j"><font size="5">J</font></a> | <a href="#k"><font size="5">K</font></a> |
+                     <a href="#l"><font size="5">L</font></a> | <a href="#m"><font size="5">M</font></a> | <a href="#n"><font size="5">N</font></a> | <a href="#o"><font size="5">O</font></a> | <a href="#p"><font size="5">P</font></a> | <a href="#q"><font size="5">Q</font></a> |
+                     <a href="#r"><font size="5">R</font></a> | <a href="#s"><font size="5">S</font></a> | <a href="#t"><font size="5">T</font></a> | <a href="#u"><font size="5">U</font></a> | <a href="#v"><font size="5">V</font></a> | <a href="#w"><font size="5">W</font></a> |
+                     <a href="#x"><font size="5">X</font></a> | <a href="#y"><font size="5">Y</font></a> | <a href="#z"><font size="5">Z</font></a>
+
+				</div>
+
+
+
+                	<hr>
+            {% if terms1 %}
+			    	<div id="#"><a href="#top"><font size="4">#</font></a></div>
+                    	{% for item in terms1 %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5" >{{ item.title }} </font> <font color="black" size = "2"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsA %}
+
+			     	<div id="a"><a href="#top"><font size="4">A</font></a></div>
+						{% for item in termsA %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+                 	<hr>
+            {% endif %}
+            {% if termsB %}
+					<div id="b"><a href="#top"><font size="4">B</font></a></div>
+						{% for item in termsB %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsC %}
+					<div id="c"><a href="#top"><font size="4">C</font></a></div>
+						{% for item in termsC %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsD %}
+					<div id="d"><a href="#top"><font size="4">D</font></a></div>
+						{% for item in termsD %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsE %}
+					<div id="e"><a href="#top"><font size="4">E</font></a></div>
+                    	{% for item in termsE %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsF %}
+					<div id="f"><a href="#top"><font size="4">F</font></a></div>
+                    	{% for item in termsF %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsG %}
+					<div id="g"><a href="#top"><font size="4">G</font></a></div>
+                    	{% for item in termsG %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsH %}
+					<div id="h"><a href="#top"><font size="4">H</font></a></div>
+                    	{% for item in termsH %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsI %}
+					<div id="i"><a href="#top"><font size="4">I</font></a></div>
+                    	{% for item in termsI %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsJ %}
+					<div id="j"><a href="#top"><font size="4">J</font></a></div>
+                    	{% for item in termsJ %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsK %}
+					<div id="k"><a href="#top"><font size="4">K</font></a></div>
+                    	{% for item in termsK %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif%}
+            {% if termsL %}
+					<div id="l"><a href="#top"><font size="4">L</font></a></div>
+                    	{% for item in termsL %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsM %}
+					<div id="m"><a href="#top"><font size="4">M</font></a></div>
+                    	{% for item in termsM %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsN %}
+					<div id="n"><a href="#top"><font size="4">N</font></a></div>
+                    	{% for item in termsN %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsO %}
+					<div id="o"><a href="#top"><font size="4">O</font></a></div>
+                    	{% for item in termsO %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsP %}
+					<div id="p"><a href="#top"><font size="4">P</font></a></div>
+                    	{% for item in termsP %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+                    <hr>
+            {% endif %}
+            {% if termsQ %}
+					<div id="q"><a href="#top"><font size="4">Q</font></a></div>
+                        {% for item in termsQ %}
+
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                        {% endfor %}
+					<hr>
+            {% endif %}
+            {% if termsR %}
+					<div id="r"><a href="#top"><font size="4">R</font></a></div>
+                    {% for item in termsR %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsS %}
+					<div id="s"><a href="#top"><font size="4">S</font></a></div>
+                    	{% for item in termsS %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsT %}
+					<div id="t"><a href="#top"><font size="4">T</font></a></div>
+                    	{% for item in termsT %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+					<hr>
+            {% endif %}
+            {% if termsU %}
+					<div id="u"><a href="#top"><font size="4">U</font></a></div>
+                        {% for item in termsU %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   	    {% endfor %}
+					<hr>
+            {% endif %}
+            {% if termsV %}
+					<div id="v"><a href="#top"><font size="4">V</font></a></div>
+                    	{% for item in termsV %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+
+					<hr>
+            {% endif %}
+            {% if termsW %}
+					<div id="w"><a href="#top"><font size="4">W</font></a></div>
+                    	{% for item in termsW %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   		{% endfor %}
+    					<hr>
+            {% endif %}
+            {% if termsX %}
+					<div id="x"><a href="#top"><font size="4">X</font></a></div>
+                            {% for item in termsX %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   	{% endfor %}
+					<hr>
+            {% endif %}
+            {% if termsY %}
+					<div id="y"><a href="#top"><font size="4">Y</font></a></div>
+                            {% for item in termsY %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   	{% endfor %}
+                <hr>
+            {% endif %}
+            {% if termsZ %}
+					<div id="z"><a href="#top"><font size="4">Z</font></a></div>
+                        {% for item in termsZ %}
+                    		<br>
+			     			<font color="darkblue" size ="4.5"> {{ item.title }} </font> <font color="black" size = "2.5"> - {{ item.description }}</font>
+			     			<br>
+                   	    {% endfor %}
+
+					<hr>
+            {% endif %}
+
+			</div>
+			<!-- end: Row -->
+
+			
+		</div>
+	</div>
+		<!--end: Container-->
+
+  {% endblock %}

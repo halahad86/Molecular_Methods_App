@@ -1,0 +1,77 @@
+
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+
+<!--start: Container -->
+<div class="container">
+
+    <!--start: Wrapper-->
+    <div id="wrapper">
+
+        <hr class="clean">
+
+        <!-- start: Row -->
+        <div class="row-fluid">
+
+
+            <div class="span5">
+
+                    <script src="/static/js/calculation.js"></script>
+                <table border="0" cellpadding="0" cellspacing="0" margin="0">
+                    <tr>
+
+                        <td style="border-bottom:1pt solid black;"> <font color="black">Final Concentration</font>
+                        <td>
+                        <td><font color="black">&#215;</font> <font color="black">Final Volume</font>
+                        <td>
+                        <td><font color="black">= volume to add to solution</font>
+                        <td>
+                    </tr>
+                    <tr>
+                        <td> <font color="black">Stock Concentration</font></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <table border="0" cellpadding="0" cellspacing="0" margin="0">
+                        <tr>
+                            <td><font color="black">Final Concentration</font></td>
+                            <td><input type="text" style="color: #000000" value="" name="op1" id="op1" class="rsform-input-box"/></td>
+                        </tr>
+                        <tr>
+                            <td><font color="black">Stock Concentration</font></td>
+                            <td><input type="text" style="color: #000000" value="" name="op2" id="op2" class="rsform-input-box"/></td>
+                        </tr>
+                        <tr>
+                            <td><font color="black">Final Volume</font></td>
+                            <td><input type="text" style="color: #000000" value="" name="op3" id="op3" class="rsform-input-box"/></td>
+                        </tr>
+                        <tr>
+                            <td><font color="black">Volume to add to solution</font></td>
+                            <td><input type="text" style="color: #000000" value="" name="Result" id="res" readonly="readonly"
+                                       class="rsform-input-box"/></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Calculate" name="CalculateResult" id="cal"
+                                       onclick="calculateForm7()" class="rsform-button"/></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                  </table>
+
+            </div>
+
+            <div class="span3" align="left" >
+                    <h2>Caution:</h2>
+                    <h5>Use this converter to check your calculation answers. Note that the converter <b><u>does not express UNITS in the answer</u></b>, only a numerical value. An answer is not complete until the units are expressed and you will need to know what they are (e.g. L, ml, ul).</h5>
+            </div>
+
+        </div>
+        <!-- end: Row -->
+
+        <!--end: Wrapper-->
+    </div>
+    <!--end: Container-->
+</div>
+{% endblock %}

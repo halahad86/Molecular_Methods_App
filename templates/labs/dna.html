@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+	<!--start: Container -->
+	<div class="container">
+		<!--start: Wrapper-->
+        {% include "navigation.html" %}
+
+            <div id="wrapper">
+                <div class="span6 portfolio-item">
+                    <h1 class="blue-heading-h1"><span style="color:darkblue;font-weight:bold">DNA Sequencing</span> </h1>
+                    <br>
+                    <h3 class="blue-heading-h3"><span style="font-weight:bold">Intended Learning Outcomes</span></h3>
+                    <ul class="square_list"><li><span style="color:black">Understand the principle of dideoxy sequencing of a plasmid</span></li></ul>
+                    <ul class="square_list"><li><span style="color:black">Compare and contrast the theoretical principles of manual and automated sequencing</span></li></ul>
+                    <ul class="square_list"><li><span style="color:black">Be able to perform and understand DNA sequence analyses</span></li></ul>
+
+                    <h3 class="blue-heading-h3"><span style="font-weight:bold">Task List</span></h3>
+                    <ul class="square_list"><li><span style="color:black">Complete the ‘Sequencing’ section of the lab</span></li></ul>
+                    <ul class="square_list"><li><span style="color:black">Examine and analyse DNA sequence data from the fragment of DNA you have cloned in Computer Exercise ‘Sequence Analysis’</span></li></ul>
+                </div>
+                <div class="span4 portfolio-item"  style="padding-left:130px">
+                    <div class="picture" style="max-width: 50%"><a href="{% url 'desktop:dnalabpdf' %}"><img src="{% static 'img/lab5-DNA.png' %}" alt=""/>
+                        <div class="image-overlay-link"></div></a> </div>
+                    <br>
+                    <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:ligationlabpdf' %}">DNA Sequencing Lab Instructions</a></span> </i></h3>
+                    <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Sequence_Analysis' %}">DNA Lab Exercise</a></span> </i></h3>
+                </div>
+            </div><!-- end: Wrapper -->
+    </div><!-- end: Container -->
+ {% endblock %}

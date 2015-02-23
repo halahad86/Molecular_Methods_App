@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+<!--start: Container -->
+    <div class="container">
+
+        <!--start: Wrapper-->
+        <div id="wrapper">
+            <div style="color:white;" align="center"><h1 class="blue-heading-h1">Restriction Mapping Exercise</h1></div>
+            <br>
+            <script src="{% static 'js/kinetic-v4.7.4.min.js'%}"></script>
+	<script src="{% static 'js/drawCircle.js' %}"></script>
+
+
+	<div style="color:#000;"float="left">
+
+
+		<div style="color: #000000;" float="left">
+
+
+			<form name="dropdown" style="color:#000;">
+				<select name="list" style="color: #000000">
+					{% if questions %}
+						{% for q in questions %}
+							{% if q.number == number %}
+								<option selected="selected" value="/mapping/{{ q.Number }}"><font color="black">{{ q.number }}</font></option>
+							{% else %}
+								<option value="/mapping/{{ q.number }}"><font color="black">{{ q.number }}</font></option>
+							{% endif %}
+						{% endfor %}
+					{% endif %}
+				</select>
+			</form>
+
+
+			<div>
+				<input type=button value="Go"  data-theme="a" data-corners="false" onclick="goToNewPage(document.dropdown.list)">
+			</div>
+		</div>
+
+	</div>
+
+
+	<br>
+	<br>
+	<br>
+    <div div class="span4" align="left" float="left">
+	<h2 class="blue-heading-h2">Question Number {{ number }}:</h2>
+	<h3 class="blue-heading-h3">{{ question|linebreaks }} </h3>
+    </div>
+        <div class="span3" align="left" float="left" style="padding-left:180px;">
+                    <h2> Try to draw the following plasmid maps on paper and only use the hint if you get stuck!
+        </div></h2>
+
+
+
+	<div>
+
+		<div>
+			<!-- this is the first part but it is hidden-->
+			<h2><a href="#" data-toggle="collapse" data-target="#firstpart"></a></h2>
+			<div id="firstpart" class="collapse" style="width: 500px;height: 1px;">
+				<span id="container1"></span>
+			</div>
+		</div>
+
+		<div>
+			<!--this is the second part. hidden as well-->
+			<h2><a href="#" data-toggle="collapse" data-target="#secondpart"></a></h2>
+			<div id="secondpart" class="collapse" style="width: 500px;height: 1px;">
+				<span id="container2"></span>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<h2 class="blue-heading-h2"><a href="#" data-toggle="collapse" data-target="#answer">+ Answer</a></h2>
+		<div id="answer" class="collapse" style="width: 500px; height: 1px;">
+			<span id="container3"></span>
+		</div>
+
+
+
+	</div>
+
+
+
+	<script>
+		// Draw all of the maps the data and size will be varibles and the dimensions could be variable
+		drawCircle({{ firstMap|safe }}, {{ size }}, '1',300);
+		drawCircle({{ secondMap|safe }}, {{ size }}, '2',300);
+		drawCircle({{ finalMap|safe }}, {{ size }}, '3',300);
+	</script>
+
+	<script>
+		function goToNewPage(dropdownlist) {
+			var url = dropdownlist.options[dropdownlist.selectedIndex].value;
+			var dktop = "/desktop"
+			var result = dktop + url;
+			if (result != ""){
+				window.location = result;
+			}
+		}
+	</script>
+
+
+
+       </div>
+    </div>
+{% endblock %}
