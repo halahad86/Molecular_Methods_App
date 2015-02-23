@@ -107,7 +107,6 @@
 
                             {% if user.is_authenticated %}
 
-                                <h3 style="color:#ffffff">Hello, {{ user.username }}!</h3>
                                 <a href="{% url 'desktop:logout' %}"><font color="white">Logout</font></a><br>
 
                             {% else %}
