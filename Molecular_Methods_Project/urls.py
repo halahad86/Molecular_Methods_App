@@ -18,4 +18,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 
     url(r'^desktop/', include('desktop.urls', namespace='desktop')),
+    url(r'', include('desktop.urls', namespace='desktop')),
 )
