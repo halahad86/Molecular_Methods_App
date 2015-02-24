@@ -20,28 +20,27 @@
                 </div>
                 <div class="row col-lg-4">
                     <div class="row">
-                        <a href="{% url 'desktop:primersquizzes' %}" title="Quiz"><img src="{% static 'img/logoRevision.png' %}" class="img-responsive col-lg-5 pull-left "/>
-                            <div class="image-overlay-link"></div>
-                        </a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                     </div>
                     <div class="row">
-                        <a href="{% url 'desktop:Primer_Design_Exercise' %}" title="Exercise"><img src="{% static 'img/logoRevision.png' %}" class="img-responsive col-lg-5 pull-right "/>
+                        <a href="{% url 'desktop:primersquizzes' %}" title="Quiz"><img src="{% static 'img/quiz.png' %}" class="img-responsive center-block "/>
                             <div class="image-overlay-link"></div>
                         </a>
+                        <br>
+
                     </div>
-                    <div class="row" >
-                        <a href="{% url 'desktop:Electrophoresis' %}" title="Lab_Exercise"><img src="{% static 'img/logoRevision.png' %}" class="img-responsive col-lg-5 pull-left "/>
+                    <div class="row ">
+                        <a href="{% url 'desktop:Primer_Design_Exercise' %}" title="Exercise"><img src="{% static 'img/exercise_caption.png' %}" class="img-responsive center-block"/></a>
                             <div class="image-overlay-link"></div>
-                        </a>
-                    </div>
-                       <div class="row">
-                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:primersquizzes' %}">PCR and Primers Quiz</a></span> </i></h3>
-                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Primer_Design_Exercise' %}">Primer Design Exercise</a></span> </i></h3>
-                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Electrophoresis' %}">PCR Lab Exercise</a></span> </i></h3>
                     </div>
                 </div>
-
             </div> <!--end: Row -->
+            <br>
 
             <!-- start: Row -->
             <div class="row">
@@ -58,14 +57,34 @@
                         <div class="tab-pane" id="video2_rm"><iframe width="560" height="315" src="https://www.youtube.com/embed/MeTWD8ECeiQ" ></iframe></div>
                     </div>
                 </div>
-                <div class="row col-lg-4" >
-                    <div class="row" style="align-items: stretch">
-                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:restrictionquizzes' %}">Restriction Mapping Quiz</a></span> </i></h3>
-                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Restriction_Mapping_Exercise' %}">Restriction Mapping Lab Exercise</a></span> </i></h3>
-                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:mapping' 1 %}">Restriction Mapping Exercises</a></span> </i></h3>
+                <div class="row col-lg-4">
+                    <div class="row">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="row">
+                        <a href="{% url 'desktop:restrictionquizzes' %}" title="Quiz"><img src="{% static 'img/quiz.png' %}" class="img-responsive center-block "/>
+                            <div class="image-overlay-link"></div>
+                        </a>
+                        <br>
+                    </div>
+                    <div class="row ">
+                        <a href="{% url 'desktop:Restriction_Mapping_Exercise' %}" title="Exercise"><img src="{% static 'img/exercise_caption.png' %}" class="img-responsive center-block"/></a>
+                            <div class="image-overlay-link"></div>
+                        <br>
+                    </div>
+                    <div class="row ">
+                        <a href="{% url 'desktop:mapping' 1 %}" title="Exercise"><img src="{% static 'img/rsmap_exer.png' %}" class="img-responsive center-block"/></a>
+                            <div class="image-overlay-link"></div>
+                        <br>
                     </div>
                 </div>
             </div> <!--end: Row -->
+            <br>
 
             <!-- start: Row -->
             <div class="row">
@@ -85,15 +104,28 @@
                     </div>
                 </div>
                 <div class="row col-lg-4" >
-                    <div class="row" style="align-items: center">
-                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:dataquizzes' %}">Laboratory Calculations  Quiz</a></span> </i></h3>
-                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Ligation_Calculations' %}">Laboratory Calculations  Exercise</a></span> </i></h3>
+                    <div class="row">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="row">
+                        <a href="{% url 'desktop:dataquizzes' %}" title="Quiz"><img src="{% static 'img/quiz.png' %}" class="img-responsive center-block "/>
+                            <div class="image-overlay-link"></div>
+                        </a>
+                        <br>
+                    </div>
+                    <div class="row ">
+                        <a href="{% url 'desktop:Ligation_Calculations' %}" title="Exercise"><img src="{% static 'img/exercise_caption.png' %}" class="img-responsive center-block"/></a>
+                            <div class="image-overlay-link"></div>
                     </div>
                 </div>
             </div> <!--end: Row -->
 
-        </div> <<!--end: container -->
-
+        </div> <!--end: container -->
     </div><!--end: wrapper -->
 
 {% endblock %}
