@@ -6,166 +6,94 @@
         <!--start: Wrapper-->
         <div id="wrapper">
             <!-- start: Row -->
-<div class="container">
-<div role="tabpanel">
-
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">PCR & Primers</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Restriction Mapping 1</a></li>
-    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Data Calculations</a></li>
-
-  </ul>
-
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home"><div class="container-fluid" style="max-width: 100%" >
-
-                        <iframe width="560" height="315"allowfullscreen="" src="http://www.youtube.com/embed/c-f1H07D_70"></iframe>
-                        <div class="row" style="align-items: stretch">
-
-                            <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:primersquizzes' %}">PCR and Primers Quiz</a></span> </i></h3>
-                            <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Primer_Design_Exercise' %}">Primer Design Exercise</a></span> </i></h3>
-                            <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Electrophoresis' %}">PCR Lab Exercise</a></span> </i></h3>
-
-                        </div>
-                    </div></div>
-
-    <div role="tabpanel" class="tab-pane" id="profile"><iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/pVNpFP2Wmlc" frameborder="0"></iframe></div>
-    <div role="tabpanel" class="tab-pane" id="messages"><iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/MeTWD8ECeiQ" frameborder="0"></iframe></div>
-    <div role="tabpanel" class="tab-pane" id="settings"><iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/vHx4nqRdpMg" frameborder="0"></iframe></div>
-  </div>
-
-</div>
-</div>
-{##}
-{#                <div class="youtube" id="yR_heZ4n4Gc" style="width: 320px; height: 180px;"></div>#}
-{#    <script src="https://labnol.googlecode.com/files/youtube.js"></script>#}
-<!-- You can embed  multiple Youtube videos on a page -->
-{% comment %}
-  stopit --- http://stackoverflow.com/questions/23725989/how-to-prevent-bootstrap-carousel-from-moving-while-youtube-iframe-is-playing
- in tabs --- http://stackoverflow.com/questions/8667882/how-to-pause-a-youtube-player-when-hiding-the-iframe/8668741#8668741 , http://stackoverflow.com/questions/8731947/jquery-tab-with-videos-how-do-i-get-videos-to-stop-playing-when-i-switch-be?lq=1
- fiddle --- http://jsfiddle.net/WwfFE/3/
-<div class="youtube" id="LcIytqkbdlo" style="width:560px; height: 315px;">
-</div>
-
-<div class="youtube" id="_Jmisv1Spck" style="width:560px; height: 315px;">
-</div>
-
-<!-- Include the JavaScript only once -->
-
-<script>
-
-// Find all the YouTube video embedded on a page
-var videos = document.getElementsByClassName("youtube");
-
-for (var i=0; i<videos.length; i++) {
-
-  var youtube = videos[i];
-
-  // Based on the YouTube ID, we can easily find the thumbnail image
-  var img = document.createElement("img");
-  img.setAttribute("src", "http://i.ytimg.com/vi/"
-                          + youtube.id + "/hqdefault.jpg");
-  img.setAttribute("class", "thumb");
-
-
-  // Overlay the Play icon to make it look like a video player
-  var circle = document.createElement("div");
-  circle.setAttribute("class","circle");
-
-  youtube.appendChild(img);
-  youtube.appendChild(circle);
-
-  // Attach an onclick event to the YouTube Thumbnail
-  youtube.onclick = function() {
-
-    // Create an iFrame with autoplay set to true
-    var iframe = document.createElement("iframe");
-    iframe.setAttribute("src",performance
-          "https://www.youtube.com/embed/" + this.id
-        + "?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1");
-
-    // The height and width of the iFrame should be the same as parent
-    iframe.style.width  = this.style.width;
-    iframe.style.height = this.style.height;
-
-    // Replace the YouTube thumbnail with YouTube HTML5 Player
-    this.parentNode.replaceChild(iframe, this);
-
-  };
-}
-
-</script>
-            <iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/GgcGFyDvyFA" frameborder="0"></iframe>
-            <iframe width="560" height="315"allowfullscreen="" src="http://www.youtube.com/embed/yR_heZ4n4Gc" frameborder="0"></iframe>
-            <iframe width="560" height="315"allowfullscreen="" src="http://www.youtube.com/embed/MeTWD8ECeiQ" frameborder="0"></iframe>
-            <iframe width="560" height="315"allowfullscreen="" src="http://www.youtube.com/embed/c-f1H07D_70" frameborder="0"></iframe>
-             <iframe width="560" height="315"allowfullscreen="" src="http://www.youtube.com/embed/vOwdQRBENJQ" frameborder="0"></iframe>
-             <iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/pVNpFP2Wmlc" frameborder="0"></iframe>
-             <iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/vHx4nqRdpMg" frameborder="0"></iframe>
-
-{% endcomment %}
-{% comment %}
             <div class="row">
-                <div class="span6">
-                    <div class="container-fluid" style="max-width: 40%" >
-                       <h1 class="blue-heading-h1"><span>PCR & Primers</span></h1>
-                        <iframe width="420" height="270" allowfullscreen="" src="http://www.youtube.com/embed/c-f1H07D_70" style="align-content: center"></iframe>
-                        <div class="btn-group" style="align-items: stretch">
-                            <button>
-                            <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:primersquizzes' %}">PCR and Primers Quiz</a></span> </i></h3>
-                            <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Primer_Design_Exercise' %}">Primer Design Exercise</a></span> </i></h3>
-                            <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Electrophoresis' %}">PCR Lab Exercise</a></span> </i></h3>
-
-                        </div>
+                <h1 class="blue-heading-h1">PCR & Primers</h1>
+                <div class="row col-lg-8">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" id="pcr-tabs" >
+                        <li class="active"><a href="#home_pcr"  data-toggle="tab">PCR & Primers</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home_pcr"><iframe width="560" height="315" src="http://www.youtube.com/embed/c-f1H07D_70"></iframe></div>
+                    </div>
+                </div>
+                <div class="row col-lg-4">
+                    <div class="row">
+                        <a href="{% url 'desktop:primersquizzes' %}" title="Quiz"><img src="{% static 'img/logoRevision.png' %}" class="img-responsive col-lg-5 pull-left "/>
+                            <div class="image-overlay-link"></div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="{% url 'desktop:Primer_Design_Exercise' %}" title="Exercise"><img src="{% static 'img/logoRevision.png' %}" class="img-responsive col-lg-5 pull-right "/>
+                            <div class="image-overlay-link"></div>
+                        </a>
+                    </div>
+                    <div class="row" >
+                        <a href="{% url 'desktop:Electrophoresis' %}" title="Lab_Exercise"><img src="{% static 'img/logoRevision.png' %}" class="img-responsive col-lg-5 pull-left "/>
+                            <div class="image-overlay-link"></div>
+                        </a>
+                    </div>
+                       <div class="row">
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:primersquizzes' %}">PCR and Primers Quiz</a></span> </i></h3>
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Primer_Design_Exercise' %}">Primer Design Exercise</a></span> </i></h3>
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Electrophoresis' %}">PCR Lab Exercise</a></span> </i></h3>
                     </div>
                 </div>
 
-                <div class="row-fluid">
-                    <div class="span6">
-                        <div class="container-fluid" style="max-width: 40%" >
-                            <h1 class="blue-heading-h1" ><span>Restriction Mapping 1</span></h1>
-                            <iframe width="420" height="270" allowfullscreen="" src="http://www.youtube.com/embed/yR_heZ4n4Gc" style="align-content: center"></iframe>
-                            <div class="btn-group" style="align-items: stretch">
-                                <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:restrictionquizzes' %}">Restriction Mapping Quiz</a></span> </i></h3>
-                                <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Restriction_Mapping_Exercise' %}">Restriction Mapping Lab Exercise</a></span> </i></h3>
-                                <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:mapping' 1 %}">Restriction Mapping Exercises</a></span> </i></h3>
-                            </div>
-                        </div>
+            </div> <!--end: Row -->
+
+            <!-- start: Row -->
+            <div class="row">
+                <h1 class="blue-heading-h1">Restriction Mapping</h1>
+                <div class="row col-lg-8">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" id="rm-tabs" >
+                        <li class="active"><a href="#home_rm"  data-toggle="tab">Restriction Mapping 1</a></li>
+                        <li ><a href="#video2_rm" data-toggle="tab">Restriction Mapping 2</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home_rm"><iframe width="560" height="315" src="http://www.youtube.com/embed/yR_heZ4n4Gc"></iframe></div>
+                        <div class="tab-pane" id="video2_rm"><iframe width="560" height="315" src="https://www.youtube.com/embed/MeTWD8ECeiQ" ></iframe></div>
                     </div>
                 </div>
-            <div class="row-fluid">
-                <div class="span6">
-                    <br>
-                    <div class="container-fluid" style="max-width: 40%" >
-                         <h1 class="blue-heading-h1" ><span>Restriction Mapping 2</span></h1>
-                        <iframe width="420" height="270" allowfullscreen="" src="http://www.youtube.com/embed/MeTWD8ECeiQ" style="align-content: center"></iframe>
-                        <div class="btn-group" style="align-items: stretch">
-                            <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:generalquizzes' %}">Molecular Methods Quiz</a></span> </i></h3>
-                        </div>
+                <div class="row col-lg-4" >
+                    <div class="row" style="align-items: stretch">
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:restrictionquizzes' %}">Restriction Mapping Quiz</a></span> </i></h3>
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Restriction_Mapping_Exercise' %}">Restriction Mapping Lab Exercise</a></span> </i></h3>
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:mapping' 1 %}">Restriction Mapping Exercises</a></span> </i></h3>
                     </div>
                 </div>
+            </div> <!--end: Row -->
 
-                <div class="row-fluid">
-                    <div class="span6">
-                         <br>
-                        <div class="container-fluid" style="max-width: 40%" >
-
-                            <h1 class="blue-heading-h1" ><span>Data Calculations</span></h1>
-
-                            <iframe width="420" height="270" allowfullscreen="" src="https://www.youtube.com/embed/vOwdQRBENJQ" style="align-content: center"></iframe>
-                            <div class="btn-group" style="align-items: stretch">
-                                <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:dataquizzes' %}">Data Calculations  Quiz</a></span> </i></h3>
-                                <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Ligation_Calculations' %}">Data Calculations Lab Exercise</a></span> </i></h3>
-
-                            </div>
-                        </div>
+            <!-- start: Row -->
+            <div class="row">
+                <h1 class="blue-heading-h1">Laboratory Calculations</h1>
+                <div class="row col-lg-8">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" id="lab-tabs" >
+                        <li class="active"><a href="#home_lab"  data-toggle="tab">Preparing Solutions - Part 1</a></li>
+                        <li ><a href="#video2_lab" data-toggle="tab">Preparing Solutions - Part 2</a></li>
+                        <li ><a href="#video3_lab" data-toggle="tab">Preparing Solutions - Part 3</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home_lab"><iframe width="560" height="315" src="http://www.youtube.com/embed/vOwdQRBENJQ"></iframe></div>
+                        <div class="tab-pane" id="video2_lab"><iframe width="560" height="315" src="https://www.youtube.com/embed/pVNpFP2Wmlc" ></iframe></div>
+                        <div class="tab-pane" id="video3_lab"><iframe width="560" height="315" src="https://www.youtube.com/embed/vHx4nqRdpMg"></iframe></div>
                     </div>
                 </div>
-        </div>
-    </div>{% endcomment %}
+                <div class="row col-lg-4" >
+                    <div class="row" style="align-items: center">
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:dataquizzes' %}">Laboratory Calculations  Quiz</a></span> </i></h3>
+                        <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:Ligation_Calculations' %}">Laboratory Calculations  Exercise</a></span> </i></h3>
+                    </div>
+                </div>
+            </div> <!--end: Row -->
 
-</div>
-    </div>
+        </div> <<!--end: container -->
+
+    </div><!--end: wrapper -->
+
 {% endblock %}
