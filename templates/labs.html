@@ -6,13 +6,12 @@ Container -->
     <div id="wrapper">
         <div class="row">
             <div class="col-md-6">
-                <div class="video-container" align="center">
-                    <iframe width="450" height="345" align="middle" frameborder="0" style="border: 2px solid #002a80;"
-                    src="http://www.youtube.com/embed/GgcGFyDvyFA" allowfullscreen="allowfullscreen"></iframe>
-                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/GgcGFyDvyFA"  style="border:4px solid #002a80;"></iframe>
+                        </div>
             </div>
             <div class="col-md-6">
-                 <h1 class="blue-heading-h1"> Molecular Methods Introduction</h1>
+                 <h1 class="blue-heading-h1 hidden-xs" > Molecular Methods Introduction</h1>
                 <br />
                  <h3 class="blue-heading-h3" style="text-align: justify;">Molecular Methods is a course designed to allow you to develop practical skills and understanding in molecular biology.
 
@@ -20,20 +19,10 @@ Container -->
 
                     DNA sequencing and sequence analysis. The labs will build knowledge and confidence, allowing you to plan and perform your own experiments in the future!</h3>
  <a href="{% url 'desktop:lab_manual_pdf' %}" title="Lab Manual">
-
+     <br />
+     <img src="{% static 'img/PDFicon.png' %}" width="12%" height="12%" align="left" alt="" class="img-responsive" />
                     <br />
-
-                    <img src="{% static 'img/PDFicon.png' %}" width="12%" height="12%" align="left" alt="" class="img-responsive" />
-
-                    <br />
-
-                        <h2 class="blue-heading-h3"><i>Download the Lab Manual</i></h2>
-
-
-
-
-
-                </a>
+                        <h2 class="blue-heading-h3"><i>Download the Lab Manual</i></h2></a>
             </div>
         </div>
     </div>
