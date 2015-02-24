@@ -124,79 +124,19 @@
                 <div id="dialogTimer" title="Timer">
                     <div id="dialogTimeUp"></div>
                 </div>
-                <script>
-                    window.onload = function() {
-                        var curCount = 0
-                                , timeBox = document.getElementById('time')
-                                , loopCheck = document.getElementById('loop')
-                                , counterDiv = document.getElementById('counter')
-                                , resetBtn = document.getElementById('reset')
-                                , startBtn = document.getElementById('start')
-                                , counterInt
+                <script> timer();</script>
 
-                        function updateCounter() {
-                            counterDiv.innerHTML = curCount
-                        }
-                        function reset() {
-                            startBtn.disabled = false
-                            document.getElementById("timerSound").load()
-                            curCount = parseInt(timeBox.value) || 0
-                            clearInterval(counterInt)
-                            updateCounter()
-                            counterDiv.style.color = '#fff'
-                        }
-                        function start() {
-                            reset()
-                            document.getElementById("timerSound").load()
-                            startBtn.disabled = true
-                            counterDiv.style.color = '#FAFBFB'
-                            counterInt = setInterval(function() {
-                                curCount--
-                                if(curCount == 0) {
-                                    document.getElementById("timerSound").play()
-                                    //window.alert("Time is up!")
-                                    $( "#dialogTimer" ).dialog(
-                                            {   width:300,
-                                                closeOnEscape:false,
-                                                draggable:true,
-                                                open: function () {
-                                                    $('.ui-dialog-titlebar-close').removeClass("ui-dialog-titlebar-close").html('<span>X</span>');
-                                                }
-                                            }
-                                    );
-                                    $("#dialogTimeUp").text("Time is up !");
-
-
-                                }
-                                if (curCount < 0) {
-                                    if (!loopCheck.checked) {
-                                        clearInterval(counterInt)
-                                        reset()
-                                    } else {
-                                        curCount = parseInt(timeBox.value) || 0
-
-                                    }
-                                }
-                                updateCounter()
-                            }, 1000)
-                        }
-
-                        resetBtn.onclick = reset
-                        startBtn.onclick = start
-                        reset()
+                <style>
+                    #counter {
+                        font-size:40px;
+                        margin: 0px 10px 0px 10px;
+                        position: relative;
+                        top: 7px;
+                        text-align:left;
+                        font-weight:bold;
+                        color:#fff;
                     }
-                </script>
-{#                <style>#}
-{#                    #counter {#}
-{#                        font-size:40px;#}
-{#                        margin: 0px 10px 0px 10px;#}
-{#                        position: relative;#}
-{#                        top: 7px;#}
-{#                        text-align:left;#}
-{#                        font-weight:bold;#}
-{#                        color:#fff;#}
-{#                    }#}
-{#                </style>#}
+                </style>
 
                 <br>
 
@@ -209,8 +149,6 @@
                                   <button type="button" class="btn-small btn-success" style="width:60px;height:25px;" id="start">Start</button>
 
                                   </span>
-{#                <div class="btn-group" role="group" aria-label="..." style="color:#fff"><font size="5">Time: </font> <input type="text" style="color:#000000; height: 25px; width: 155px" placeholder="number of seconds" name="time" id="time" size="5" class="form-control">#}
-                    <!--Loop: <input type="checkbox" name="loop" id="loop"><br>-->
 
 
 
@@ -289,6 +227,9 @@
 
     {#    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>#}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    {# Timer javascript import#}
+    <script src="{% static 'js/timer.js' %}"></script>
 
     {#    <script src="{% static 'js/custom.js' %}"></script>#}
     <script src="{% static 'js/jquery.placeholder.min.js' %}"></script>
