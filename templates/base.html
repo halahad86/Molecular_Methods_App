@@ -112,6 +112,9 @@
                     <div id="dialogTimer" title="Timer">
                         <div id="dialogTimeUp"></div>
                     </div>
+
+                     {# Timer javascript import#}
+                    <script src="{% static 'js/timer.js' %}"></script>
                     <script> timer();</script>
 
                     <style>
@@ -128,7 +131,7 @@
 
                     <br>
 
-                                  <span style="color:#fff"><font size="5">Time: </font> <input type="text" style="color:#000000; height: 25px; width: 125px" placeholder="number of seconds" name="time" id="time" size="5">
+                    <span style="color:#fff"><font size="5">Time: </font> <input type="text" style="color:#000000; height: 25px; width: 125px" placeholder="number of seconds" name="time" id="time" size="5">
                                   <!--Loop: <input type="checkbox" name="loop" id="loop"><br>-->
 
 
@@ -138,11 +141,8 @@
 
                                   </span>
 
-
-
-                </div>
-
                 <br>
+                    </div>
             </div>
         </nav>
         <!--end: Navigation -->
@@ -215,9 +215,6 @@
 
     {#    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>#}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-    {# Timer javascript import#}
-    <script src="{% static 'js/timer.js' %}"></script>
 
     {#    <script src="{% static 'js/custom.js' %}"></script>#}
     <script src="{% static 'js/jquery.placeholder.min.js' %}"></script>
