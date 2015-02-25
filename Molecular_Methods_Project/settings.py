@@ -6,8 +6,8 @@ SETTINGS_DIR = os.path.dirname(__file__)
 PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
 PROJECT_PATH = os.path.abspath(PROJECT_PATH)
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
-DATABASE_PATH = os.path.join(PROJECT_PATH,'desktop.db')
-STATIC_PATH = os.path.join(PROJECT_PATH,'static')
+DATABASE_PATH = os.path.join(PROJECT_PATH, 'desktop.db')
+STATIC_PATH = os.path.join(PROJECT_PATH, 'static')
 LOGIN_URL = '/desktop/login/'
 
 TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\','/'),)
@@ -83,7 +83,7 @@ MEDIA_ROOT = ''
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://example.com/media/", "http://media.example.com/"
-MEDIA_URL = '' #SHOULD ADD '/media/' if dir is needed
+MEDIA_URL = '/media/' #SHOULD ADD '/media/' if dir is needed
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
@@ -94,6 +94,8 @@ STATIC_ROOT = ''
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
 STATIC_URL = '/static/'
+
+ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (

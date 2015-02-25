@@ -43,7 +43,7 @@ class Command(BaseCommand):
             questionNumber += 1
 
     def handle(self, *args, **options):
-        self.populate('General.xml', 1)
-        self.populate('PrimerDesign.xml', 2)
-        self.populate('RestrictionMapping.xml', 3)
-        self.populate('DataCalculations.xml', 4)
+        self.populate('xml files/General.xml', 1)
+        self.populate('xml files/PrimerDesign.xml', 2)
+        self.populate('xml files/RestrictionMapping.xml', 3)
+        self.populate('xml files/DataCalculations.xml', 4)
