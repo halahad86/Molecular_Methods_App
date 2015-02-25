@@ -7,29 +7,33 @@
 <head>
     <!-- Is anyone getting tired of repeatedly entering the header over and over?? -->
     <title>Desktop</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" >
-    <link rel="stylesheet" href="{% static 'css/bootstrap-responsive.css' %}" >
-    <link rel="stylesheet" href="{% static 'css/parallax-slider.css' %}" >
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" >
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'css/MM-app.css' %}">
 
 </head>
 
 <body>
 
-    <div class="modal">
-        <div class="hero-unit">
-       {% if validlink %}
-        <form method="post">
-            {% csrf_token %}
-            <label for="id_new_password1">New password:</label>
-            <input style="color: #00008b" id="id_new_password1" maxlength="4096" name="new_password1" type="password">
-            <label for="id_new_password2">New password confirmation:</label>
-            <input style="color: #00008b" id="id_new_password2" maxlength="4096" name="new_password2" type="password">
-            <button type="submit">Submit</button>
-        </form>
-    {% else %}
-        <p>This reset link is no longer valid!</p>
-    {% endif %}
+<div class="modal">
+    <div class="jumbotron">
+        <div class="row">
+            <h2 class="pull-left" style="color: #005984">Password Reset</h2><a href="#" class=" pull-right">
+            <img style="height: 50px; margin-top: -5px;" src=" {% static 'img/logo8.png' %}" alt="logo"></a>
+        </div>
+        {% if validlink %}
+            <form method="post">
+                {% csrf_token %}
+                <label for="id_new_password1">New password:</label>
+                <input style="color: #00008b" id="id_new_password1" maxlength="4096" name="new_password1" type="password">
+                <label for="id_new_password2">New password confirmation:</label>
+                <input style="color: #00008b" id="id_new_password2" maxlength="4096" name="new_password2" type="password">
+                <button class=" btn btn-primary btn-lg" type="submit">Submit</button>
+            </form>
+        {% else %}
+            <p>This reset link is no longer valid!</p>
+        {% endif %}
     </div>
 </div>
 

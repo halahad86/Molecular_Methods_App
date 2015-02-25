@@ -6,29 +6,38 @@
 <head>
     <!-- Is anyone getting tired of repeatedly entering the header over and over?? -->
     <title>Desktop</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" >
- <link rel="stylesheet" href="{% static 'css/style.css' %}" >
-<link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'css/MM-app.css' %}">
+
 </head>
 
 <body>
-
+<div class="container">
     <div class="modal-dialog">
         <div class="jumbotron">
-       <form method="post">
-            {% csrf_token %}
+            <div class="row">
+                <a href="#" class=" pull-right"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/logo8.png' %}" alt="logo"></a>
+                <h4  style="color: #005984">Enter your email address to reset password</h4>
+            </div>
+
+            <form method="post">
+                {% csrf_token %}
                 <input class="input-large" type="text" style="color: #00008b" name="email" value="" id="email" placeholder="Email">
-           <br>
-        <button class="btn btn-primary" type="submit">Submit</button>
-        </form>
+                <br>
+                <br>
+                <button class="btn btn-primary" type="submit">Submit</button>
+                <h4  style="color: #005984">Please be sure to check your junk mail folder if the password reset email does not arrive within 10 minutes</h4>
+            </form>
+        </div>
     </div>
 </div>
-
 </body>
 </html>
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-  <script src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
+<script src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.js' %}"></script>
 
 

@@ -2,6 +2,7 @@
 {% load staticfiles %}
 {% block body_block %}
 <!--start: Container -->
+
 <div class="container">
 
     <!--start: Wrapper-->
@@ -10,13 +11,13 @@
         <hr class="clean">
 
         <!-- start: Row -->
-        <div class="row-fluid">
+        <div class="row">
 
-            <div id="content" data-role="content">
+            <div class="row"id="content" data-role="content">
 
                 <script src="/static/js/calculation.js"></script>
-                <ul data-theme="b" data-role="collapsible-set">
-                    <div data-role="collapsible" data-theme="a" data-corners="false">
+                <ul class="container" data-theme="b" data-role="collapsible-set">
+                    <div class="container" data-role="collapsible" data-theme="a" data-corners="false">
                         <h3><font color="black">g = Volume &#215; Moles &#215; MW </font></h3>
                         <table border="0" cellpadding="0" cellspacing="0" margin="0">
                             <tr>
@@ -44,7 +45,8 @@
                             </tr>
                         </table>
                     </div>
-                    <div data-role="collapsible" data-theme="a" data-corners="false">
+                    <br>
+                    <div class="container" data-role="collapsible" data-theme="a" data-corners="false">
                         <h3><font color="black">Volume = g / (Moles &#215; MW) </font></h3>
                         <table border="0" cellpadding="0" cellspacing="0" margin="0">
                             <tr>
@@ -71,7 +73,8 @@
                             </tr>
                         </table>
                     </div>
-                    <div data-role="collapsible" data-theme="a" data-corners="false">
+                    <br>
+                    <div class="container" data-role="collapsible" data-theme="a" data-corners="false">
                         <h3><font color="black">Moles = g / (Volume &#215; MW)</font></h3>
                         <table border="0" cellpadding="0" cellspacing="0" margin="0">
                             <tr>
@@ -98,7 +101,8 @@
                             </tr>
                         </table>
                     </div>
-                    <div data-role="collapsible" data-theme="a" data-corners="false">
+                    <br>
+                    <div class="container" data-role="collapsible" data-theme="a" data-corners="false">
                         <h3><font color="black">MW = g / (Volume &#215; Moles)</font></h3>
                         <table border="0" cellpadding="0" cellspacing="0" margin="0">
                             <tr>
@@ -125,11 +129,12 @@
                             </tr>
                         </table>
                     </div>
+                    <br>
                 </ul>
 
 
             </div>
-
+</div>
         </div>
         <!-- end: Row -->
 

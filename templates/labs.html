@@ -1,94 +1,94 @@
 {% extends "base.html" %} {% load staticfiles %} {% block body_block %}
-<!--start:
-Container -->
-<div class="container">
-    <!--start: Wrapper-->
-    <div id="wrapper">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/GgcGFyDvyFA"  style="border:4px solid #002a80;"></iframe>
-                        </div>
-            </div>
-            <div class="col-md-6">
-                 <h1 class="blue-heading-h1 hidden-xs" > Molecular Methods Introduction</h1>
-                <br />
-                 <h3 class="blue-heading-h3" style="text-align: justify;">Molecular Methods is a course designed to allow you to develop practical skills and understanding in molecular biology.
-
-                    To accomplish this there are a number of linked experiments that you will perform to take you through a process from PCR to gene cloning, plasmid DNA preparation,
-
-                    DNA sequencing and sequence analysis. The labs will build knowledge and confidence, allowing you to plan and perform your own experiments in the future!</h3>
- <a href="{% url 'desktop:lab_manual_pdf' %}" title="Lab Manual">
-     <br />
-     <img src="{% static 'img/PDFicon.png' %}" width="12%" height="12%" align="left" alt="" class="img-responsive" />
+    <!--start:
+    Container -->
+    <div class="container">
+        <!--start: Wrapper-->
+        <div id="wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/GgcGFyDvyFA"  style="border:4px solid #002a80;"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="blue-heading-h1 hidden-xs" > Molecular Methods Introduction</h1>
                     <br />
+                    <h3 class="blue-heading-h3" style="text-align: justify;">Molecular Methods is a course designed to allow you to develop practical skills and understanding in molecular biology.
+
+                        To accomplish this there are a number of linked experiments that you will perform to take you through a process from PCR to gene cloning, plasmid DNA preparation,
+
+                        DNA sequencing and sequence analysis. The labs will build knowledge and confidence, allowing you to plan and perform your own experiments in the future!</h3>
+                    <a href="{% url 'desktop:lab_manual_pdf' %}" title="Lab Manual">
+                        <br />
+                        <img src="{% static 'img/PDFicon.png' %}" width="12%" height="12%" align="left" alt="" class="img-responsive" />
+                        <br />
                         <h2 class="blue-heading-h3"><i>Download the Lab Manual</i></h2></a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <!--start: Wrapper-->
-    <div id="wrapper">
-        <hr class="clean" />
-        <!-- start: Row -->
-        <div class="row">
-            <div class="col-md-2 portfolio-item">
-                <div class="picture"><a href="{% url 'desktop:pcrlab' %}" title="Lab 1"><img src="{% static 'img/lab1-PCR.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
-                    <div
-                    class="post-title" style="text-align: center;">
-                         <h2><a href="{% url 'desktop:pcrlab' %}"><font color="#002a80">PCR</font></a></h2>
-                        <p></p>
                 </div>
             </div>
         </div>
-        <div class="col-md-2 portfolio-item">
-            <div class="picture"><a href="{% url 'desktop:ligation' %}" title="Lab 2"><img src="{% static 'img/lab2-LaT.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
-                <div
-                class="post-title" style="text-align: center;">
-                     <h2><a href="{% url 'desktop:ligation' %}"><font color="#002a80">Ligation and Transformation</font></a></h2>
-                    <p></p>
+    </div>
+    <div class="container">
+        <!--start: Wrapper-->
+        <div id="wrapper">
+            <hr class="clean" />
+            <!-- start: Row -->
+            <div class="row">
+                <div class="col-md-2 portfolio-item">
+                    <div class="picture"><a href="{% url 'desktop:pcrlab' %}" title="Lab 1"><img src="{% static 'img/lab1-PCR.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                        <div
+                                class="post-title" style="text-align: center;">
+                            <h2><a href="{% url 'desktop:pcrlab' %}"><font color="#002a80">PCR</font></a></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 portfolio-item">
+                    <div class="picture"><a href="{% url 'desktop:ligation' %}" title="Lab 2"><img src="{% static 'img/lab2-LaT.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                        <div
+                                class="post-title" style="text-align: center;">
+                            <h2><a href="{% url 'desktop:ligation' %}"><font color="#002a80">Ligation and Transformation</font></a></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 portfolio-item">
+                    <div class="picture"><a href="{% url 'desktop:bwscreening' %}" title="Lab 3"><img src="{% static 'img/lab3-BWS.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                        <div
+                                class="post-title" style="text-align: center;">
+                            <h2><a href="{% url 'desktop:bwscreening' %}"><font color="#002a80">Blue/White Screening</font></a></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 portfolio-item">
+                    <div class="picture"><a href="{% url 'desktop:plasmid' %}" title="Lab 4"><img src="{% static 'img/lab4-PM.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                        <div
+                                class="post-title" style="text-align: center;">
+                            <h2><a href="{% url 'desktop:plasmid' %}"><font color="#002a80">Plasmid Miniprep</font></a></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 portfolio-item">
+                    <div class="picture"><a href="{% url 'desktop:dna' %}" title="Lab 5"><img src="{% static 'img/lab5-DNA.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                        <div
+                                class="post-title" style="text-align: center;">
+                            <h2><a href="{% url 'desktop:dna' %}"><font color="#002a80">DNA sequencing</font></a></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 portfolio-item">
+                    <div class="picture"><a href="{% url 'desktop:quantpcr' %}" title="Lab 6"><img src="{% static 'img/lab6-rtqPCR.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                        <div
+                                class="post-title" style="text-align: center;">
+                            <h2><a href="{% url 'desktop:quantpcr' %}"><font color="#002a80">Real-Time Quantitative PCR</font></a></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- end: Row -->
         </div>
-    </div>
-    <div class="col-md-2 portfolio-item">
-        <div class="picture"><a href="{% url 'desktop:bwscreening' %}" title="Lab 3"><img src="{% static 'img/lab3-BWS.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
-            <div
-            class="post-title" style="text-align: center;">
-                 <h2><a href="{% url 'desktop:bwscreening' %}"><font color="#002a80">Blue/White Screening</font></a></h2>
-                <p></p>
-        </div>
-    </div>
-</div>
-<div class="col-md-2 portfolio-item">
-    <div class="picture"><a href="{% url 'desktop:plasmid' %}" title="Lab 4"><img src="{% static 'img/lab4-PM.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
-        <div
-        class="post-title" style="text-align: center;">
-             <h2><a href="{% url 'desktop:plasmid' %}"><font color="#002a80">Plasmid Miniprep</font></a></h2>
-            <p></p>
-    </div>
-</div>
-</div>
-<div class="col-md-2 portfolio-item">
-    <div class="picture"><a href="{% url 'desktop:dna' %}" title="Lab 5"><img src="{% static 'img/lab5-DNA.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
-        <div
-        class="post-title" style="text-align: center;">
-             <h2><a href="{% url 'desktop:dna' %}"><font color="#002a80">DNA sequencing</font></a></h2>
-            <p></p>
-    </div>
-</div>
-</div>
-<div class="col-md-2 portfolio-item">
-    <div class="picture"><a href="{% url 'desktop:quantpcr' %}" title="Lab 6"><img src="{% static 'img/lab6-rtqPCR.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
-        <div
-        class="post-title" style="text-align: center;">
-             <h2><a href="{% url 'desktop:quantpcr' %}"><font color="#002a80">Real-Time Quantitative PCR</font></a></h2>
-            <p></p>
-    </div>
-</div>
-</div>
-</div>
-<!-- end: Row -->
-</div>
-<!--end: Container-->
-</div>{% endblock %}
+        <!--end: Container-->
+    </div>{% endblock %}

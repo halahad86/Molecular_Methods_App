@@ -1,16 +1,17 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 {% block body_block %}
-	<!--start: Container -->
-	<div class="container">
-		<!--start: Wrapper-->
+    <!--start: Container -->
+    <div class="container">
+        <!--start: Wrapper-->
         {% include "navigation.html" %}
 
-            <div id="wrapper">
-                <div class="span6 portfolio-item">
-                   <h3 class="blue-heading-h1"><span>Ligation and Transformation</span></h3>
+        <div id="wrapper">
+            <div class="row row-centered">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 align-left">
+                    <h3 class="blue-heading-h1"><span>Ligation and Transformation</span></h3>
                     <br>
-                   <h3 class="blue-heading-h3"><span style="font-weight:bold">Intended Learning Outcomes</span></h3>
+                    <h3 class="blue-heading-h3"><span style="font-weight:bold">Intended Learning Outcomes</span></h3>
                     <ul class="square_list"><li><span style="color:black">Describe the strategies used in cloning DNA into a suitable plasmid vector</span></li></ul>
                     <ul class="square_list"><li><span style="color:black">Describe, and be able to perform, transformation of E.coli with a plasmid</span></li></ul>
                     <ul class="square_list"><li><span style="color:black">Be able to perform calculations relating to Molecular Methods, including transformation efficiency, dilutions and concentrations</span></li></ul>
@@ -21,9 +22,9 @@
                     <ul class="square_list"><li><span style="color:black">Transform E.coli with recombinant plasmid</span></li></ul>
                     <ul class="square_list"><li><span style="color:black">Undertake Exercise ‘Calculations’</span></li></ul>
                 </div>
-                <div class="span4 portfolio-item" style="padding-left:130px">
-
-                    <div class="picture" style="max-width: 50%" ><a href="{% url 'desktop:ligationlabpdf' %}"><img src="{% static  'img/lab2-LaT.png' %}" alt=""/>
+                <div class="col-lg-3 col-md-3 col-sm-1 col-xs-1"><br></div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 align-left">
+                    <div ><a href="{% url 'desktop:ligationlabpdf' %}"><img src="{% static  'img/lab2-LaT.png' %}" class="img-responsive " alt="Responsive image"/>
                         <div class="image-overlay-link"></div></a> </div>
                     <br>
                     <h3><i><span style="color:darkblue;font-weight:bold"><a href="{% url 'desktop:ligationlabpdf' %}">Ligation Lab Instructions</a></span> </i></h3>
@@ -31,5 +32,5 @@
 
                 </div>
             </div><!-- end: Wrapper -->
-    </div><!-- end: Container -->
- {% endblock %}
+        </div><!-- end: Container -->
+{% endblock %}
