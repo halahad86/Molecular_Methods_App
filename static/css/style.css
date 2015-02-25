@@ -2918,8 +2918,9 @@ li.current {
 #custom-search-input {
         margin:0;
         margin-top: 10px;
-        padding: 0;
+        padding-right: 30px;
         width:200px;
+
     }
 
     #custom-search-input .search-query {

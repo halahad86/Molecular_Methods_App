@@ -88,8 +88,8 @@
                     <li class=""><a href="{% url 'desktop:glossary' %}">Glossary</a></li>
 
                     <li><a href="#" data-toggle="collapse" data-target="#demo">Timer</a></li>
-                    <li class="form-inline" id="custom-search-input">
-                        <div class="input-group  col-md-3">
+                    <li id="custom-search-input">
+                         <div style="position:relative; left:20px; bottom:3px;"  class="input-group col-md-12">
                             <form method="get" action="{% url 'desktop:searchResult' %}">
                                 <input type="text" name="q" id="id_q" placeholder="Search glossary ..." class="search-query form-control">
                             </form>
@@ -98,11 +98,11 @@
                             </div>
                         </div>
                     </li>
-                    <li class="ui-button-text">
+                    <li style="position:relative;" >
 
                         {% if user.is_authenticated %}
 
-                            <a href="{% url 'desktop:logout' %}"><font color="white">Logout</font></a><br>
+                            <a href="{% url 'desktop:logout' %}"><font color="white">Logout</font></a>
 
                         {% endif %}
 
