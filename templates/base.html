@@ -116,7 +116,7 @@
                      {# Timer javascript import#}
                     <script src="{% static 'js/timer.js' %}"></script>
                     <script> timer();</script>
-                    d
+
 
                     <style>
                         #counter {
@@ -132,11 +132,11 @@
 
                     <br>
 
-                    <span style="color:#fff"><font size="5">Time: </font> <input type="text" style="color:#000000; height: 25px; width: 125px" placeholder="number of seconds" name="time" id="time" size="5">
+                    <span class="btn-group" style="color:#fff">Time: </font> <input type="text" style="color:#000000; height: 25px; width: 125px" placeholder="number of seconds" name="time" id="time" size="5">
                                   <!--Loop: <input type="checkbox" name="loop" id="loop"><br>-->
 
 
-                                  <span id="counter">0</span>
+                                  <span class="" id="counter">0</span>
                                   <button type="button" class="btn-small btn-danger" style="width:60px;height:25px;" id="reset" >Reset</button>
                                   <button type="button" class="btn-small btn-success" style="width:60px;height:25px;" id="start">Start</button>
 
@@ -223,7 +223,7 @@
     <script src="{% static 'js/jquery.flot.min.js' %}"></script>
     <script src="{% static 'js/jquery.flot.pie.min.js' %}"></script>
     <script src="{% static 'js/jquery.flot.stack.js' %}"></script>
-    <script src="{% static 'js/jquery.flot.resize.min.jss' %}"></script>
+{#    <script src="{% static 'js/jquery.flot.resize.min.jss' %}"></script>#}
     <script src="{% static 'js/jquery-ui.js' %}"></script>
     <script src="{% static 'js/isotope.js' %}"></script>
     <script src="{% static 'js/jquery.imagesloaded.js' %}"></script>
