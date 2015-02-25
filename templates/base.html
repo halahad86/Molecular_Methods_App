@@ -88,8 +88,8 @@
                     <li class=""><a href="{% url 'desktop:glossary' %}">Glossary</a></li>
 
                     <li><a href="#" data-toggle="collapse" data-target="#demo">Timer</a></li>
-                    <li id="custom-search-input">
-                        <div style="position:relative; left:20px; bottom:3px;"  class="input-group col-md-12">
+                    <li class="form-inline" id="custom-search-input">
+                        <div class="input-group  col-md-3">
                             <form method="get" action="{% url 'desktop:searchResult' %}">
                                 <input type="text" name="q" id="id_q" placeholder="Search glossary ..." class="search-query form-control">
                             </form>
@@ -98,11 +98,11 @@
                             </div>
                         </div>
                     </li>
-                    <li style="position:relative;">
+                    <li class="ui-button-text">
 
                         {% if user.is_authenticated %}
 
-                            <a href="{% url 'desktop:logout' %}"><font color="white">Logout</font></a>
+                            <a href="{% url 'desktop:logout' %}"><font color="white">Logout</font></a><br>
 
                         {% endif %}
 
@@ -116,7 +116,7 @@
                      {# Timer javascript import#}
                     <script src="{% static 'js/timer.js' %}"></script>
                     <script> timer();</script>
-
+                    d
 
                     <style>
                         #counter {
@@ -129,6 +129,8 @@
                             color:#fff;
                         }
                     </style>
+
+                    <br>
 
                     <span style="color:#fff"><font size="5">Time: </font> <input type="text" style="color:#000000; height: 25px; width: 125px" placeholder="number of seconds" name="time" id="time" size="5">
                                   <!--Loop: <input type="checkbox" name="loop" id="loop"><br>-->
