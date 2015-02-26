@@ -2,11 +2,11 @@
 
 /* Import Section
 =================================================================== */
-@import url("icons.css");					/* Icons. */
-@import url("social-icons.css");			/* Social Icons */
-@import url("fancybox.css");				/* Fancybox */
-@import url("font-awesome.css");			/* Font Awesome*/
-@import url("font-awesome-ie7.css");		/* Font Awesome*/
+/*@import url("icons.css");					*//* Icons. */
+/*@import url("social-icons.css");			*//* Social Icons */
+/*@import url("fancybox.css");				*//* Fancybox */
+/*@import url("font-awesome.css");			*//* Font Awesome*/
+/*@import url("font-awesome-ie7.css");		*//* Font Awesome*/
 
 .clear {
 	clear:both;
@@ -208,7 +208,7 @@ a {
 	color: #004669;
 	text-align: center;
 	text-shadow: 0px 1px 0px #fff;
-	background: #fff url(../img/grid_grey.jpg);
+	/*background: #fff url(../img/grid_grey.jpg);*/
 	-webkit-border-radius: 2px;
 	   -moz-border-radius: 2px;
 			border-radius: 2px;

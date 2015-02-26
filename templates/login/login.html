@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
 <link rel="stylesheet" href="{% static 'css/style.css' %}">
 <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
-<link rel="stylesheet" href="{% static 'css/MM-app.css' %}">
+<link rel="stylesheet" href="{% static 'css/logo-nav.css' %}">
 
 
 
@@ -16,7 +16,7 @@
     <div class="modal-dialog">
         <div class="jumbotron">
             <div class="row">
-                <h2 class="pull-left col-lg-3 col-md-3 col-sm-3 col-xs-6" style="color: #005984">Login</h2><a href="#" class="pull-right col-lg-3 col-md-3 col-sm-3 col-xs-">
+                <h2 class="pull-left" style="color: #005984">Login</h2><a href="#" class=" pull-right">
          <img style="height: 50px; margin-top: -5px;" src=" {% static 'img/logo8.png' %}" alt="logo"></a></div>
             <form id="login_form" method="post" action="{% url 'desktop:login' %}">
                 {% if bad_details %}
@@ -29,12 +29,12 @@
                 <input class="input-large form-control" type="text" style="color: #00008b" name="username" value="" id="username" placeholder="Username">
                 <input class="input-large form-control" type="password" style="color: #00008b" name="password" value="" id="" placeholder="Password">
                 <br>
-                <input type="submit" value="Login" class="form-control btn btn-primary btn-lg " style="padding-bottom:30px " role="button">
+                <input type="submit" value="Login" class="form-control btn btn-primary btn-lg " style="padding-bottom: 30px" role="button">
                 <br><br>
             <div class="btn-group-justified ">
                 <a href="{% url 'desktop:register' %}" class="btn btn-primary btn-lg btn" role="button">Register</a>
 
-                <a href="{% url 'desktop:pwdReset' %}" class="btn btn-primary btn-lg btn "role="button">Forgot Password?</a>
+                <a href="{% url 'desktop:pwdReset' %}" class="btn btn-primary btn-lg btn " role="button">Forgot Password?</a>
                 </div>
             </form>
 
