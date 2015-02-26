@@ -70,18 +70,27 @@
 </div>
 </div>
 {% endcomment %}
-
-<nav class="navbar navbar-labs-nav navbar-bottom hidden-xs">
-  <div class="container-fluid">
-    <div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a class="navbar-labs-brand "href="{% url 'desktop:pcrlab' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab1-PCR.png' %}" alt=""></a>
-        <li><a class="navbar-labs-brand "href="{% url 'desktop:ligation' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab2-LaT.png' %}" alt=""></a>
-        <li><a class="navbar-labs-brand "href="{% url 'desktop:bwscreening' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab3-BWS.png' %}" alt=""></a>
-        <li><a class="navbar-labs-brand "href="{% url 'desktop:plasmid' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab4-PM.png' %}" alt=""></a>
-        <li><a class="navbar-labs-brand "href="{% url 'desktop:dna' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab5-DNA.png' %}" alt=""></a>
-        <li><a class="navbar-labs-brand "href="{% url 'desktop:quantpcr' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab6-rtqPCR.png' %}" alt=""></a>
-      </ul>
-    </div>
-  </div>
-</nav>
+<div class="container">
+    <nav>
+        <ul class="nav na nav-justified hidden-xs">
+            <li class="active"><a class=" "href="{% url 'desktop:pcrlab' %}"><img style="height: 50px; margin-top: -25px;" src=" {% static 'img/lab1-PCR.png' %}" alt=""></a></li>
+            <li><a href="{% url 'desktop:ligation' %}"><img style="height: 50px; margin-top: -25px;" src=" {% static 'img/lab2-LaT.png' %}" alt=""></a></li>
+            <li><a href="{% url 'desktop:bwscreening' %}"><img style="height: 50px; margin-top: -25px;" src=" {% static 'img/lab3-BWS.png' %}" alt=""></a></li>
+            <li><a href="{% url 'desktop:plasmid' %}"><img style="height: 50px; margin-top: -25px;" src=" {% static 'img/lab4-PM.png' %}" alt=""></a></li>
+            <li><a href="{% url 'desktop:dna' %}"><img style="height: 50px; margin-top: -25px;" src=" {% static 'img/lab5-DNA.png' %}" alt=""></a></li>
+            <li><a href="{% url 'desktop:quantpcr' %}"><img style="height: 50px; margin-top: -25px;" src=" {% static 'img/lab6-rtqPCR.png' %}" alt=""></a></li>
+        </ul>
+    </nav>
+</div>
+ {% comment %}   <div class="container">
+        <nav>
+          <ul class="nav na nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Downloads</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>{% endcomment %}
