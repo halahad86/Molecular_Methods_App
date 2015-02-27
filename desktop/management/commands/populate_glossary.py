@@ -13,7 +13,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
 
-        tree = xml.etree.ElementTree.parse('Glossary.xml')
+        tree = xml.etree.ElementTree.parse('static/xml/Glossary.xml')
 
         root = tree.getroot()
 
