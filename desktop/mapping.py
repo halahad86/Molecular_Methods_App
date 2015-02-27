@@ -1,5 +1,3 @@
-import re
-
 """
  To solve:
  
@@ -9,7 +7,6 @@ import re
  
  3) If answer found update the currently held slices and exit the loop
 """
-
 
 def solve(slices, names, assigments):
     permsA = []

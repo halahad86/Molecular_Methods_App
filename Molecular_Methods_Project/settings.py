@@ -3,21 +3,17 @@
 import os
 
 SETTINGS_DIR = os.path.dirname(__file__)
+
 PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
-PROJECT_PATH = os.path.abspath(PROJECT_PATH)
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 DATABASE_PATH = os.path.join(PROJECT_PATH, 'desktop.db')
 STATIC_PATH = os.path.join(PROJECT_PATH, 'static')
 LOGIN_URL = '/desktop/login/'
 
-TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\','/'),)
+TEMPLATE_DIRS = os.path.join(PROJECT_PATH, 'templates')
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
-
-ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
-)
 
 TEMPLATE_CONTEXT_PROCESSORS = (
        'django.core.context_processors.request',
@@ -32,6 +28,10 @@ EMAIL_HOST_USER = 'molecmeth@gmail.com'
 EMAIL_HOST_PASSWORD = 'molecadmin'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 SERVER_EMAIL = EMAIL_HOST_USER
+
+ADMINS = (
+    # ('Your Name', 'your_email@example.com'),
+)
 
 MANAGERS = ADMINS
 
@@ -57,7 +57,7 @@ ALLOWED_HOSTS = [
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Europe/London'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -129,6 +129,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'yawdadmin.middleware.PopupMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
@@ -140,6 +141,8 @@ WSGI_APPLICATION = 'Molecular_Methods_Project.wsgi.application'
 
 
 INSTALLED_APPS = (
+    'redactor',
+    'yawdadmin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -153,6 +156,19 @@ INSTALLED_APPS = (
     'desktop',
 )
 
+# Yawdadmin settings
+
+ADMIN_SITE_NAME = 'Molecular Methods'
+ADMIN_SITE_DESCRIPTION = 'Molecular Methods Admin Site'
+
+# Google analytics settings, along with client_secrets.json and analytics.dat
+
+ADMIN_GOOGLE_ANALYTICS = {
+        'client_secrets' : os.path.join(PROJECT_PATH, 'client_secrets.json'),
+        'token_file_name' : os.path.join(PROJECT_PATH, 'analytics.dat'),
+        'profile_id' : '59888358',
+        'admin_root_url' : 'http://molecularmethods.clinmed.gla.ac.uk/admin/'
+}
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
 
@@ -181,6 +197,6 @@ LOGGING = {
             'handlers': ['mail_admins'],
             'level': 'ERROR',
             'propagate': True,
-        },
-    }
+        }
+    },
 }

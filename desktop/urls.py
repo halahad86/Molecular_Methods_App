@@ -2,8 +2,6 @@ from django.conf.urls import patterns,include, url
 from desktop import views
 from django.conf import settings
 from django.contrib import admin
-from django.core.urlresolvers import reverse
-from django.contrib.auth.views import password_reset, password_reset_confirm
 
 urlpatterns = patterns('',
         url(r'^$', views.index, name='index'),
