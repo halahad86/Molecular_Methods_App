@@ -693,7 +693,7 @@ input[type="button"] {
         border-top: 1px solid #eee;
     }
 
-    /* Main marketing message and sign up button */
+/*    *//* Main marketing message and sign up button *//*
     .jumbotron {
         text-align: center;
 
@@ -701,7 +701,7 @@ input[type="button"] {
     .jumbotron .btn {
         padding: 14px 24px;
         font-size: 21px;
-    }
+    }*/
 
     /* Customize the nav-justified links to be fill the entire space of the .navbar */
 
