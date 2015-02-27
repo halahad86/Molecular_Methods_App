@@ -23,7 +23,7 @@
                             {% if questions %}
                                 {% for q in questions %}
                                     {% if q.number == number %}
-                                        <option selected="selected" value="/mapping/{{ q.Number }}"><font color="black">{{ q.number }}</font></option>
+                                        <option selected="selected" value="/mapping/1/{{ q.Number }}"><font color="black">{{ q.number }}</font></option>
                                     {% else %}
                                         <option value="/mapping/{{ q.number }}"><font color="black">{{ q.number }}</font></option>
                                     {% endif %}
