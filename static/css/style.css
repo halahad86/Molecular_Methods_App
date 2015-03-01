@@ -2481,6 +2481,7 @@ li.current {
 		 /*-o-transition: all 0.3s ease;*/
 			/*transition: all 0.3s ease;*/
 /*}*/
+/*
 
 .btn-small {
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.2), inset 0px 2px 3px #fff;
@@ -2503,6 +2504,7 @@ li.current {
 		 -o-transition: all 0.3s ease;
 			transition: all 0.3s ease;
 }
+*/
 
 /*.btn span{*/
 	/*-webkit-text-stroke: 0 !important;*/
@@ -2512,7 +2514,10 @@ li.current {
 	/*text-shadow: rgba(255,255,255,0.5) 0 1px 1px, rgba(255,255,255,0.2) 1px 1px 1px !important;*/
 	/*-webkit-transition: text-shadow .3s ease-out, background-color .4s ease-out !important;*/
 /*}*/
-
+.btn-timer {
+	background: #fbfbf9;
+	color: #004669 !important;
+}
 .btn:hover span {
 	-webkit-text-stroke: 0 !important;
 	color: transparent !important;
@@ -2561,6 +2566,7 @@ li.current {
 	/*text-shadow: rgba(255,255,255,0.5) 0 1px 1px, rgba(255,255,255,0.2) 1px 1px 1px !important;*/
 	/*-webkit-transition: text-shadow .3s ease-out, background-color .4s ease-out !important;*/
 /*}*/
+/*
 
 .btn-primary:hover span{
 	-webkit-text-stroke: 0 !important;
@@ -2703,6 +2709,8 @@ li.current {
 	text-shadow: 0 0 1px #5AAD34;
 	color: #5AAD34 !important;
 }
+*/
+/*
 
 .btn-success:active,
 .btn-success.active {
@@ -2793,6 +2801,7 @@ li.current {
   	background-color: #fbfbf9 \9;
 	background-color: #fbfbf9 \9;
 }
+*/
 
 /* Higher than 960 (desktop devices)
 ====================================================================== */
