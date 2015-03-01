@@ -475,7 +475,7 @@ input[type="button"] {
 	padding: 2px 0px !important;
 	margin-bottom: 10px;
 	color: #e1e1e1;
-	text-shadow: 0px -1px px #000;
+	text-shadow: 0px -1px  #000;
 }
 
 #under-footer {
@@ -728,6 +728,11 @@ input[type="button"] {
         background-color: transparent !important;
         background-image: none;
 
+    }
+    .nav > li > a:hover,
+    .nav > li > a:focus {
+        text-decoration: none;
+        background-color:transparent !important;
     }
     .nav-justified > li:first-child > a {
         border-radius: 5px 5px 0 0;
