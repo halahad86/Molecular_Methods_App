@@ -6,34 +6,35 @@
     <div class="container">
         <!--start: Wrapper-->
         <div id="wrapper">
-
-             <div class="row col-md-12">
+            <div class="row col-md-12">
+                <h1 class="blue-heading-h1">PCR & Primers</h1>
+                <div class="row col-md-12">
                     <!-- Nav tabs -->
 
-            <div id="myCarousel" class="carousel slide">
-                <!-- main slider carousel items -->
-                <div class="carousel-inner">
-                    <div class="active item" data-slide-number="0">
-                        <div class="embed-responsive-item">
-                            <div class="youtube hidden-xs " id="c-f1H07D_70" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="c-f1H07D_70" style="width: 230px; height: 129px;"></div>
+                    <div id="myCarousel-pcr" class="carousel slide">
+                        <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item" data-slide-number="0">
+                                <div class="embed-responsive-item">
+                                    <div class="youtube hidden-xs " id="c-f1H07D_70" style="width: 640px; height: 360px;"></div>
+                                    <div class="youtube visible-xs" id="c-f1H07D_70" style="width: 230px; height: 129px;"></div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <br>
-                </div>
-                <div class="row col-md-6">
-                    <div class="col-xs-3">
-                        <a href="{% url 'desktop:primersquizzes' %}" title="Quiz"><img src="{% static 'img/quiz.png' %}" class="img-responsive  "/>
-                            <div class="image-overlay-link"></div>
-                        </a>
-                    </div>
-                    <div class="col-xs-3">
-                        <a href="{% url 'desktop:Primer_Design_Exercise' %}" title="Exercise"><img src="{% static 'img/exercise_caption.png' %}" class="img-responsive "/></a>
-                        <div class="image-overlay-link"></div>
                         <br>
                     </div>
-                </div> <!--end: Row -->
+                    <div class="row col-md-6">
+                        <div class="col-xs-3">
+                            <a href="{% url 'desktop:primersquizzes' %}" title="Quiz"><img src="{% static 'img/quiz.png' %}" class="img-responsive  "/>
+                                <div class="image-overlay-link"></div>
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="{% url 'desktop:Primer_Design_Exercise' %}" title="Exercise"><img src="{% static 'img/exercise_caption.png' %}" class="img-responsive "/></a>
+                            <div class="image-overlay-link"></div>
+                            <br>
+                        </div>
+                    </div> <!--end: Row -->
                 </div>
                 <br>
                 <!-- start: Row -->
@@ -41,31 +42,42 @@
                     <h1 class="blue-heading-h1">Restriction Mapping</h1>
                     <div class="row col-md-12">
                         <!-- Nav tabs -->
-                        <div id="myCarousel-rm" class="carousel slide">
-                <!-- main slider carousel items -->
-                <div class="carousel-inner">
-                    <div class="active item" data-slide-number="0">
-                        <div class="embed-responsive-item">
-                            <div class="youtube hidden-xs " id="yR_heZ4n4Gc" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="yR_heZ4n4Gc" style="width: 230px; height: 129px;"></div>
-                        </div>
-                        <div class="item" data-slide-number="1">
-                        <div class="embed-responsive-item">
-                            <div class="youtube hidden-xs" id="yR_heZ4n4Gc" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="yR_heZ4n4Gc" style="width: 230px; height: 129px;"></div>
-                        </div>
-                    </div>
-                    </div>
+                        <div id="myCarousel" class="carousel slide">
+                            <!-- main slider carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item" data-slide-number="0">
+                                    <div class="embed-responsive-item">
+                                        <div class="youtube hidden-xs " id="yR_heZ4n4Gc" style="width: 640px; height: 360px;"></div>
+                                        <div class="youtube visible-xs" id="yR_heZ4n4Gc" style="width: 230px; height: 129px;"></div>
+                                    </div>
+                                </div>
+                                <div class="item" data-slide-number="1">
+                                    <div class="embed-responsive-item">
+                                        <div class="youtube hidden-xs" id="MeTWD8ECeiQ" style="width: 640px; height: 360px;"></div>
+                                        <div class="youtube visible-xs" id="MeTWD8ECeiQ" style="width: 230px; height: 129px;"></div>
+                                    </div>
+                                </div>
 
-                </div>
-                        <ul class="nav nav-tabs content-tabs" id="revision-tabs" >
-                            <li class="active hidden-xs"><a href="#home_rm"  data-toggle="tab">Restriction Mapping 1</a></li>
-                            <li class="active visible-xs"><a href="#home_rm_xs"  data-toggle="tab">Restriction Mapping 1</a></li>
-                            <li class="hidden-xs"><a href="#video2_rm" data-toggle="tab">Restriction Mapping 2</a></li>
-                            <li class="visible-xs"><a href="#video2_rm_xs" data-toggle="tab">Restriction Mapping 2</a></li>
-                        </ul>
-                        <!-- Tab panes -->
-                        <div class="tab-content">
+
+                            </div>
+
+                            <nav>
+                                <ul class="pager">
+                                    <li class="previous"><a href="#myCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Prev
+                                        <span class="sr-only">Previous</span></a></li>
+                                    <li class="next"><a href="#myCarousel"data-slide="next">Next
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+                                </ul>
+                            </nav>
+                            {#                        <ul class="nav nav-tabs content-tabs" id="revision-tabs" >#}
+                            {#                            <li class="active hidden-xs"><a href="#home_rm"  data-toggle="tab">Restriction Mapping 1</a></li>#}
+                            {#                            <li class="active visible-xs"><a href="#home_rm_xs"  data-toggle="tab">Restriction Mapping 1</a></li>#}
+                            {#                            <li class="hidden-xs"><a href="#video2_rm" data-toggle="tab">Restriction Mapping 2</a></li>#}
+                            {#                            <li class="visible-xs"><a href="#video2_rm_xs" data-toggle="tab">Restriction Mapping 2</a></li>#}
+                            {#                        </ul>#}
+                            <!-- Tab panes -->
+                            {% comment %}                        <div class="tab-content">
 
                             <div class="tab-pane active hidden-xs" id="home_rm">
                                 <div class="youtube hidden-xs" id="yR_heZ4n4Gc" style="width: 640px; height: 360px;"></div>
@@ -79,26 +91,27 @@
                             <div class="tab-pane hidden-xs" id="video2_rm">
                                 <div class="youtube hidden-xs" id="MeTWD8ECeiQ" style="width: 640px; height: 360px;"></div>
                             </div>
+                        </div>{% endcomment %}
                         </div>
-                    </div>
-                    <div class="row col-md-6">
-                        <div class="col-xs-3">
-                            <a href="{% url 'desktop:restrictionquizzes' %}" title="Quiz"><img src="{% static 'img/quiz.png' %}" class="img-responsive  "/>
-                                <div class="image-overlay-link"></div>
-                            </a>
-                        </div>
-                        <div class="col-xs-3">
-                            <a href="{% url 'desktop:Restriction_Mapping_Exercise' %}" title="Exercise"><img src="{% static 'img/exercise_caption.png' %}" class="img-responsive "/>
-                                <div class="image-overlay-link"></div>
-                            </a>
-                            <br>
-                        </div>
-                        <div class="col-xs-3">
-                            <a href="{% url 'desktop:mapping' 1 %}" title="Exercise"><img src="{% static 'img/rsmap_exer.png' %}" class="img-responsive "/>
-                                <div class="image-overlay-link"></div>
-                            </a>
-                            <br>
-                        </div>
+                        <br>
+                        <div class="row col-md-6">
+                            <div class="col-xs-3">
+                                <a href="{% url 'desktop:restrictionquizzes' %}" title="Quiz"><img src="{% static 'img/quiz.png' %}" class="img-responsive  "/>
+                                    <div class="image-overlay-link"></div>
+                                </a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="{% url 'desktop:Restriction_Mapping_Exercise' %}" title="Exercise"><img src="{% static 'img/exercise_caption.png' %}" class="img-responsive "/>
+                                    <div class="image-overlay-link"></div>
+                                </a>
+                                <br>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="{% url 'desktop:mapping' 1 %}" title="Exercise"><img src="{% static 'img/rsmap_exer.png' %}" class="img-responsive "/>
+                                    <div class="image-overlay-link"></div>
+                                </a>
+                                <br>
+                            </div>
                         </div>
                     </div> <!--end: Row -->
                     <br>
@@ -107,7 +120,42 @@
                         <h1 class="blue-heading-h1">Laboratory Calculations</h1>
                         <div class="row col-md-12">
                             <!-- Nav tabs -->
-                            <ul class="nav nav-tabs content-tabs" id="revision-tabs" >
+                            <div id="myCarousel2" class="carousel slide">
+                                <!-- main slider carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item" data-slide-number="0">
+                                        <div class="embed-responsive-item">
+                                            <div class="youtube hidden-xs " id="vOwdQRBENJQ" style="width: 640px; height: 360px;"></div>
+                                            <div class="youtube visible-xs" id="vOwdQRBENJQ" style="width: 230px; height: 129px;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="item" data-slide-number="1">
+                                        <div class="embed-responsive-item">
+                                            <div class="youtube hidden-xs" id="pVNpFP2Wmlc" style="width: 640px; height: 360px;"></div>
+                                            <div class="youtube visible-xs" id="pVNpFP2Wmlc" style="width: 230px; height: 129px;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="item" data-slide-number="1">
+                                        <div class="embed-responsive-item">
+                                            <div class="youtube hidden-xs" id="vHx4nqRdpMg" style="width: 640px; height: 360px;"></div>
+                                            <div class="youtube visible-xs" id="vHx4nqRdpMg" style="width: 230px; height: 129px;"></div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                                <nav>
+                                    <ul class="pager">
+                                        <li class="previous"><a href="#myCarousel2" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Prev
+                                            <span class="sr-only">Previous</span></a></li>
+                                        <li class="next"><a href="#myCarousel2"data-slide="next">Next
+                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+                                    </ul>
+                                </nav>
+                                {% comment %}                            <ul class="nav nav-tabs content-tabs" id="revision-tabs" >
                                 <li class="active hidden-xs"><a href="#home_lab"  data-toggle="tab">Preparing Solutions - Part 1</a></li>
                                 <li class="active visible-xs"><a href="#home_lab_xs"  data-toggle="tab">Preparing Solutions - Part 1</a></li>
                                 <li class="hidden-xs"><a href="#video2_lab" data-toggle="tab">Preparing Solutions - Part 2</a></li>
@@ -123,46 +171,26 @@
                                 <div class="tab-pane embed-responsive embed-responsive-16by9 visible-xs" id="video2_lab_xs"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pVNpFP2Wmlc" ></iframe></div>
                                 <div class="tab-pane hidden-xs" id="video3_lab"><iframe class="hidden-xs" width="560" height="315" src="https://www.youtube.com/embed/vHx4nqRdpMg"></iframe></div>
                                 <div class="tab-pane embed-responsive embed-responsive-16by9 visible-xs" id="video3_lab_xs"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vHx4nqRdpMg"></iframe></div>                            </div>
+                       {% endcomment %} </div>
+                            <br>
+                            <div class="row col-md-6">
+                                <div class="col-xs-3">
+                                    <a href="{% url 'desktop:dataquizzes' %}" title="Quiz"><img src="{% static 'img/quiz.png' %}" class="img-responsive"/>
+                                        <div class="image-overlay-link"></div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="{% url 'desktop:Ligation_Calculations' %}" title="Exercise"><img src="{% static 'img/exercise_caption.png' %}" class="img-responsive "/>
+                                        <div class="image-overlay-link"></div></a>
+                                    <br>
+                                </div>
+                            </div> <!--end: Row -->
                         </div>
-                        <div class="row col-md-6">
-                            <div class="col-xs-3">
-                                <a href="{% url 'desktop:dataquizzes' %}" title="Quiz"><img src="{% static 'img/quiz.png' %}" class="img-responsive"/>
-                                    <div class="image-overlay-link"></div>
-                                </a>
-                            </div>
-                            <div class="col-xs-3">
-                                <a href="{% url 'desktop:Ligation_Calculations' %}" title="Exercise"><img src="{% static 'img/exercise_caption.png' %}" class="img-responsive "/>
-                                    <div class="image-overlay-link"></div></a>
-                                <br>
-                            </div>
-                        </div> <!--end: Row -->
-                    </div>
-                </div> <!--end: container -->
-            </div><!--end: wrapper -->
-
-
-<nav>
-                    <ul class="pager">
-                        <li class="previous"><a href="#myCarousel-rm" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Prev
-                            <span class="sr-only">Previous</span></a></li>
-                        <li class="next"><a href="#myCarousel-rm"data-slide="next">Next
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
-                    </ul>
-                </nav>
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel-rm" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel-rm" data-slide-to="1"></li>
-                    <li data-target="#myCarousel-rm" data-slide-to="2"></li>
-                    <li data-target="#myCarousel-rm" data-slide-to="3"></li>
-                    <li data-target="#myCarousel-rm" data-slide-to="4"></li>
-                    <li data-target="#myCarousel-rm" data-slide-to="5"></li>
-                    <li data-target="#myCarousel-rm" data-slide-to="6"></li>
-
-                </ol>
+                    </div> <!--end: container -->
+                </div><!--end: wrapper -->
             </div>
         </div>
+    </div>
 
     <script src="https://labnol.googlecode.com/files/youtube.js"></script>
 
@@ -170,45 +198,45 @@
 
 
 
-{#}#}
-{#// Find all the YouTube video embedded on a page#}
-{#var videos = document.getElementsByClassName("youtube");#}
-{##}
-{#for (var i=0; i<videos.length; i++) {#}
-{##}
-{#  var youtube = videos[i];#}
-{##}
-{#  // Based on the YouTube ID, we can easily find the thumbnail image#}
-{#  var img = document.createElement("img");#}
-{#  img.setAttribute("src", "http://i.ytimg.com/vi/"#}
-{#                          + youtube.id + "/hqdefault.jpg");#}
-{#  img.setAttribute("class", "thumb");#}
-{##}
-{##}
-{#  // Overlay the Play icon to make it look like a video player#}
-{#  var circle = document.createElement("div");#}
-{#  circle.setAttribute("class","circle");#}
-{##}
-{#  youtube.appendChild(img);#}
-{#  youtube.appendChild(circle);#}
-{##}
-{#  // Attach an onclick event to the YouTube Thumbnail#}
-{#  youtube.onclick = function() {#}
-{##}
-{#    // Create an iFrame with autoplay set to true#}
-{#    var iframe = document.createElement("iframe");#}
-{#    iframe.setAttribute("src",performance#}
-{#          "https://www.youtube.com/embed/" + this.id#}
-{#        + "?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1");#}
-{##}
-{#    // The height and width of the iFrame should be the same as parent#}
-{#    iframe.style.width  = this.style.width;#}
-{#    iframe.style.height = this.style.height;#}
-{##}
-{#    // Replace the YouTube thumbnail with YouTube HTML5 Player#}
-{#    this.parentNode.replaceChild(iframe, this);#}
-{##}
-{#  };#}
-{#};#}
+    {#}#}
+    {#// Find all the YouTube video embedded on a page#}
+    {#var videos = document.getElementsByClassName("youtube");#}
+    {##}
+    {#for (var i=0; i<videos.length; i++) {#}
+    {##}
+    {#  var youtube = videos[i];#}
+    {##}
+    {#  // Based on the YouTube ID, we can easily find the thumbnail image#}
+    {#  var img = document.createElement("img");#}
+    {#  img.setAttribute("src", "http://i.ytimg.com/vi/"#}
+    {#                          + youtube.id + "/hqdefault.jpg");#}
+    {#  img.setAttribute("class", "thumb");#}
+    {##}
+    {##}
+    {#  // Overlay the Play icon to make it look like a video player#}
+    {#  var circle = document.createElement("div");#}
+    {#  circle.setAttribute("class","circle");#}
+    {##}
+    {#  youtube.appendChild(img);#}
+    {#  youtube.appendChild(circle);#}
+    {##}
+    {#  // Attach an onclick event to the YouTube Thumbnail#}
+    {#  youtube.onclick = function() {#}
+    {##}
+    {#    // Create an iFrame with autoplay set to true#}
+    {#    var iframe = document.createElement("iframe");#}
+    {#    iframe.setAttribute("src",performance#}
+    {#          "https://www.youtube.com/embed/" + this.id#}
+    {#        + "?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1");#}
+    {##}
+    {#    // The height and width of the iFrame should be the same as parent#}
+    {#    iframe.style.width  = this.style.width;#}
+    {#    iframe.style.height = this.style.height;#}
+    {##}
+    {#    // Replace the YouTube thumbnail with YouTube HTML5 Player#}
+    {#    this.parentNode.replaceChild(iframe, this);#}
+    {##}
+    {#  };#}
+    {#};#}
 
 {% endblock %}
