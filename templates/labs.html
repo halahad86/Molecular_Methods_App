@@ -5,15 +5,19 @@
         <!--start: Wrapper-->
         <div id="wrapper">
             <div class="row">
+
                 <div class="col-md-6">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/GgcGFyDvyFA"  style="border:4px solid #002a80;"></iframe>
                     </div>
-                    <iframe class="embed-responsive-item hidden-xs" src="{% static 'img/Safety_Video_v02.mp4' %}" style="border:4px solid #002a80;"></iframe>
+                    <br>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                        View Lab Safety Video
+                    </button>
                 </div>
                 <div class="col-md-6">
                     <h1 class="blue-heading-h1 hidden-xs" > Molecular Methods Introduction</h1>
-                    <br />
+                    <br>
                     <h3 class="blue-heading-h3" style="text-align: justify;">Molecular Methods is a course designed to allow you to develop practical skills and understanding in molecular biology.
 
                         To accomplish this there are a number of linked experiments that you will perform to take you through a process from PCR to gene cloning, plasmid DNA preparation,
@@ -35,7 +39,7 @@
             <!-- start: Row -->
             <div class="row">
                 <div class="col-md-2 portfolio-item">
-                    <div class="picture"><a href="{% url 'desktop:pcrlab' %}" title="Lab 1"><img src="{% static 'img/lab1-PCR.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                    <div class="picture"><a href="{% url 'desktop:pcrlab' %}" title="Lab 1"><img src="{% static 'img/lab1-PCR.png' %}" alt="" class="img-responsive"  style="max-width: 20pc"/><div class="image-overlay-link"></div></a>
                         <div
                                 class="post-title" style="text-align: center;">
                             <h2><a href="{% url 'desktop:pcrlab' %}"><font color="#002a80">PCR</font></a></h2>
@@ -44,7 +48,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 portfolio-item">
-                    <div class="picture"><a href="{% url 'desktop:ligation' %}" title="Lab 2"><img src="{% static 'img/lab2-LaT.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                    <div class="picture"><a href="{% url 'desktop:ligation' %}" title="Lab 2"><img src="{% static 'img/lab2-LaT.png' %}" alt="" class="img-responsive" style="max-width: 20pc"/><div class="image-overlay-link"></div></a>
                         <div
                                 class="post-title" style="text-align: center;">
                             <h2><a href="{% url 'desktop:ligation' %}"><font color="#002a80">Ligation and Transformation</font></a></h2>
@@ -53,7 +57,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 portfolio-item">
-                    <div class="picture"><a href="{% url 'desktop:bwscreening' %}" title="Lab 3"><img src="{% static 'img/lab3-BWS.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                    <div class="picture"><a href="{% url 'desktop:bwscreening' %}" title="Lab 3"><img src="{% static 'img/lab3-BWS.png' %}" alt="" class="img-responsive" style="max-width: 20pc"/><div class="image-overlay-link"></div></a>
                         <div
                                 class="post-title" style="text-align: center;">
                             <h2><a href="{% url 'desktop:bwscreening' %}"><font color="#002a80">Blue/White Screening</font></a></h2>
@@ -62,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 portfolio-item">
-                    <div class="picture"><a href="{% url 'desktop:plasmid' %}" title="Lab 4"><img src="{% static 'img/lab4-PM.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                    <div class="picture"><a href="{% url 'desktop:plasmid' %}" title="Lab 4"><img src="{% static 'img/lab4-PM.png' %}" alt="" class="img-responsive" style="max-width: 20pc" /><div class="image-overlay-link"></div></a>
                         <div
                                 class="post-title" style="text-align: center;">
                             <h2><a href="{% url 'desktop:plasmid' %}"><font color="#002a80">Plasmid Miniprep</font></a></h2>
@@ -71,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 portfolio-item">
-                    <div class="picture"><a href="{% url 'desktop:dna' %}" title="Lab 5"><img src="{% static 'img/lab5-DNA.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                    <div class="picture"><a href="{% url 'desktop:dna' %}" title="Lab 5"><img src="{% static 'img/lab5-DNA.png' %}" alt="" class="img-responsive" style="max-width: 20pc"/><div class="image-overlay-link"></div></a>
                         <div
                                 class="post-title" style="text-align: center;">
                             <h2><a href="{% url 'desktop:dna' %}"><font color="#002a80">DNA sequencing</font></a></h2>
@@ -80,7 +84,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 portfolio-item">
-                    <div class="picture"><a href="{% url 'desktop:quantpcr' %}" title="Lab 6"><img src="{% static 'img/lab6-rtqPCR.png' %}" alt="" class="img-responsive" /><div class="image-overlay-link"></div></a>
+                    <div class="picture"><a href="{% url 'desktop:quantpcr' %}" title="Lab 6"><img src="{% static 'img/lab6-rtqPCR.png' %}" alt="" class="img-responsive " style="max-width: 20pc" /><div class="image-overlay-link"></div></a>
                         <div
                                 class="post-title" style="text-align: center;">
                             <h2><a href="{% url 'desktop:quantpcr' %}"><font color="#002a80">Real-Time Quantitative PCR</font></a></h2>
@@ -88,6 +92,26 @@
                         </div>
                     </div>
                 </div>
+                <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title blue-heading-h3" id="myModalLabel" style="">Lab Safety</h4>
+      </div>
+      <div class="modal-body">
+       <div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item " src="{% static 'img/Safety_Video_v02.mp4' %}" style="border:4px solid #002a80;"></iframe></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
             </div>
             <!-- end: Row -->
         </div>
