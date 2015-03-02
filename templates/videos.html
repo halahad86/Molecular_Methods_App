@@ -5,7 +5,138 @@
     <div class="container">
         <!--start: Wrapper-->
         <div id="wrapper">
-            {% comment %}<div class="container">
+            <div class="row col-md-12 page-header hidden-xs ">
+                    <h2 class="blue-heading-h1 " >Molecular Methods Video Collection</h2>
+                    <h4 class="">The slideshow below shows the complete collection of videos for the Molecular Methods course. Please use the arrows to cycle through the videos.</h4>
+            </div>
+            <div class="row col-md-12">
+                <div class=" row col-md-3"></div>
+                <!-- main slider carousel -->
+
+                <div id="myCarousel" class="carousel slide col-md-8">
+                    <!-- main slider carousel items -->
+                    <div class="carousel-inner" style="padding-left: 20px">
+                        <div class="active item" data-slide-number="0">
+                            <div class="embed-responsive-item">
+                                <div class="youtube hidden-xs " id="GgcGFyDvyFA" style="width: 640px; height: 360px;"></div>
+                                <div class="youtube visible-xs" id="GgcGFyDvyFA" style="width: 230px; height: 129px;"></div>
+                            </div>
+
+                        </div>
+                        <div class="item" data-slide-number="1">
+                            <div class="embed-responsive-item">
+                                <div class="youtube hidden-xs" id="yR_heZ4n4Gc" style="width: 640px; height: 360px;"></div>
+                                <div class="youtube visible-xs" id="yR_heZ4n4Gc" style="width: 230px; height: 129px;"></div>
+                            </div>
+                        </div>
+                        <div class="item" data-slide-number="2">
+                            <div class="embed-responsive-item">
+                                <div class="youtube hidden-xs" id="MeTWD8ECeiQ" style="width: 640px; height: 360px;"></div>
+                                <div class="youtube visible-xs" id="MeTWD8ECeiQ" style="width: 230px; height: 129px;"></div>
+                            </div>
+                        </div>
+                        <div class="item" data-slide-number="3">
+                            <div class="embed-responsive-item">
+                                <div class="youtube hidden-xs" id="c-f1H07D_70" style="width: 640px; height: 360px;"></div>
+                                <div class="youtube visible-xs" id="c-f1H07D_70" style="width: 230px; height: 129px;"></div>
+                            </div>
+                        </div>
+                        <div class="item" data-slide-number="4">
+                            <div class="embed-responsive-item">
+                                <div class="youtube hidden-xs" id="vOwdQRBENJQ" style="width: 640px; height: 360px;"></div>
+                                <div class="youtube visible-xs" id="vOwdQRBENJQ" style="width: 230px; height: 129px;"></div>
+                            </div>
+                        </div>
+                        <div class="item" data-slide-number="5">
+                            <div class="embed-responsive-item ">
+                                <div class="youtube hidden-xs" id="pVNpFP2Wmlc" style="width: 640px; height: 360px;"></div>
+                                <div class="youtube visible-xs" id="pVNpFP2Wmlc" style="width: 230px; height: 129px;"></div>
+                            </div>
+                        </div>
+                        <div class="item" data-slide-number="6">
+                            <div class="embed-responsive-item">
+                                <div class="youtube hidden-xs" id="vHx4nqRdpMg" style="width: 640px; height: 360px;"></div>
+                                <div class="youtube visible-xs" id="vHx4nqRdpMg" style="width: 230px; height: 129px;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- main slider carousel nav controls -->
+                    <!--  -->
+                    <nav >
+                        <ul class="pager ">
+                            <li class="previous"><a href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Prev
+                                <span class="sr-only">Previous</span></a></li>
+                            <li class="next"><a href="#myCarousel"data-slide="next">Next
+                                <span class="glyphicon glyphicon-chevron-right " aria-hidden="true"></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"> </li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    </div>
+    </div>
+    <script src="https://labnol.googlecode.com/files/youtube.js"></script>
+{% endblock %}
+
+{% comment %}<div class="carousel-inner">
+                    <div class="active item" data-slide-number="0">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/GgcGFyDvyFA"></iframe>
+                        </div>
+
+                    </div>
+                    <div class="item" data-slide-number="1">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/yR_heZ4n4Gc"></iframe>
+                        </div>
+                    </div>
+                    <div class="item" data-slide-number="2">
+                        < <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/MeTWD8ECeiQ"></iframe>
+                    </div>
+                    </div>
+                    <div class="item" data-slide-number="3">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/c-f1H07D_70"></iframe>
+                        </div>
+                    </div>
+                    <div class="item" data-slide-number="4">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/vOwdQRBENJQ"></iframe>
+                        </div>
+                    </div>
+                    <div class="item" data-slide-number="5">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/pVNpFP2Wmlc"></iframe>
+                        </div>
+                    </div>
+                    <div class="item" data-slide-number="6">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/vHx4nqRdpMg"></iframe>
+                        </div>
+                    </div>
+                </div>{% endcomment %}
+{% comment %}<div class="container">
 <div role="tabpanel">
 
   <!-- Nav tabs -->
@@ -27,11 +158,11 @@
 
 </div>
 </div>{% endcomment %}
-            {##}
-            {#                <div class="youtube" id="yR_heZ4n4Gc" style="width: 320px; height: 180px;"></div>#}
-            {#    <script src="https://labnol.googlecode.com/files/youtube.js"></script>#}
-            <!-- You can embed  multiple Youtube videos on a page -->
-            {% comment %}
+{##}
+{#                <div class="youtube" id="yR_heZ4n4Gc" style="width: 320px; height: 180px;"></div>#}
+{#    <script src="https://labnol.googlecode.com/files/youtube.js"></script>#}
+<!-- You can embed  multiple Youtube videos on a page -->
+{% comment %}
   stopit --- http://stackoverflow.com/questions/23725989/how-to-prevent-bootstrap-carousel-from-moving-while-youtube-iframe-is-playing
  in tabs --- http://stackoverflow.com/questions/8667882/how-to-pause-a-youtube-player-when-hiding-the-iframe/8668741#8668741 , http://stackoverflow.com/questions/8731947/jquery-tab-with-videos-how-do-i-get-videos-to-stop-playing-when-i-switch-be?lq=1
  fiddle --- http://jsfiddle.net/WwfFE/3/
@@ -95,132 +226,3 @@ for (var i=0; i<videos.length; i++) {
              <iframe width="560" height="315"allowfullscreen="" src="https://www.youtube.com/embed/vHx4nqRdpMg" frameborder="0"></iframe>
 
 {% endcomment %}
-
-
-
-            <h2 class="blue-heading-h1 hidden-xs">Molecular Methods Video Collection</h2>
-            <h4 class="hidden-xs">The slideshow below shows the complete collection of videos for the Molecular Methods course. Please use the arrows to cycle through the videos.</h4>
-
-
-            <!-- main slider carousel -->
-
-            <div id="myCarousel" class="carousel slide">
-                <!-- main slider carousel items -->
-                <div class="carousel-inner">
-                    <div class="active item" data-slide-number="0">
-                        <div class="embed-responsive-item">
-                            <div class="youtube hidden-xs " id="GgcGFyDvyFA" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="GgcGFyDvyFA" style="width: 230px; height: 129px;"></div>
-                        </div>
-
-                    </div>
-                    <div class="item" data-slide-number="1">
-                        <div class="embed-responsive-item">
-                            <div class="youtube hidden-xs" id="yR_heZ4n4Gc" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="yR_heZ4n4Gc" style="width: 230px; height: 129px;"></div>
-                        </div>
-                    </div>
-                    <div class="item" data-slide-number="2">
-                        <div class="embed-responsive-item">
-                            <div class="youtube hidden-xs" id="MeTWD8ECeiQ" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="MeTWD8ECeiQ" style="width: 230px; height: 129px;"></div>
-                        </div>
-                    </div>
-                    <div class="item" data-slide-number="3">
-                        <div class="embed-responsive-item">
-                            <div class="youtube hidden-xs" id="c-f1H07D_70" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="c-f1H07D_70" style="width: 230px; height: 129px;"></div>
-                        </div>
-                    </div>
-                    <div class="item" data-slide-number="4">
-                        <div class="embed-responsive-item">
-                            <div class="youtube hidden-xs" id="vOwdQRBENJQ" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="vOwdQRBENJQ" style="width: 230px; height: 129px;"></div>
-                        </div>
-                    </div>
-                    <div class="item" data-slide-number="5">
-                        <div class="embed-responsive-item ">
-                            <div class="youtube hidden-xs" id="pVNpFP2Wmlc" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="pVNpFP2Wmlc" style="width: 230px; height: 129px;"></div>
-                        </div>
-                    </div>
-                    <div class="item" data-slide-number="6">
-                        <div class="embed-responsive-item">
-                            <div class="youtube hidden-xs" id="vHx4nqRdpMg" style="width: 640px; height: 360px;"></div>
-                            <div class="youtube visible-xs" id="vHx4nqRdpMg" style="width: 230px; height: 129px;"></div>
-                        </div>
-                    </div>
-                </div>
-                {% comment %}<div class="carousel-inner">
-                    <div class="active item" data-slide-number="0">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/GgcGFyDvyFA"></iframe>
-                        </div>
-
-                    </div>
-                    <div class="item" data-slide-number="1">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/yR_heZ4n4Gc"></iframe>
-                        </div>
-                    </div>
-                    <div class="item" data-slide-number="2">
-                        < <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/MeTWD8ECeiQ"></iframe>
-                    </div>
-                    </div>
-                    <div class="item" data-slide-number="3">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/c-f1H07D_70"></iframe>
-                        </div>
-                    </div>
-                    <div class="item" data-slide-number="4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/vOwdQRBENJQ"></iframe>
-                        </div>
-                    </div>
-                    <div class="item" data-slide-number="5">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/pVNpFP2Wmlc"></iframe>
-                        </div>
-                    </div>
-                    <div class="item" data-slide-number="6">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/vHx4nqRdpMg"></iframe>
-                        </div>
-                    </div>
-                </div>{% endcomment %}
-                <!-- main slider carousel nav controls -->
-                <!--  -->
-                <nav >
-                    <ul class="pager ">
-                        <li class="previous"><a href="#myCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left col-md-3" aria-hidden="true"></span>Prev
-                            <span class="sr-only">Previous</span></a></li>
-                        <li class="next"><a href="#myCarousel"data-slide="next">Next
-                            <span class="glyphicon glyphicon-chevron-right " aria-hidden="true"></span></a></li>
-                    </ul>
-                </nav>
-                <!-- Indicators -->
-{#                <ol class="carousel-indicators">#}
-{#                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>#}
-{#                    <li data-target="#myCarousel" data-slide-to="1"></li>#}
-{#                    <li data-target="#myCarousel2" data-slide-to="0"class="active"> </li>#}
-{#                    <li data-target="#myCarousel2" data-slide-to="1"></li>#}
-{#                    <li data-target="#myCarousel2" data-slide-to="2"></li>#}
-{#                    <li data-target="#myCarousel" data-slide-to="5"></li>#}
-{#                    <li data-target="#myCarousel" data-slide-to="6"></li>#}
-{##}
-{#                </ol>#}
-            </div>
-        </div>
-
-    </div>
-
-
-
-    </div>
-    </div>
-    <script src="https://labnol.googlecode.com/files/youtube.js"></script>
-{% endblock %}
-
-
