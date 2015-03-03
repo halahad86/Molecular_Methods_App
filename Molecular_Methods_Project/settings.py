@@ -129,7 +129,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'yawdadmin.middleware.PopupMiddleware',
+    #'yawdadmin.middleware.PopupMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
@@ -141,8 +141,8 @@ WSGI_APPLICATION = 'Molecular_Methods_Project.wsgi.application'
 
 
 INSTALLED_APPS = (
-    'redactor',
-    'yawdadmin',
+    #'redactor',
+    #'yawdadmin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -158,17 +158,17 @@ INSTALLED_APPS = (
 
 # Yawdadmin settings
 
-ADMIN_SITE_NAME = 'Molecular Methods'
-ADMIN_SITE_DESCRIPTION = 'Molecular Methods Admin Site'
+# ADMIN_SITE_NAME = 'Molecular Methods'
+# ADMIN_SITE_DESCRIPTION = 'Molecular Methods Admin Site'
 
 # Google analytics settings, along with client_secrets.json and analytics.dat
-
-ADMIN_GOOGLE_ANALYTICS = {
-        'client_secrets' : os.path.join(PROJECT_PATH, 'client_secrets.json'),
-        'token_file_name' : os.path.join(PROJECT_PATH, 'analytics.dat'),
-        'profile_id' : '59888358',
-        'admin_root_url' : 'http://molecularmethods.clinmed.gla.ac.uk/admin/'
-}
+#
+# ADMIN_GOOGLE_ANALYTICS = {
+#         'client_secrets' : os.path.join(PROJECT_PATH, 'client_secrets.json'),
+#         'token_file_name' : os.path.join(PROJECT_PATH, 'analytics.dat'),
+#         'profile_id' : '59888358',
+#         'admin_root_url' : 'http://molecularmethods.clinmed.gla.ac.uk/admin/'
+# }
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
 
