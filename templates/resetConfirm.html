@@ -17,7 +17,7 @@
 
 <body>
 
-<div class="modal">
+<div class="modal-dialog">
     <div class="jumbotron">
         <div class="row">
             <h2 class="pull-left" style="color: #005984">Password Reset</h2><a href="#" class=" pull-right">
@@ -25,7 +25,6 @@
         </div>
         {% if validlink %}
             <form method="post">
-                {% csrf_token %}
                 <label for="id_new_password1">New password:</label>
                 <input style="color: #00008b" id="id_new_password1" maxlength="4096" name="new_password1" type="password">
                 <label for="id_new_password2">New password confirmation:</label>
