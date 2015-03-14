@@ -24,13 +24,16 @@
                 <img style="height: 50px; margin-top: -5px;" src=" {% static 'img/logo8.png' %}" alt="logo"></a>
             </div>
             {% if validlink %}
-                <form method="post">
-                    <label for="id_new_password1">New password:</label>
-                    <input style="color: #00008b" id="id_new_password1" maxlength="4096" name="new_password1" type="password">
-                    <label for="id_new_password2">New password confirmation:</label>
-                    <input style="color: #00008b" id="id_new_password2" maxlength="4096" name="new_password2" type="password">
-                    <button class=" btn btn-primary btn-lg" type="submit">Submit</button>
+            <div class="row">
+                  <form method="post">
+                    <label class="col-md-6 col-xs-6" for="id_new_password1">New password:</label>
+                    <input class="col-md-6 col-xs-6"style="color: #00008b" id="id_new_password1" maxlength="4096" name="new_password1" type="password"><br>
+                    <label class="col-md-6 col-xs-6" for="id_new_password2">New password confirmation:</label>
+                    <input class="col-md-6 col-xs-6"style="color: #00008b" id="id_new_password2" maxlength="4096" name="new_password2" type="password"><br>
+                    <br>
+                      <button class=" btn btn-primary btn-lg pull-right col-md-6 " type="submit">Submit</button>
                 </form>
+                </div>
             {% else %}
                 <p>This reset link is no longer valid!</p>
             {% endif %}
