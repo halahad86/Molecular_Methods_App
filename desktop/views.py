@@ -132,11 +132,6 @@ def rmexer_pdf_view(request):
 
 # end of pdfs in browser
 
-@login_required
-def rev_constr(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('rev_constr.html',context_dict,context)
 
 @login_required
 def index(request):
@@ -163,12 +158,6 @@ def pcrlab(request):
     context_dict={}
     return render_to_response('labs/pcrlab.html', context_dict, context)
 
-@login_required
-def pcrlabpdf(request):
-    context=RequestContext(request)
-    context_dict={}
-    return render_to_response('lab_pdfs/pcrlabpdf.html', context_dict, context)
-
 
 @login_required
 def ligation(request):
@@ -176,11 +165,6 @@ def ligation(request):
     context_dict={}
     return render_to_response('labs/ligation.html', context_dict, context)
 
-@login_required
-def ligationlabpdf(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('lab_pdfs/ligationlabpdf.html', context_dict, context)
 
 @login_required
 def bwscreening(request):
@@ -188,11 +172,6 @@ def bwscreening(request):
     context_dict={}
     return render_to_response('labs/bwscreening.html', context_dict, context)
 
-@login_required
-def bwslabpdf(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('lab_pdfs/bwslabpdf.html', context_dict, context)
 
 @login_required
 def plasmid(request):
@@ -200,11 +179,6 @@ def plasmid(request):
     context_dict={}
     return render_to_response('labs/plasmid.html', context_dict, context)
 
-@login_required
-def plasmidlabpdf(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('lab_pdfs/plasmidlabpdf.html', context_dict, context)
 
 @login_required
 def dna(request):
@@ -212,67 +186,12 @@ def dna(request):
     context_dict={}
     return render_to_response('labs/dna.html', context_dict, context)
 
-@login_required
-def dnalabpdf(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('lab_pdfs/dnalabpdf.html', context_dict, context)
-
 
 @login_required
 def quantpcr(request):
     context= RequestContext(request)
     context_dict={}
     return render_to_response('labs/quantpcr.html', context_dict, context)
-
-@login_required
-def qpcrlabpdf(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('lab_pdfs/qpcrlabpdf.html', context_dict, context)
-
-
-@login_required
-def Electrophoresis(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('Electrophoresis.html', context_dict, context)
-
-
-@login_required
-def Sequence_Analysis(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('Sequence_Analysis.html', context_dict, context)
-
-
-@login_required
-def Ligation_Calculations(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('calculations/Ligation_Calculations.html', context_dict, context)
-
-
-@login_required
-def QPCR_Exercises(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('QPCR_Exercises.html', context_dict, context)
-
-
-@login_required
-def Restriction_Mapping_Exercise(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('Restriction_Mapping_Exercise.html', context_dict, context)
-
-
-@login_required
-def Primer_Design_Exercise(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('Primer_Design_Exercise.html', context_dict, context)
-
 
 
 @login_required
@@ -437,13 +356,6 @@ def videos(request):
     context= RequestContext(request)
     context_dict={}
     return render_to_response('videos.html',context_dict,context)
-
-
-@login_required
-def project(request):
-    context= RequestContext(request)
-    context_dict={}
-    return render_to_response('project.html',context_dict,context)
 
 @login_required
 def revision(request):
@@ -626,20 +538,6 @@ def pdf(request, filename):
     response['Content-disposition'] = 'attachment'
     return response
 
-
-# @login_required
-# def search(request):
-#     query_string = ''
-#     found_entries = None
-#     if ('q' in request.GET) and request.GET['q'].strip():
-#         query_string = request.GET['q']
-#
-#         entry_query = get_query(query_string, ['title'])
-#
-#         found_entries = Glossary.objects.filter(entry_query).order_by('title')
-#
-#
-#     return render_to_response('searchResult.html', { 'query_string': query_string, 'found_entries': found_entries },context_instance=RequestContext(request))
 
 @login_required
 def search(request):
