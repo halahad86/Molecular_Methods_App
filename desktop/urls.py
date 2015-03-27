@@ -18,7 +18,6 @@ urlpatterns = patterns('',
         url(r'^generalquizzes/$', views.generalquizzes, name='generalquizzes'),
         url(r'^restrictionquizzes/$', views.restrictionquizzes, name='restrictionquizzes'),
         url(r'^dataquizzes/$', views.dataquizzes, name='dataquizzes'),
-        url(r'^project/$', views.project, name='project'),
         url(r'^pcrlab/$', views.pcrlab, name='pcrlab'),
         url(r'^ligation/$', views.ligation, name='ligation'),
         url(r'^bwscreening/$', views.bwscreening, name='bwscreening'),
@@ -50,7 +49,6 @@ urlpatterns = patterns('',
         url(r'^searchResult/$', views.search, name='searchResult'),
         url(r'^resetConfirm/(?P<uidb36>[0-9A-Za-z]+)-(?P<token>.+)/',views.reset_confirm, name='resetConfirm'),
         url(r'^pwdReset/', views.reset, name='pwdReset'),
-        url(r'^rev_constr/$', views.rev_constr, name='rev_constr'),
 
 )
 

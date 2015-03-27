@@ -1,75 +1,7 @@
-
 {% load base_extras %}
 
 {% load staticfiles %}
 
-{% comment %}
-<nav class="navbar navbar-upper-logos hidden-xs" role="navigation">
-    <a class="navbar-brand nav-pills "href="{% url 'desktop:pcrlab' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab1-PCR.png' %}" alt=""></a>
-    <a class="navbar-brand  nav-pills" href="{% url 'desktop:ligation' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab2-LaT.png' %}" alt=""></a>
-    <a class="navbar-brand nav-pills" href="{% url 'desktop:bwscreening' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab3-BWS.png' %}" alt=""></a>
-    <a class="navbar-brand nav-pills" href="{% url 'desktop:plasmid' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab4-PM.png' %}" alt=""></a>
-    <a class="navbar-brand  nav-pills" href="{% url 'desktop:dna' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/lab5-DNA.png' %}" alt=""></a>
-    <a class="navbar-brand  nav-pills"href="{% url 'desktop:quantpcr' %}"><img style="height: 50px; margin-top: -5px;" src="{% static 'img/lab6-rtqPCR.png' %}" alt=""></a>
-</nav>{% endcomment %}
-
-{% comment %}
-<div class="container-fluid">
-<div id="topbar">
-    <div class="nav navbar-default" >
-        <div class="navbar-left">
-        <div class="navbar-inner"  style="position: relative; bottom:10px; left: 200px;">
-            <a class="{% navactive request 'desktop:pcrlab' %}" href="{% url 'desktop:pcrlab' %}">PCR</a>
-
-            <a class="{% navactive request 'desktop:ligation' %}" href="{% url 'desktop:ligation' %}"><span style="position: relative; left: 115px; font-size: small;">Ligation</span></a>
-
-            <a class="{% navactive request 'desktop:bwscreening' %}" href="{% url 'desktop:bwscreening' %}"><span style="position: relative; left: 190px; font-size: small;">B/W Screening</span></a>
-
-            <a class="{% navactive request 'desktop:plasmid' %}" href="{% url 'desktop:plasmid' %}"><span style="position: relative; left: 263px; font-size: small;">Plasmid</span></a>
-
-            <a class="{% navactive request 'desktop:dna' %}" href="{% url 'desktop:dna' %}"><span style="position: relative; left: 331px; font-size: small;">DNA sequencing</span></a>
-
-            <a class="{% navactive request 'desktop:quantpcr' %}" href="{% url 'desktop:quantpcr' %}"><span style="position: relative; left: 350px; font-size: small;">Real-Time Quantitative PCR</span></a>
-
-        </div>
-            </div>
-        <div class="navbar-right"></div>
-    </div>
-</div>
-
-<!-- HERE IS THE NAV BAR USED FROM BASE TEMPLATE -->
-<div class="container-fluid">
-<div class="row" style="position: relative; left: 160px; bottom: 10px;">
-
-    <!--start: Navigation -->
-    <a class="{% navactive request 'desktop:pcrlab' %}" href="{% url 'desktop:pcrlab' %}"><span style="position: relative; left: 0px;"><img src="{% static 'img/lab1-PCR.png' %}"  width="6%" height="6%" alt=""/></span></a>
-
-
-    <a class="{% navactive request 'desktop:ligation' %}" href="{% url 'desktop:ligation' %}"><span style="position: relative; left: 70px;"><img src="{% static 'img/lab2-LaT.png' %}"  width="6%" height="6%" alt=""/></span></a>
-
-
-    <a class="{% navactive request 'desktop:bwscreening' %}" href="{% url 'desktop:bwscreening' %}"><span style="position: relative; left: 140px;"><img src="{% static 'img/lab3-BWS.png' %}"  width="6%" height="6%" alt=""/></span></a>
-
-
-    <a class="{% navactive request 'desktop:plasmid' %}" href="{% url 'desktop:plasmid' %}"><span style="position: relative; left: 210px;"><img src="{% static 'img/lab4-PM.png' %}"  width="6%" height="6%" alt=""/></span></a>
-
-
-    <a class="{% navactive request 'desktop:dna' %}" href="{% url 'desktop:dna' %}"><span style="position: relative; left: 280px;"><img src="{% static 'img/lab5-DNA.png' %}"  width="6%" height="6%" alt=""/></span></a>
-
-
-    <a class="{% navactive request 'desktop:quantpcr' %}" href="{% url 'desktop:quantpcr' %}"><span style="position: relative; left: 350px;"><img src="{% static 'img/lab6-rtqPCR.png' %}"  width="6%" height="6%" alt=""/></span></a>
-
-
-
-
-
-
-
-
-</div>
-</div>
-</div>
-{% endcomment %}
 <div class="container">
     <nav>
         <ul class="nav na nav-justified hidden-xs">
@@ -82,15 +14,3 @@
         </ul>
     </nav>
 </div>
- {% comment %}   <div class="container">
-        <nav>
-          <ul class="nav na nav-justified">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </div>{% endcomment %}
