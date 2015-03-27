@@ -42,21 +42,6 @@ class MQuestion(models.Model):
         verbose_name="a new restriction mapping question"
         verbose_name_plural = "Restriction Mapping Questions"
 
-# May not need this model is we are not storing the user's result
-
-#class Result(models.Model):
-#    name = models.ForeignKey(User)
-#    question = models.ForeignKey('QQuestion')
-#    answer = models.ForeignKey('Answer')
-
-#    def __unicode__(self):
-#        return self.name + self.question
-
-#    class Meta:
-#        verbose_name="result"
-#        verbose_name_plural = "Quiz Results"
-# This is for a Quiz question
-
 
 class QQuestion(models.Model):
 
