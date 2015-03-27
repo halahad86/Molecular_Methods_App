@@ -561,7 +561,7 @@ def search(request):
         return HttpResponse(simplejson.dumps(return_entries), content_type='application/json')
 
     return HttpResponse(simplejson.dumps([]), content_type='application/json')
-    
+
 def reset_confirm(request, uidb36=None, token=None):
     return password_reset_confirm(request, template_name='resetConfirm.html',
         uidb36=uidb36, token=token, post_reset_redirect=reverse('desktop:login'))
