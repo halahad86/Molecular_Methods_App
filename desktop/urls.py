@@ -31,7 +31,6 @@ urlpatterns = patterns('',
         url(r'^convertermolarity/$', views.convertermolarity, name='convertermolarity'),
         url(r'^convertervolume/$', views.convertervolume, name='convertervolume'),
         url(r'^mapping/(?P<question_num>\w+)/$', views.mapping, name='mapping'),
-        # quick and dirty pdfs
         url(r'^pcrlabpdf/$', views.pcr_pdf_view, name='pcrlabpdf'),
         url(r'^ligationlabpdf/$', views.ligation_pdf_view, name='ligationlabpdf'),
         url(r'^bwslabpdf/$', views.bws_pdf_view, name='bwslabpdf'),

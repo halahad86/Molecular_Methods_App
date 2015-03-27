@@ -553,8 +553,7 @@ def search(request):
         return_entries = []
 
         for entry in found_entries:
-            #return_entries.append({'title': entry.title, 'description': entry.description})
-            #return_entries.append(entry.title)
+
             return_entries.append({'label': entry.title, 'value': entry.description})
 
 
@@ -562,9 +561,7 @@ def search(request):
         return HttpResponse(simplejson.dumps(return_entries), content_type='application/json')
 
     return HttpResponse(simplejson.dumps([]), content_type='application/json')
-    # return render_to_response('searchResult.html', { 'query_string': query_string, 'found_entries': found_entries },context_instance=RequestContext(request))
-
-
+    
 def reset_confirm(request, uidb36=None, token=None):
     return password_reset_confirm(request, template_name='resetConfirm.html',
         uidb36=uidb36, token=token, post_reset_redirect=reverse('desktop:login'))
