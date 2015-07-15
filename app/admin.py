@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib import admin
-from desktop.models import Glossary, QQuestion, Answer, Lab, MQuestion, Video
+from app.models import Glossary, QQuestion, Answer, Lab, MQuestion, Video
 from redactor.widgets import AdminRedactorEditor
 from import_export.admin import ImportExportModelAdmin
 from import_export import resources

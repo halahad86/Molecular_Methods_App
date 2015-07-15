@@ -6,13 +6,13 @@ SETTINGS_DIR = os.path.dirname(__file__)
 
 PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
-DATABASE_PATH = os.path.join(PROJECT_PATH, 'desktop.db')
+DATABASE_PATH = os.path.join(PROJECT_PATH, 'app.db')
 STATIC_PATH = os.path.join(PROJECT_PATH, 'static')
-LOGIN_URL = '/desktop/login/'
+LOGIN_URL = '/app/login/'
 
 TEMPLATE_DIRS = os.path.join(PROJECT_PATH, 'templates')
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -154,7 +154,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'desktop',
+    'app',
 )
 
 # Yawdadmin settings

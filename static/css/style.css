@@ -440,10 +440,8 @@ input[type="button"] {
 
 
 #footer {
-	margin-top: 20px;
-	background: #222 url(../img/fbg.jpg);
-	padding: 20px 30px;
-	text-shadow: 0px -1px 0px #000;
+	background: #005984 url(../img/fbg2.jpg);
+	color: #b0b0b0;
 	-webkit-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
 	   -moz-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
 	        box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
@@ -451,6 +449,13 @@ input[type="button"] {
 	   -moz-border-radius: 2px;
 			border-radius: 2px;
 	opacity: .95;
+	min-height: 40px
+	flex: 1;
+	margin-bottom: 1%;
+	margin-top: 30%
+	min-height: 40px;
+	width: 100%;
+
 }
 
 #footer,
@@ -478,17 +483,27 @@ input[type="button"] {
 	text-shadow: 0px -1px  #000;
 }
 
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
 #under-footer {
 	/*margin: 3% 0px;*/
-	margin-bottom: 1%;
-	margin-top: 30%;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding: 0px 0px;
-	min-height: 40px;
-	position: relative;
-	width: 100%;
-	bottom: 0%;
+	/*margin-bottom: 1%;*/
+	/*margin-top: 30%;*/
+	/*margin-left: 0px;*/
+	/*margin-right: 0px;*/
+	/*padding: 0px 0px;*/
+	/*min-height: 40px;*/
+	/*position: relative;*/
+	/*width: 75%;*/
+	/*bottom: 0%;*/
 	background: #005984 url(../img/fbg2.jpg);
 	color: #b0b0b0;
 	-webkit-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
@@ -498,6 +513,7 @@ input[type="button"] {
 	   -moz-border-radius: 2px;
 			border-radius: 2px;
 	opacity: .95;
+	flex: 1;
 }
 
 #under-footer-logo  {
@@ -548,7 +564,7 @@ input[type="button"] {
 
 #under-footer-back-to-top a:hover {background-color: #aaa;}
 
-/** Higher than 960 (desktop devices)*/
+/** Higher than 960 (app devices)*/
 /*====================================================================== */
 @media only screen and (min-width: 980px) and (max-width: 1199px){
 

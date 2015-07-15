@@ -2,7 +2,7 @@
 <html><head></head><body>{% load staticfiles %}
 
 
-<title>Desktop</title>
+<title>app</title>
 <!-- Is anyone getting tired of repeatedly entering the header over and over?? -->
 
 <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
@@ -28,12 +28,12 @@
                 <strong><font size="6" color="#005984">Thank you for registering!</font></strong>
                 <br>
                 <br>
-                <a href="/desktop"><font size="4" color="#005984">Return to the login page.</font></a><br>
+                <a href="/app"><font size="4" color="#005984">Return to the login page.</font></a><br>
             {% else %}
                 {#                </h1><h1 style="color: #00008b">Register here</h1>#}
                  <div class="container">
                 <h2 style="color: #005984">Fill in the form to register</h2>
-                <form id="user_form" method="post" action="{% url 'desktop:register' %}" enctype="multipart/form-data">
+                <form id="user_form" method="post" action="{% url 'app:register' %}" enctype="multipart/form-data">
 
                     {% csrf_token %}
 

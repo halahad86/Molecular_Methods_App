@@ -2,7 +2,7 @@ import xml.etree.ElementTree
 
 from django.core.management.base import BaseCommand
 
-import desktop.models
+import app.models
 
 
 class Command(BaseCommand):
@@ -24,7 +24,7 @@ class Command(BaseCommand):
                     for question in info:
                         if question.tag == "text":
                             questionText = question.text
-                            questionObject = desktop.models.QQuestion.objects.get_or_create(
+                            questionObject = app.models.QQuestion.objects.get_or_create(
                                 topic=name,
                                 question=questionText)[0]
 
@@ -35,7 +35,7 @@ class Command(BaseCommand):
                             answerText = answer.text
                             if info.attrib['fraction'] != "0":
                                 isCorrect = True
-                            desktop.models.Answer.objects.get_or_create(
+                            app.models.Answer.objects.get_or_create(
                                 question=questionObject,
                                 answer=answerText,
                                 correct=isCorrect)[0]

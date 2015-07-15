@@ -20,7 +20,7 @@
             </div>
             <br>
 
-            <form name = "quiz" action="{% url 'desktop:checkans' %}" data-ajax=false  method="post">
+            <form name = "quiz" action="{% url 'app:checkans' %}" data-ajax=false  method="post">
 
                 {% csrf_token %}
                 {% for question1 in questions %}

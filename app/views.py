@@ -3,13 +3,13 @@ import urllib
 from django.contrib.auth.decorators import login_required
 from django.template import RequestContext
 from django.shortcuts import render_to_response
-from desktop.forms import UserForm
+from app.forms import UserForm
 from django.contrib.auth import authenticate, login
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from django.contrib.auth import logout
-from desktop.models import Glossary
-from desktop.models import QQuestion, Answer, MQuestion
+from app.models import Glossary
+from app.models import QQuestion, Answer, MQuestion
 import json as simplejson
 #Django Q Objects to handle queries
 from django.db.models import Q
@@ -465,7 +465,7 @@ def user_login(request):
                 # If the account is valid and active, we can log the user in.
                 # We'll send the user back to the homepage.
                 login(request, user)
-                return HttpResponseRedirect('/desktop/')
+                return HttpResponseRedirect('/app/')
             else:
                 # An inactive account was used - no logging in!
                 return HttpResponse("Your account is disabled.")
@@ -491,7 +491,7 @@ def user_logout(request):
     logout(request)
 
     # Take the user back to the homepage.
-    return HttpResponseRedirect('/desktop/')
+    return HttpResponseRedirect('/app/')
 
 
 @login_required
@@ -564,11 +564,11 @@ def search(request):
 
 def reset_confirm(request, uidb36=None, token=None):
     return password_reset_confirm(request, template_name='resetConfirm.html',
-        uidb36=uidb36, token=token, post_reset_redirect=reverse('desktop:login'))
+        uidb36=uidb36, token=token, post_reset_redirect=reverse('app:login'))
 
 
 def reset(request):
     return password_reset(request, template_name='pwdReset.html',
         email_template_name='reset_subject.html',
         subject_template_name='email_title.html',
-        post_reset_redirect=reverse('desktop:login'))
+        post_reset_redirect=reverse('app:login'))

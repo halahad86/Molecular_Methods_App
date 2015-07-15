@@ -2,7 +2,7 @@ import xml.etree.ElementTree
 
 from django.core.management.base import BaseCommand
 
-import desktop.models
+import app.models
 
 
 class Command(BaseCommand):
@@ -18,4 +18,4 @@ class Command(BaseCommand):
         root = tree.getroot()
 
         for entry in root[0][13]:
-            desktop.models.Glossary.objects.get_or_create(title=entry[0].text, description=entry[1].text)[0]
+            app.models.Glossary.objects.get_or_create(title=entry[0].text, description=entry[1].text)[0]

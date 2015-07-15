@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head></head><body>{% load staticfiles %}
+<html lang="en"><head></head><body class="Site">{% load staticfiles %}
 
 <!-- start: Meta -->
 <meta charset="utf-8">
@@ -26,7 +26,7 @@
     <div class="container">
         <!--start: Logos -->
         <nav class="navbar navbar-upper-logos hidden-xs" role="navigation">
-            <a class="navbar-brand navbar-left" href="{% url 'desktop:index' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/logo8.png' %}" alt="logo"></a>
+            <a class="navbar-brand navbar-left" href="{% url 'app:index' %}"><img style="height: 50px; margin-top: -5px;" src=" {% static 'img/logo8.png' %}" alt="logo"></a>
             <a class="navbar-brand navbar-right" href="http://www.gla.ac.uk/"><img style="height: 50px; margin-top: -5px;" src="{% static 'img/glalogo1.png' %}" alt="glasgowlogo"></a>
         </nav>
         <div><br></div>
@@ -54,40 +54,40 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
 
-                    <li class=""><a href="{% url 'desktop:labs' %}">Labs</a></li>
-                    <li><a href="{% url 'desktop:revision' %}">Revision</a></li>
-                    <li><a href="{% url 'desktop:videos' %}">Videos</a></li>
+                    <li class=""><a href="{% url 'app:labs' %}">Labs</a></li>
+                    <li><a href="{% url 'app:revision' %}">Revision</a></li>
+                    <li><a href="{% url 'app:videos' %}">Videos</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quizzes<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="{% url 'desktop:generalquizzes' %}">General Molecular Methods</a></li>
-                            <li><a href="{% url 'desktop:primersquizzes' %}">PCR and Primers</a></li>
-                            <li><a href="{% url 'desktop:restrictionquizzes' %}">Restriction Mapping</a></li>
-                            <li><a href="{% url 'desktop:dataquizzes' %}">Laboratory Calculations</a></li>
+                            <li><a href="{% url 'app:generalquizzes' %}">General Molecular Methods</a></li>
+                            <li><a href="{% url 'app:primersquizzes' %}">PCR and Primers</a></li>
+                            <li><a href="{% url 'app:restrictionquizzes' %}">Restriction Mapping</a></li>
+                            <li><a href="{% url 'app:dataquizzes' %}">Laboratory Calculations</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exercises<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="{% url 'desktop:mapping' 1 %}">Restriction Mapping</a></li>
+                            <li><a href="{% url 'app:mapping' 1 %}">Restriction Mapping</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Converters<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="{% url 'desktop:convertermass' %}">Mass Converter</a></li>
-                            <li><a href="{% url 'desktop:convertervolume' %}">Volume Converter</a></li>
-                            <li><a href="{% url 'desktop:convertermolarity' %}">Concentration(Molarity)</a></li>
-                            <li><a href="{% url 'desktop:converterconcentration' %}">Concentration(%)</a></li>
-                            <li><a href="{% url 'desktop:converterdilutions' %}">Dilution from Stocks</a></li>
+                            <li><a href="{% url 'app:convertermass' %}">Mass Converter</a></li>
+                            <li><a href="{% url 'app:convertervolume' %}">Volume Converter</a></li>
+                            <li><a href="{% url 'app:convertermolarity' %}">Concentration(Molarity)</a></li>
+                            <li><a href="{% url 'app:converterconcentration' %}">Concentration(%)</a></li>
+                            <li><a href="{% url 'app:converterdilutions' %}">Dilution from Stocks</a></li>
                         </ul>
                     </li>
-                    <li class=""><a href="{% url 'desktop:glossary' %}">Glossary</a></li>
+                    <li class=""><a href="{% url 'app:glossary' %}">Glossary</a></li>
 
                     <li><a href="#" data-toggle="collapse" data-target="#demo">Timer</a></li>
                     <li id="custom-search-input">
                         <div style="position:relative; left:20px; bottom:3px;"  class="input-group col-md-12">
-                            <form method="get" action="{% url 'desktop:searchResult' %}">
+                            <form method="get" action="{% url 'app:searchResult' %}">
                                 <input type="text" name="q" id="id_q" placeholder="Search glossary ..." class="search-query form-control">
                             </form>
                             <div id="dialogTitle" title="">
@@ -99,7 +99,7 @@
 
                         {% if user.is_authenticated %}
 
-                            <a href="{% url 'desktop:logout' %}"><font color="white">Logout</font></a>
+                            <a href="{% url 'app:logout' %}"><font color="white">Logout</font></a>
 
                         {% endif %}
 
@@ -137,16 +137,17 @@
 
 </header>
 <!--end: Header-->
+
+
 <!--detect if the CDN-hosted /bootstrap.min.css fails to load-->
 <div id="CssFailCheck" class="hidden" style="height:1px;"></div>
 
 <div>
     {% block body_block %}{% endblock %}
 </div>
-
+<main class="Site-content">…</main>
 <!-- start: Under Footer -->
-
-<div id="under-footer">
+<div id="footer">
 
     <!-- start: Row -->
 
@@ -206,7 +207,7 @@
     $(function() {
 
         $( "#id_q" ).autocomplete({
-            source: '/desktop/searchResult/',
+            source: '/app/searchResult/',
             minLength: 2,
             select: function(event, ui) {
 
