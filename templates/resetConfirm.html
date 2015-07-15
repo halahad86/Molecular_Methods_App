@@ -25,7 +25,8 @@
             </div>
             {% if validlink %}
             <div class="row">
-                  <form method="post">
+                  <form method="post" >
+                      {% csrf_token %}
                     <label class="col-md-6 col-xs-6" for="id_new_password1">New password:</label>
                     <input class="col-md-6 col-xs-6"style="color: #00008b" id="id_new_password1" maxlength="4096" name="new_password1" type="password"><br>
                     <label class="col-md-6 col-xs-6" for="id_new_password2">New password confirmation:</label>
@@ -46,7 +47,10 @@
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
 
+<script>
+    var token = getCookie('csrftoken');
 
+</script>
 <script src="{% static 'js/bootstrap.js' %}"></script>
 <script src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
 

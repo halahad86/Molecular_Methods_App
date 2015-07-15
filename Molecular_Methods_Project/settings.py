@@ -12,7 +12,7 @@ LOGIN_URL = '/desktop/login/'
 
 TEMPLATE_DIRS = os.path.join(PROJECT_PATH, 'templates')
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 TEMPLATE_CONTEXT_PROCESSORS = (
