@@ -15,8 +15,8 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 
+<link  rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"property="stylesheet">
 <link rel="stylesheet" href="{% static 'css/style.css' %}"property="stylesheet">
 <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}"property="stylesheet">
 <!-- end: CSS -->
@@ -52,6 +52,7 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse">
+                <!--<a class="navbar-brand" href="#">WebSiteName</a>-->
                 <ul class="nav navbar-nav">
 
                     <li class=""><a href="{% url 'app:labs' %}">Labs</a></li>
@@ -145,7 +146,7 @@
 <div>
     {% block body_block %}{% endblock %}
 </div>
-<main class="Site-content">…</main>
+<main class="Site-content"></main>
 <!-- start: Under Footer -->
 <div id="footer">
 

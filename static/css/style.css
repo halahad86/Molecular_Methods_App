@@ -436,11 +436,8 @@ input[type="button"] {
 }
 .form-spacer {margin-top: 20px;}
 
-
-
-
 #footer {
-	background: #005984 url(../img/fbg2.jpg);
+	background: #002e4b;
 	color: #b0b0b0;
 	-webkit-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
 	   -moz-box-shadow: 0 0px 0 5px rgba(0,0,0,.1), 0px 1px 1px rgba(0,0,0,.35);
@@ -614,6 +611,11 @@ input[type="button"] {
 
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #002e4b;
+	background-color: #002e4b;
+}
+
 #custom-search-input {
         margin:0;
         margin-top: 10px;
@@ -682,8 +684,8 @@ input[type="button"] {
     }
 
     .navbar-inverse {
-        background-color: #004669;
-        border-color: #004669;
+        background-color: #002e4b;
+        border-color: #002e4b;
     }
     .navbar-upper-logos {
         background: transparent !important;
@@ -697,7 +699,7 @@ input[type="button"] {
     }
 
     .navbar-header{
-        color: #004669;
+        color: #002e4b;
         background-color: #004669;
     }
 
