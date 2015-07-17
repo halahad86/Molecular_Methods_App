@@ -16,7 +16,7 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
 
-<link  rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"property="stylesheet">
+<link  rel="stylesheet">
 <link rel="stylesheet" href="{% static 'css/style.css' %}"property="stylesheet">
 <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}"property="stylesheet">
 <!-- end: CSS -->
@@ -96,7 +96,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="hidden-xs" style="position:relative;" >
+                    <li class="hidden-md" style="position:relative;" >
 
                         {% if user.is_authenticated %}
 
@@ -146,7 +146,7 @@
 <div>
     {% block body_block %}{% endblock %}
 </div>
-<main class="Site-content"></main>
+<main class="Site-content">…</main>
 <!-- start: Under Footer -->
 <div id="footer">
 
