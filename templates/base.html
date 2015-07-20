@@ -89,7 +89,8 @@
                     </li>
                     <li class=""><a href="{% url 'app:glossary' %}">Glossary</a></li>
 
-                    <li><a href="#" data-toggle="collapse" data-target="#demo">Timer</a></li>
+                    <!--<li><a href="#" data-toggle="collapse" data-target="#demo">Timer</a></li>-->
+                    <li class=""><a href="{% url 'app:about' %}">About</a></li>
                     <li id="custom-search-input">
                         <div style="position:relative; left:20px; bottom:3px;"  class="input-group col-md-12">
                             <form method="get" action="{% url 'app:searchResult' %}">
@@ -150,7 +151,7 @@
 <div>
     {% block body_block %}{% endblock %}
 </div>
-<main class="Site-content">…</main>
+<main class="Site-content"></main>
 <!-- start: Under Footer -->
 <div id="footer">
 

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+
+<!--start: Container -->
+<div class="container">
+
+    <!--start: Wrapper-->
+    <div id="wrapper">
+
+        <h1 class="blue-heading-h1 hidden-xs" > About Us</h1>
+        <br>
+         <h3 class="blue-heading-h3" style="text-align: justify;">Stuff about the teaching staff and this online learning tool.
+            Any feedback, please use form below. </h3>
+
+        <br>
+        <br>
+
+         <h2 class="blue-heading-h2 hidden-xs" >Contact us</h2>
+
+        {% if errors %}
+        <ul>
+            {% for error in errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        <form action="{% url 'app:about' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input class="input-large form-control" type="text" style="color: #00008b" size="30" name="subject" value="" id="subject" placeholder="Subject">
+            <input class="input-large form-control" type="text" style="color: #00008b" size="30" name="email" value="" id="email" placeholder="Email (optional)">
+            <div class="form-group">
+                <h2>Feedback:</h2>
+                <textarea class="input-large form-control" rows="5" id="message" placeholder="Enter feedback here ..."></textarea>
+            </div>
+            <!--<textarea name="message" rows="7" cols="30"  style="color: #00008b" placeholder="Enter feedback here"></textarea>-->
+            <input type="submit" value="Send email" class="form-control btn btn-primary btn-lg " style="padding-bottom: 30px" role="button">
+
+        </form>
+    </div>
+</div>
+<!--end: Container-->
+
+{% endblock %}

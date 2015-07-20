@@ -6,7 +6,6 @@ from django.shortcuts import render_to_response
 from app.forms import UserForm
 from django.contrib.auth import authenticate, login
 from django.http import HttpResponseRedirect, HttpResponse
-from django.shortcuts import render
 from django.contrib.auth import logout
 from app.models import Glossary
 from app.models import QQuestion, Answer, MQuestion
@@ -16,6 +15,9 @@ from django.db.models import Q
 from search import get_query
 from django.core.urlresolvers import reverse
 from django.contrib.auth.views import password_reset, password_reset_confirm
+from django.core.mail import send_mail
+from django.http import HttpResponseRedirect
+from django.shortcuts import render
 
 #  serve pdfs in browser hack
 @login_required
@@ -572,3 +574,24 @@ def reset(request):
         email_template_name='reset_subject.html',
         subject_template_name='email_title.html',
         post_reset_redirect=reverse('app:login'))
+
+
+def contact(request):
+    errors = []
+    if request.method == 'POST':
+        if not request.POST.get('subject', ''):
+            errors.append('Enter a subject.')
+        if not request.POST.get('message', ''):
+            errors.append('Enter a message.')
+        if request.POST.get('email') and '@' not in request.POST['email']:
+            errors.append('Enter a valid e-mail address.')
+        if not errors:
+            send_mail(
+                request.POST['subject'],
+                request.POST['message'],
+                request.POST.get('email', 'molecmeth@gmail.com'),
+                ['molecmeth@gmail.com'],
+            )
+            return HttpResponseRedirect('thanks.html')
+    return render(request, 'about.html',
+        {'errors': errors})
