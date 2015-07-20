@@ -93,7 +93,7 @@
                     <li id="custom-search-input">
                         <div style="position:relative; left:20px; bottom:3px;"  class="input-group col-md-12">
                             <form method="get" action="{% url 'app:searchResult' %}">
-                                <input type="text" name="q" id="id_q" placeholder="Search glossary ..." class="search-query form-control">
+                                <input type="text" onfocus="if(this.value != '') {this.value=''}" name="q" id="id_q" placeholder="Search glossary ..." class="search-query form-control">
                             </form>
                             <div id="dialogTitle" title="">
                                 <div id="dialogContent" align="justify"></div>
