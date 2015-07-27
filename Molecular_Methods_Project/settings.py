@@ -143,7 +143,6 @@ WSGI_APPLICATION = 'Molecular_Methods_Project.wsgi.application'
 INSTALLED_APPS = (
     'redactor',
     'yawdadmin',
-    'import_export',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
