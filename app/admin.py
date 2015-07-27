@@ -82,12 +82,12 @@ class AnswerAdmin(admin.ModelAdmin):
         }
     }
 
-class LabAdmin(admin.ModelAdmin):
-    formfield_overrides = {
-        models.TextField: {
-            'widget': AdminRedactorEditor
-        }
-    }
+# class LabAdmin(admin.ModelAdmin):
+#     formfield_overrides = {
+#         models.TextField: {
+#             'widget': AdminRedactorEditor
+#         }
+#     }
 
 # Registration of the tables to be displayed in the admin interface, and their admin forms
 
@@ -101,6 +101,6 @@ class LabAdmin(admin.ModelAdmin):
 admin.site.register(Glossary)
 admin.site.register(QQuestion)
 admin.site.register(Answer)
-admin.site.register(Lab)
+# admin.site.register(Lab)
 admin.site.register(MQuestion)
 admin.site.register(Video)
