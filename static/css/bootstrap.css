@@ -3612,6 +3612,7 @@ tbody.collapse.in {
   padding-left: 8px;
 }
 .btn-group > .btn-lg + .dropdown-toggle {
+  background-color: #002e4b;
   padding-right: 12px;
   padding-left: 12px;
 }

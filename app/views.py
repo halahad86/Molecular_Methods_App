@@ -575,9 +575,11 @@ def reset(request):
         subject_template_name='email_title.html',
         post_reset_redirect=reverse('app:login'))
 
-
+@login_required
 def contact(request):
     errors = []
+    context = RequestContext(request)
+    context_dict = {}
     if request.method == 'POST':
         if not request.POST.get('subject', ''):
             errors.append('Enter a subject.')
@@ -592,6 +594,11 @@ def contact(request):
                 request.POST.get('email', 'molecmeth@gmail.com'),
                 ['molecmeth@gmail.com'],
             )
-            return HttpResponseRedirect('thanks.html')
-    return render(request, 'about.html',
-        {'errors': errors})
+            return render_to_response('thanks.html', context_dict, context)
+    return render(request, 'about.html', {'errors': errors})
+
+@login_required
+def thanks(request):
+    context = RequestContext(request)
+    context_dict = {}
+    return render_to_response('thanks.html', context_dict, context)

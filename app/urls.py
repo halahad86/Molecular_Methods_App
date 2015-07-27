@@ -49,6 +49,7 @@ urlpatterns = patterns('',
         url(r'^resetConfirm/(?P<uidb36>[0-9A-Za-z]+)-(?P<token>.+)/',views.reset_confirm, name='resetConfirm'),
         url(r'^pwdReset/', views.reset, name='pwdReset'),
         url(r'^about/', views.contact, name='about'),
+        url(r'^thanks/', views.thanks, name='thanks'),
 
 )
 
