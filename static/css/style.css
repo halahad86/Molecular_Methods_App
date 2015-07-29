@@ -5,7 +5,8 @@
  */
 body {
 	font-family: 'Droid Sans';
-	background: url(../img/tbg3.png); /* Old browsers */
+	/*background: url(../img/tbg3.png); /!* Old browsers *!/*/
+	background-color: #e5eaed;
 	color: #ffffff;
 	font-size: 12px;
     padding-top: 1px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
@@ -70,13 +71,13 @@ hr {
 .blue-heading-h3{
     font-size: 18px;
     line-height: 32px;
-    color: #002a80;
+    color: black;
 }
 
 .blue-heading-h4{
     font-size: 13px;
     line-height: 30px;
-    color: #002a80;
+    color: black;
 
 }
 
