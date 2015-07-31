@@ -10,107 +10,114 @@
         <br>
         <script src="{% static 'js/kinetic-v4.7.4.min.js'%}"></script>
         <script src="{% static 'js/drawCircle.js' %}"></script>
+        <h2> Try to draw the following plasmid maps on paper.</h2>
+        <form action="">
+            <div class="tabbable">
+                <ul class="nav nav-tabs">
+                    <li class="active tab1"><a href="#tab1" data-toggle="tab">1</a></li>
+                    <li class=""><a href="#tab2" data-toggle="tab">2</a></li>
+                    <li class=""><a href="#tab3" data-toggle="tab">3</a></li>
+                    <li class=""><a href="#tab4" data-toggle="tab">4</a></li>
+                    <li class=""><a href="#tab5" data-toggle="tab">5</a></li>
+                    <li class=""><a href="#tab6" data-toggle="tab">6</a></li>
+                </ul>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane" id="tab1">
+                        <div class="container" align="left" float="left">
+                            <h2 class="blue-heading-h2">Question Number 1:</h2>
+                            <h3 class="blue-heading-h3">Uncut plasmid (circular) 7.0kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI 7.0 kb  </h3>
+                            <h3 class="blue-heading-h3">UXhoI 5.5, 1.5 kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI+XhoI 3.0, 2.5, 1.5 kb  </h3>
+                        </div>
+                        <div>
+                            <h2 class="blue-heading-h2"><a href="#" data-toggle="collapse" data-target="#answer">+ Answer</a></h2>
+                            <div id="answer" class="collapse" style="width: 500px; height: 1px;">
+                                <span id="container1"><img src="{% static 'img/1.png' %}"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <div div class="container" align="left" float="left">
+                            <h2 class="blue-heading-h2">Question Number 2:</h2>
+                            <h3 class="blue-heading-h3">Uncut plasmid (circular) 6.0kb   </h3>
+                            <h3 class="blue-heading-h3">EcoRI 1.0, 2.0, 3.0 kb  </h3>
+                            <h3 class="blue-heading-h3">XhoI 6.0 kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI+XhoI 1.0, 1.2, 1.8, 2.0 kb  </h3>
+                        </div>
+                        <div>
+                            <h2 class="blue-heading-h2"><a href="#" data-toggle="collapse" data-target="#answer2">+ Answer</a></h2>
+                            <div id="answer2" class="collapse" style="width: 500px; height: 1px;">
+                                <span id="container2"><img src="{% static 'img/2.png' %}"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab3">
+                        <div div class="container" align="left" float="left">
+                            <h2 class="blue-heading-h2">Question Number 3:</h2>
+                            <h3 class="blue-heading-h3">Uncut plasmid (circular) 7.0kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI 7.0 kb  </h3>
+                            <h3 class="blue-heading-h3">XhoI 6.0, 1.0 kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI+XhoI 3.0, 1.0 kb  </h3>
+                        </div>
+                        <div>
+                            <h2 class="blue-heading-h2"><a href="#" data-toggle="collapse" data-target="#answer3">+ Answer</a></h2>
+                            <div id="answer3" class="collapse" style="width: 500px; height: 1px;">
+                                <span id="container3"><img src="{% static 'img/3.png' %}"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab4">
+                        <div div class="container" align="left" float="left">
+                            <h2 class="blue-heading-h2">Question Number 4:</h2>
+                            <h3 class="blue-heading-h3">Uncut plasmid (circular) 7.0kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI 5.0, 2.0 kb  </h3>
+                            <h3 class="blue-heading-h3">XhoI 6.0, 1.0 kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI+XhoI 3.0, 2.0, 1.0 kb </h3>
+                        </div>
+                        <div>
+                            <h2 class="blue-heading-h2"><a href="#" data-toggle="collapse" data-target="#answer4">+ Answer</a></h2>
+                            <div id="answer4" class="collapse" style="width: 500px; height: 1px;">
+                                <span id="container4"><img src="{% static 'img/4.png' %}"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab5">
+                        <div div class="container" align="left" float="left">
+                            <h2 class="blue-heading-h2">Question Number 5:</h2>
+                            <h3 class="blue-heading-h3">Uncut plasmid (circular) 6.0kb   </h3>
+                            <h3 class="blue-heading-h3">EcoRI 2.8, 3.2 kb  </h3>
+                            <h3 class="blue-heading-h3">XhoI 1.3, 4.7 kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI+XhoI 0.6, 0.7, 2.1, 2.6 kb  </h3>
+                        </div>
+                        <div>
+                            <h2 class="blue-heading-h2"><a href="#" data-toggle="collapse" data-target="#answer5">+ Answer</a></h2>
+                            <div id="answer5" class="collapse" style="width: 500px; height: 1px;">
+                                <span id="container5"><img src="{% static 'img/5.png' %}"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab6">
+                        <div div class="container" align="left" float="left">
+                            <h2 class="blue-heading-h2">Question Number 6:</h2>
+                            <h3 class="blue-heading-h3">Uncut plasmid (circular) 7.0kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI 5.0, 1.2, 0.8 kb  </h3>
+                            <h3 class="blue-heading-h3">XhoI 4.0, 3.0 kb  </h3>
+                            <h3 class="blue-heading-h3">EcoRI+XhoI 3.0, 2.0, 1.0, 0.2, 0.8 kb  </h3>
+                        </div>
+                        <div>
+                            <h2 class="blue-heading-h2"><a href="#" data-toggle="collapse" data-target="#answer6">+ Answer</a></h2>
+                            <div id="answer6" class="collapse" style="width: 500px; height: 1px;">
+                                <span id="container6"><img src="{% static 'img/6.png' %}"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-
-        <div style="color:#000;"float="left">
-
-
-        <div style="color: #000000;" float="left">
-
-
-        <form name="dropdown" style="color:#000;">
-        <select name="list" style="color: #000000">
-        {% if questions %}
-        {% for q in questions %}
-        {% if q.number == number %}
-        <option selected="selected" value="/mapping/1/{{ q.Number }}"><font color="black">{{ q.number }}</font></option>
-        {% else %}
-        <option value="/mapping/{{ q.number }}"><font color="black">{{ q.number }}</font></option>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
-        </select>
         </form>
-
-        <div>
-        <input type=button value="Go"  data-theme="a" data-corners="false" onclick="goToNewPage(document.dropdown.list)">
-        </div>
-        </div>
-
-        </div>
-         <h2> Try to draw the following plasmid maps on paper.</h2>
-        <!--<form action="">-->
-            <!--<div class="tabbable">-->
-                <!--<ul class="nav nav-tabs">-->
-                    <!--<li class="active"><a href="#tab1" data-toggle="tab">Question 1</a></li>-->
-                    <!--<li class=""><a href="#tab2" data-toggle="tab">Question 2</a></li>-->
-                    <!--<li class=""><a href="#tab2" data-toggle="tab">Question 3</a></li>-->
-                    <!--<li class=""><a href="#tab2" data-toggle="tab">Question 4</a></li>-->
-                    <!--<li class=""><a href="#tab2" data-toggle="tab">Question 5</a></li>-->
-                    <!--<li class=""><a href="#tab2" data-toggle="tab">Question 6</a></li>-->
-                <!--</ul>-->
-                <!--<div class="tab-content">-->
-                    <!--<div class="tab-pane" id="tab1">-->
-                        <!--<p>Form for section one</p>-->
-                    <!--</div>-->
-                    <!--<div class="tab-pane" id="tab2">-->
-                        <!--<p>Next form part</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</form>-->
-
-        <div div class="container" align="left" float="left">
-            <h2 class="blue-heading-h2">Question Number {{ number }}:</h2>
-            <h3 class="blue-heading-h3">{{ question|linebreaks }} </h3>
-        </div>
-
-
-        <div class="container">
-
-            <div>
-                <!-- this is the first part but it is hidden-->
-                <h2><a href="#" data-toggle="collapse" data-target="#firstpart"></a></h2>
-                <div id="firstpart" class="collapse" style="width: 500px;height: 1px;">
-                    <span id="container1"></span>
-                </div>
-            </div>
-
-            <div>
-                <!--this is the second part. hidden as well-->
-                <h2><a href="#" data-toggle="collapse" data-target="#secondpart"></a></h2>
-                <div id="secondpart" class="collapse" style="width: 500px;height: 1px;">
-                    <span id="container2"></span>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <h2 class="blue-heading-h2"><a href="#" data-toggle="collapse" data-target="#answer">+ Answer</a></h2>
-            <div id="answer" class="collapse" style="width: 500px; height: 1px;">
-                <span id="container3"></span>
-            </div>
-        </div>
-
-        <script>
-            // Draw all of the maps the data and size will be varibles and the dimensions could be variable
-            drawCircle({{ firstMap|safe }}, {{ size }}, '1',300);
-            drawCircle({{ secondMap|safe }}, {{ size }}, '2',300);
-            drawCircle({{ finalMap|safe }}, {{ size }}, '3',300);
-        </script>
-
-        <script>
-            function goToNewPage(dropdownlist) {
-                var url = dropdownlist.options[dropdownlist.selectedIndex].value;
-                var dktop = "/app"
-                var result = dktop + url;
-                if (result != ""){
-                    window.location = result;
-                }
-            }
-        </script>
-
 
     </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 {% endblock %}

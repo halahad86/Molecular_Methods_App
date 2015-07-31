@@ -101,6 +101,3 @@ class AnswerAdmin(admin.ModelAdmin):
 admin.site.register(Glossary)
 admin.site.register(QQuestion)
 admin.site.register(Answer)
-# admin.site.register(Lab)
-admin.site.register(MQuestion)
-admin.site.register(Video)
