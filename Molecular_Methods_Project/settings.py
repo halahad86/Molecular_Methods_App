@@ -6,7 +6,7 @@ SETTINGS_DIR = os.path.dirname(__file__)
 
 PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
-DATABASE_PATH = os.path.join(PROJECT_PATH, 'app.db')
+DATABASE_PATH = os.path.join(PROJECT_PATH, 'desktop.db')
 STATIC_PATH = os.path.join(PROJECT_PATH, 'static')
 LOGIN_URL = '/app/login/'
 
