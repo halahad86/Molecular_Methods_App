@@ -398,6 +398,7 @@ button.ui-button::-moz-focus-inner {
 .ui-dialog .ui-dialog-titlebar {
 	padding: .4em 1em;
 	position: relative;
+	background-color: #002e4b;
 }
 .ui-dialog .ui-dialog-title {
 	float: left;
@@ -406,6 +407,7 @@ button.ui-button::-moz-focus-inner {
 	width: 90%;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	color: white;
 }
 .ui-dialog .ui-dialog-titlebar-close {
 	position: absolute;
@@ -415,6 +417,8 @@ button.ui-button::-moz-focus-inner {
 	margin: -10px 0 0 0;
 	padding: 1px;
 	height: 20px;
+	color: #002e4b;
+
 
 }
 .ui-dialog .ui-dialog-content {
@@ -423,6 +427,7 @@ button.ui-button::-moz-focus-inner {
 	padding: .5em 1em;
 	background: none;
 	overflow: auto;
+	font-size: medium;
 }
 .ui-dialog .ui-dialog-buttonpane {
 	text-align: left;
@@ -1113,7 +1118,7 @@ body .ui-tooltip {
 .ui-icon-plusthick { background-position: -32px -128px; }
 .ui-icon-minus { background-position: -48px -128px; }
 .ui-icon-minusthick { background-position: -64px -128px; }
-.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-close { background-position: -80px -128px; background-color: #002e4b;}
 .ui-icon-closethick { background-position: -96px -128px; }
 .ui-icon-key { background-position: -112px -128px; }
 .ui-icon-lightbulb { background-position: -128px -128px; }

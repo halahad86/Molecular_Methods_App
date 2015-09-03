@@ -33,7 +33,7 @@
                         <div class="row">
 
                             <div align="justified">
-                                <h2><font color = #002a80>&nbsp &nbsp  &nbsp <b>{% autoescape off %}{{ forloop.counter }}. {{ question1.question }} {% endautoescape %}</b></h2>
+                                <h2><font color = #002a80>&nbsp &nbsp  &nbsp {% autoescape off %}{{ forloop.counter }}. {{ question1.question }} {% endautoescape %}</font></h2>
                                 <!-- hidden input to capture questions -->
                                 <input type="hidden" name="ques[]" id="ques-{{forloop.counter}}" value="{{question1.number}}" data-theme="a"  />
 
